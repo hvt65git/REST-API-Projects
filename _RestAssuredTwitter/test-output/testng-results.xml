@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7755" started-at="2018-04-14T05:43:20Z" finished-at="2018-04-14T05:43:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7755" started-at="2018-04-14T05:43:20Z" finished-at="2018-04-14T05:43:28Z">
+      <class name="APIAutomation.IORestAssuredBuild.GetTweets">
+        <test-method status="PASS" signature="getTweets()[pri:0, instance:APIAutomation.IORestAssuredBuild.GetTweets@59f99ea]" name="getTweets" duration-ms="7709" started-at="2018-04-14T05:43:20Z" finished-at="2018-04-14T05:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTweets -->
+      </class> <!-- APIAutomation.IORestAssuredBuild.GetTweets -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

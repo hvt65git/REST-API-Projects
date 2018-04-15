@@ -1,0 +1,48 @@
+public class YourObject {
+   private String appname;
+   private String Version;
+   private String UUID;
+   private String WWXY;
+   private String ABCD;
+   private String YUDE;
+   //getters/setters
+
+}  
+parse to Object
+
+YourObject parsed = new Gson().fromJson(jsons, YourObject.class);  
+or
+
+YourObject parsed = new GsonBuilder().create().fromJson(jsons, YourObject.class);  
+minor test
+
+String jsons = "{'appname':'application', 'Version':'0.1.0', 'UUID':'300V', 'WWXY':'310W', 'ABCD':'270B', 'YUDE':'280T'}";
+YourObject parsed = new Gson().fromJson(jsons, YourObject.class);  
+works well
+
+EDIT
+in this case use JsonParser
+
+JsonObject object = new JsonParser().parse(jsons).getAsJsonObject();
+object.get("appname"); // application 
+object.get("Version"); // 0.1.0
+==================================================================
+https://sites.google.com/site/gson/gson-user-guide
+Excluding Fields From Serialization and Deserialization
+Gson supports numerous mechanisms for excluding top-level classes, fields and field types.  Below are pluggable mechanism that allow field and class exclusion. If none of the below mechanism satisfy your needs then you can always use custom serializers and deserializers.
+
+Java Modifier Exclusion
+By default, if you mark a field as transient, it will be excluded.  As well, if a field is marked as "static" then by default it will be excluded. If you want to include some transient fields then you can do the following:
+
+import java.lang.reflect.Modifier;
+
+Gson gson = new GsonBuilder()
+    .excludeFieldsWithModifiers(Modifier.STATIC)
+    .create();
+
+NOTE: you can use any number of the Modifier constants to "excludeFieldsWithModifiers" method.  For example:
+Gson gson = new GsonBuilder()
+    .excludeFieldsWithModifiers(Modifier.STATIC, Modifier.TRANSIENT, Modifier.VOLATILE)
+    .create();
+Gson's @Expose
+This feature provides a way where you can mark certain fields of your objects to be excluded for consideration for serialization and deserialization to JSON. To use this annotation, you must create Gson by using new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create(). The Gson instance created will exclude all fields in a class that are not marked with @Expose annotation.
