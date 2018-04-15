@@ -7,6 +7,8 @@ import java.util.List;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+//SUCCESS!
+
 /*
  * 
  * Design Java classes that can give this JSON object
