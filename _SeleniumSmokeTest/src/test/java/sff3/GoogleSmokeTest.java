@@ -7,18 +7,22 @@ interface DriverConfig {
 }
 
 enum DriverType implements DriverConfig {
-	CHROME{
+	CHROME {
 		public WebDriver getWebDriver() {
+			System.setProperty("webdriver.chrome.driver", 
+					System.getProperty("user.dir") + "\\libs\\chromedriver.exe");
 			return null;
 		}
 	},
-	FIREFOX{
+	FIREFOX {
 		public WebDriver getWebDriver() {
+			//not implemented yet
 			return null;
 		}
 	},
 	EDGE {
 		public WebDriver getWebDriver() {
+			//not implemented yet
 			return null;
 		}
 	}
