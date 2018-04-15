@@ -1,3 +1,7 @@
+
+//Sample GsonBuilder code
+==================================================================
+
 public class YourObject {
    private String appname;
    private String Version;
