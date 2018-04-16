@@ -6,6 +6,7 @@
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
 			<class name="JSON.JsonTest" />
+			<class name="APIAutomation.IORestAssuredBuild.GetTweets" />
 		</classes>
 	</test>
 	<!-- Default test -->
