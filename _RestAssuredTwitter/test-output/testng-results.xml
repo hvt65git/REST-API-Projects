@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7755" started-at="2018-04-14T05:43:20Z" finished-at="2018-04-14T05:43:28Z">
+  <suite name="Default suite" duration-ms="8386" started-at="2018-04-15T13:55:05Z" finished-at="2018-04-15T13:55:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7755" started-at="2018-04-14T05:43:20Z" finished-at="2018-04-14T05:43:28Z">
+    <test name="Default test" duration-ms="8386" started-at="2018-04-15T13:55:05Z" finished-at="2018-04-15T13:55:14Z">
       <class name="APIAutomation.IORestAssuredBuild.GetTweets">
-        <test-method status="PASS" signature="getTweets()[pri:0, instance:APIAutomation.IORestAssuredBuild.GetTweets@59f99ea]" name="getTweets" duration-ms="7709" started-at="2018-04-14T05:43:20Z" finished-at="2018-04-14T05:43:28Z">
+        <test-method status="PASS" signature="getTweets()[pri:0, instance:APIAutomation.IORestAssuredBuild.GetTweets@59f99ea]" name="getTweets" duration-ms="8312" started-at="2018-04-15T13:55:05Z" finished-at="2018-04-15T13:55:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTweets -->

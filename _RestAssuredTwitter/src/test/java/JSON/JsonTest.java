@@ -123,7 +123,7 @@ class User_mentions {
 }
 
 
-public class Tweets  {
+public class JsonTest  {
 
 	public static void main(String[] args) {
 

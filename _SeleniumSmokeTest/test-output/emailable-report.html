@@ -9,12 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">44,606</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,661</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">sff2.GoogleSmokeTest2</td><td><a href="#m0">googleSmokeTest</a></td><td rowspan="3">1523684368621</td><td rowspan="3">37875</td></tr><tr class="passedeven"><td><a href="#m1">googleSmokeTest</a></td></tr><tr class="passedeven"><td><a href="#m2">googleSmokeTest</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">sff2.GoogleSmokeTest2</td><td><a href="#m0">googleSmokeTest</a></td><td rowspan="1">1523801415113</td><td rowspan="1">18297</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">sff2.GoogleSmokeTest2</td><td><a href="#m1">googleSmokeTest</a></td><td rowspan="2">1523801415125</td><td rowspan="2">17628</td></tr><tr class="passedeven"><td><a href="#m2">googleSmokeTest</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">sff2.GoogleSmokeTest2#googleSmokeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sounders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">sff2.GoogleSmokeTest2#googleSmokeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>seahawks</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">sff2.GoogleSmokeTest2#googleSmokeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>seahawks</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at sff2.GoogleSmokeTest2.searchGoogle(GoogleSmokeTest2.java:147)
+	at sff2.GoogleSmokeTest2.googleSmokeTest(GoogleSmokeTest2.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">sff2.GoogleSmokeTest2#googleSmokeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sounders</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">sff2.GoogleSmokeTest2#googleSmokeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>storm</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
