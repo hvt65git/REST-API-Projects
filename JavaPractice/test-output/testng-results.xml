@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45" started-at="2018-04-16T05:33:10Z" finished-at="2018-04-16T05:33:10Z">
+  <suite name="Default suite" duration-ms="51" started-at="2018-04-16T06:50:39Z" finished-at="2018-04-16T06:50:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45" started-at="2018-04-16T05:33:10Z" finished-at="2018-04-16T05:33:10Z">
-      <class name="MAVENModule.JavaPractice.HelloWorld">
-        <test-method status="PASS" signature="hello()[pri:0, instance:MAVENModule.JavaPractice.HelloWorld@215be6bb]" name="hello" duration-ms="12" started-at="2018-04-16T05:33:10Z" finished-at="2018-04-16T05:33:10Z">
+    <test name="Default test" duration-ms="51" started-at="2018-04-16T06:50:39Z" finished-at="2018-04-16T06:50:39Z">
+      <class name="MAVENModule.JavaPractice.JavaPractice">
+        <test-method status="PASS" signature="hello()[pri:0, instance:MAVENModule.JavaPractice.JavaPractice@215be6bb]" name="hello" duration-ms="17" started-at="2018-04-16T06:50:39Z" finished-at="2018-04-16T06:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hello -->
-      </class> <!-- MAVENModule.JavaPractice.HelloWorld -->
+      </class> <!-- MAVENModule.JavaPractice.JavaPractice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

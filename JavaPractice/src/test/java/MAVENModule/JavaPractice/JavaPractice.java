@@ -2,10 +2,10 @@ package MAVENModule.JavaPractice;
 
 import org.testng.annotations.Test;
 
-public class HelloWorld {
+public class JavaPractice {
 
 	@Test
 	public void hello() {
-		System.out.println("hello there world!!!");
+		System.out.println("Java Practice !!!");
 	}
 }

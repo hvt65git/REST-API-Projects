@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="27080" started-at="2018-04-15T14:11:13Z" finished-at="2018-04-15T14:11:40Z">
+  <suite name="Command line suite" duration-ms="53380" started-at="2018-04-16T06:17:08Z" finished-at="2018-04-16T06:18:02Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="27080" started-at="2018-04-15T14:11:13Z" finished-at="2018-04-15T14:11:40Z">
+    <test name="Command line test" duration-ms="53380" started-at="2018-04-16T06:17:08Z" finished-at="2018-04-16T06:18:02Z">
       <class name="sff1.GoogleSmokeTest">
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="4704" started-at="2018-04-15T14:11:13Z" finished-at="2018-04-15T14:11:18Z">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="18559" started-at="2018-04-16T06:17:08Z" finished-at="2018-04-16T06:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="5630" started-at="2018-04-15T14:11:18Z" data-provider="getTestData" finished-at="2018-04-15T14:11:24Z">
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="9216" started-at="2018-04-16T06:17:27Z" data-provider="getTestData" finished-at="2018-04-16T06:17:36Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="697" started-at="2018-04-15T14:11:24Z" finished-at="2018-04-15T14:11:24Z">
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="742" started-at="2018-04-16T06:17:36Z" finished-at="2018-04-16T06:17:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="1969" started-at="2018-04-15T14:11:24Z" finished-at="2018-04-15T14:11:26Z">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="3774" started-at="2018-04-16T06:17:37Z" finished-at="2018-04-16T06:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="5238" started-at="2018-04-15T14:11:26Z" data-provider="getTestData" finished-at="2018-04-15T14:11:32Z">
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="5821" started-at="2018-04-16T06:17:41Z" data-provider="getTestData" finished-at="2018-04-16T06:17:46Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="683" started-at="2018-04-15T14:11:32Z" finished-at="2018-04-15T14:11:32Z">
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="752" started-at="2018-04-16T06:17:46Z" finished-at="2018-04-16T06:17:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="2026" started-at="2018-04-15T14:11:32Z" finished-at="2018-04-15T14:11:34Z">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="4660" started-at="2018-04-16T06:17:47Z" finished-at="2018-04-16T06:17:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="5343" started-at="2018-04-15T14:11:34Z" data-provider="getTestData" finished-at="2018-04-15T14:11:40Z">
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="8962" started-at="2018-04-16T06:17:52Z" data-provider="getTestData" finished-at="2018-04-16T06:18:01Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="703" started-at="2018-04-15T14:11:40Z" finished-at="2018-04-15T14:11:40Z">
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="694" started-at="2018-04-16T06:18:01Z" finished-at="2018-04-16T06:18:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->
