@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.testng.annotations.Test;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -125,7 +127,8 @@ class User_mentions {
 
 public class JsonTest  {
 
-	public static void main(String[] args) {
+	@Test
+	public void createJsonObj() {
 
 		//create the User_mentions object
 		User_mentions user_mentions =
