@@ -112,10 +112,10 @@ class GoogleMainPage {
 
 
 
-public class GoogleSmokeTest2 extends SeleniumTestCase {
+public class GoogleSmokeTest extends SeleniumTestCase {
 	private final TestCase<String> tc = new TestCase<>();
 
-	public GoogleSmokeTest2() {
+	public GoogleSmokeTest() {
 		tc.setTestData(new String[][] {
 			{"seahawks"},
 			{"storm"},

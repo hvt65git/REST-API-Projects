@@ -2,69 +2,69 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="53380" started-at="2018-04-16T06:17:08Z" finished-at="2018-04-16T06:18:02Z">
+  <suite name="Selenium Google smoke test suite" duration-ms="41226" started-at="2018-04-16T08:03:17Z" finished-at="2018-04-16T08:03:58Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="53380" started-at="2018-04-16T06:17:08Z" finished-at="2018-04-16T06:18:02Z">
-      <class name="sff1.GoogleSmokeTest">
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="18559" started-at="2018-04-16T06:17:08Z" finished-at="2018-04-16T06:17:27Z">
+    <test name="Smoke tests" duration-ms="41226" started-at="2018-04-16T08:03:17Z" finished-at="2018-04-16T08:03:58Z">
+      <class name="sff2.GoogleSmokeTest">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="createWebDriver" is-config="true" duration-ms="19996" started-at="2018-04-16T08:03:17Z" finished-at="2018-04-16T08:03:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="9216" started-at="2018-04-16T06:17:27Z" data-provider="getTestData" finished-at="2018-04-16T06:17:36Z">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="createWebDriver" is-config="true" duration-ms="19996" started-at="2018-04-16T08:03:17Z" finished-at="2018-04-16T08:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="createWebDriver" is-config="true" duration-ms="19996" started-at="2018-04-16T08:03:17Z" finished-at="2018-04-16T08:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="googleSmokeTest" duration-ms="19632" started-at="2018-04-16T08:03:37Z" data-provider="testdataProvider" finished-at="2018-04-16T08:03:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[seattle seahawks]]>
+                <![CDATA[seahawks]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="742" started-at="2018-04-16T06:17:36Z" finished-at="2018-04-16T06:17:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- releaseWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="3774" started-at="2018-04-16T06:17:37Z" finished-at="2018-04-16T06:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="5821" started-at="2018-04-16T06:17:41Z" data-provider="getTestData" finished-at="2018-04-16T06:17:46Z">
+        </test-method> <!-- googleSmokeTest -->
+        <test-method status="PASS" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="googleSmokeTest" duration-ms="19627" started-at="2018-04-16T08:03:37Z" data-provider="testdataProvider" finished-at="2018-04-16T08:03:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[green bay packers]]>
+                <![CDATA[storm]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="752" started-at="2018-04-16T06:17:46Z" finished-at="2018-04-16T06:17:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- releaseWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="createWebDriver" is-config="true" duration-ms="4660" started-at="2018-04-16T06:17:47Z" finished-at="2018-04-16T06:17:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="test01" duration-ms="8962" started-at="2018-04-16T06:17:52Z" data-provider="getTestData" finished-at="2018-04-16T06:18:01Z">
+        </test-method> <!-- googleSmokeTest -->
+        <test-method status="PASS" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="googleSmokeTest" duration-ms="20340" started-at="2018-04-16T08:03:37Z" data-provider="testdataProvider" finished-at="2018-04-16T08:03:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[seattle storm]]>
+                <![CDATA[sounders]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff1.GoogleSmokeTest@2ed94a8b]" name="releaseWebDriver" is-config="true" duration-ms="694" started-at="2018-04-16T06:18:01Z" finished-at="2018-04-16T06:18:01Z">
+        </test-method> <!-- googleSmokeTest -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="releaseWebDriver" is-config="true" duration-ms="1142" started-at="2018-04-16T08:03:57Z" finished-at="2018-04-16T08:03:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->
-      </class> <!-- sff1.GoogleSmokeTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="releaseWebDriver" is-config="true" duration-ms="1363" started-at="2018-04-16T08:03:57Z" finished-at="2018-04-16T08:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff2.GoogleSmokeTest@5ae9a829]" name="releaseWebDriver" is-config="true" duration-ms="825" started-at="2018-04-16T08:03:57Z" finished-at="2018-04-16T08:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+      </class> <!-- sff2.GoogleSmokeTest -->
+    </test> <!-- Smoke tests -->
+  </suite> <!-- Selenium Google smoke test suite -->
 </testng-results>
