@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="JavaPractice test suite" duration-ms="66" started-at="2018-04-16T09:07:22Z" finished-at="2018-04-16T09:07:23Z">
+  <suite name="Default suite" duration-ms="172" started-at="2018-04-26T05:45:43Z" finished-at="2018-04-26T05:45:43Z">
     <groups>
     </groups>
-    <test name="Smoke tests" duration-ms="66" started-at="2018-04-16T09:07:22Z" finished-at="2018-04-16T09:07:23Z">
-      <class name="MAVENModule.GSONPractice.JavaToJson1">
-        <test-method status="PASS" signature="test01()[pri:0, instance:MAVENModule.GSONPractice.JavaToJson1@6093dd95]" name="test01" duration-ms="25" started-at="2018-04-16T09:07:23Z" finished-at="2018-04-16T09:07:23Z">
+    <test name="Default test" duration-ms="172" started-at="2018-04-26T05:45:43Z" finished-at="2018-04-26T05:45:43Z">
+      <class name="MAVENModule.GSONPractice.JIRACreateJSON">
+        <test-method status="PASS" signature="test01()[pri:0, instance:MAVENModule.GSONPractice.JIRACreateJSON@49993335]" name="test01" duration-ms="94" started-at="2018-04-26T05:45:43Z" finished-at="2018-04-26T05:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-      </class> <!-- MAVENModule.GSONPractice.JavaToJson1 -->
-    </test> <!-- Smoke tests -->
-  </suite> <!-- JavaPractice test suite -->
+      </class> <!-- MAVENModule.GSONPractice.JIRACreateJSON -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
