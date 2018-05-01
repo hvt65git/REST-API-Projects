@@ -1,3 +1,6 @@
-MAVENModule\GSONPractice\JavaToJson2.class
-MAVENModule\GSONPractice\JavaToJson1.class
-MAVENModule\GSONPractice\JavaToJson3.class
+MAVENModule\GSONPractice\IssueType.class
+MAVENModule\GSONPractice\JIRAItem.class
+MAVENModule\GSONPractice\JIRAType.class
+MAVENModule\GSONPractice\Fields.class
+MAVENModule\GSONPractice\JIRACreateJSON.class
+MAVENModule\GSONPractice\Project.class

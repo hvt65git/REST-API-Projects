@@ -5,7 +5,7 @@
 	<test name="Smoke tests" verbose="2">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="MAVENModule.GSONPractice.JavaToJson1" />
+			<class name="MAVENModule.GSONPractice.JIRACreateJSON" />
 		</classes>
 	</test>
 	<!-- Default test -->
