@@ -1,19 +1,99 @@
 package  APIAutomation.IORestAssuredBuild._GET;
 
-import APIAutomation.IORestAssuredBuild._core.Count;
-import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 
 import org.testng.annotations.Test;
 
+import APIAutomation.IORestAssuredBuild._core.Count;
+import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+
+
+
+/*
+ * 
+ * Assignment Get and display the 20 most recent tweets that I added 
+ * 
+ * Twitter API Documentation:
+ * 
+https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline.html
+
+Resource URL
+https://api.twitter.com/1.1/statuses/user_timeline.json
+
+Resource Information
+
+Response formats
+JSON
+Requires authentication?
+Yes
+Rate limited?
+Yes
+Requests / 15-min window (user auth)
+900
+Requests / 15-min window (app auth)
+1500
+Parameters
+
+Name
+Required
+Description
+Default Value
+Example
+user_id
+optional
+The ID of the user for whom to return results.
+ 
+12345
+screen_name
+optional
+The screen name of the user for whom to return results.
+ 
+noradio
+since_id
+optional
+Returns results with an ID greater than (that is, more recent than) the specified ID. There are limits to the number of Tweets that can be accessed through the API. If the limit of Tweets has occured since the since_id, the since_id will be forced to the oldest ID available.
+ 
+12345
+count
+optional
+Specifies the number of Tweets to try and retrieve, up to a maximum of 200 per distinct request. The value of count is best thought of as a limit to the number of Tweets to return because suspended or deleted content is removed after the count has been applied. We include retweets in the count, even if include_rts is not supplied. It is recommended you always send include_rts=1 when using this API method.
+ 
+ 
+max_id
+optional
+Returns results with an ID less than (that is, older than) or equal to the specified ID.
+ 
+54321
+trim_user
+optional
+When set to either true , t or 1 , each Tweet returned in a timeline will include a user object including only the status authors numerical ID. Omit this parameter to receive the complete user object.
+ 
+true
+exclude_replies
+optional
+This parameter will prevent replies from appearing in the returned timeline. Using exclude_replies with the count parameter will mean you will receive up-to count tweets — this is because the count parameter retrieves that many Tweets before filtering out retweets and replies.
+ 
+true
+include_rts
+optional
+When set to false , the timeline will strip any native retweets (though they will still count toward both the maximal length of the timeline and the slice selected by the count parameter). Note: If you’re using the trim_user parameter in conjunction with include_rts, the retweets will still contain a full user object.
+ 
+false
+Example Request
+GET https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=2
+
+ */
 
 //woohoo! first successful integration of RestAssured and Twitter-
 //the keys were to use the io.rest-assured maven libs
 //and the scribejava-api and -core version 2.5.2.jars
 
 public class GetTweets {
-	private final Count count = new Count(11);
+	private final Count count = new Count(1);
+	private final String screenName = "ishmail2015";
+	
 	private final String baseURI = "https://api.twitter.com";
 	private final String resources = "/1.1/statuses/user_timeline.json";
 	
@@ -36,6 +116,7 @@ public class GetTweets {
 						accessTokenSecret)
 
 				.param(count.getKeyname(), count.getValue())
+				//.param("screen_name", screenName) //not necessary
 				.log().all()
 
 				.when()

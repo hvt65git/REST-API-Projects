@@ -5,7 +5,8 @@
 	<test name="JSON tests" verbose="2">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="APIAutomation._GET.IORestAssuredBuild.GetTweets" />
+			<class name="APIAutomation.IORestAssuredBuild._GET.GetFavorites" />
+			<class name="APIAutomation.IORestAssuredBuild._GET.GetTweets" />
 		</classes>
 	</test>
 	<!-- Default test -->
