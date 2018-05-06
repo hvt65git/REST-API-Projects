@@ -1,10 +1,10 @@
-package _GET_;
+package  APIAutomation.IORestAssuredBuild._GET;
 
-import static _core.OAUTH.*;
+import APIAutomation.IORestAssuredBuild._core.Count;
+import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 
 import org.testng.annotations.Test;
 
-import _core.Count;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 

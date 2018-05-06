@@ -1,4 +1,4 @@
-package _core;
+package APIAutomation.IORestAssuredBuild._core;
 
 public class OAUTH {
 	public static final String consumerKey 			= "Ez8HSiCaVZb0EW5JPctxVFz30";

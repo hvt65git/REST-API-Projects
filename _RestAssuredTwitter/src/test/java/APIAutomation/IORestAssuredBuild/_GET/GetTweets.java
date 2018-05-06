@@ -1,13 +1,12 @@
-package _GET_;
+package  APIAutomation.IORestAssuredBuild._GET;
 
-import  _core.Count;
-import static _core.OAUTH.*;
+import APIAutomation.IORestAssuredBuild._core.Count;
+import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 
 import org.testng.annotations.Test;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
-
 
 //woohoo! first successful integration of RestAssured and Twitter-
 //the keys were to use the io.rest-assured maven libs

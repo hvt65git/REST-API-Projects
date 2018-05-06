@@ -1,4 +1,4 @@
-package _core;
+package APIAutomation.IORestAssuredBuild._core;
 
 public class Count {
 	private final String keyname = "count";

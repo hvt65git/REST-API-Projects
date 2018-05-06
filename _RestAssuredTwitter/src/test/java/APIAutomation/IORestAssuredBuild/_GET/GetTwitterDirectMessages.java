@@ -1,4 +1,12 @@
-package _GET_;
+package  APIAutomation.IORestAssuredBuild._GET;
+
+import APIAutomation.IORestAssuredBuild._core.Count;
+import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
 /*
  * 
 https://developer.twitter.com/en/docs/direct-messages/sending-and-receiving/api-reference/list-events
