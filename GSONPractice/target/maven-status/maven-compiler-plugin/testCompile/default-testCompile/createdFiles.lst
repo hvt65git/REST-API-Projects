@@ -1,6 +1,8 @@
-MAVENModule\GSONPractice\IssueType.class
-MAVENModule\GSONPractice\JIRAItem.class
-MAVENModule\GSONPractice\JIRAType.class
-MAVENModule\GSONPractice\Fields.class
-MAVENModule\GSONPractice\JIRACreateJSON.class
-MAVENModule\GSONPractice\Project.class
+MAVENModule\GSONPractice\EtsyRecord3.class
+utils\PayloadGenerator.class
+MAVENModule\GSONPractice\EtsyRecords.class
+MAVENModule\GSONPractice\EtsyJSONDeserialize.class
+MAVENModule\GSONPractice\EtsyPurchases.class
+MAVENModule\GSONPractice\EtsyJSONSerialize.class
+MAVENModule\GSONPractice\EtsyRecord2.class
+MAVENModule\GSONPractice\EtsyRecord.class

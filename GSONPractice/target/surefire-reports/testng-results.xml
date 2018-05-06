@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="JavaPractice test suite" duration-ms="295" started-at="2018-04-26T06:31:19Z" finished-at="2018-04-26T06:31:19Z">
+  <suite name="JavaPractice test suite" duration-ms="642" started-at="2018-05-03T10:21:30Z" finished-at="2018-05-03T10:21:30Z">
     <groups>
     </groups>
-    <test name="Smoke tests" duration-ms="295" started-at="2018-04-26T06:31:19Z" finished-at="2018-04-26T06:31:19Z">
-      <class name="MAVENModule.GSONPractice.JIRACreateJSON">
-        <test-method status="PASS" signature="test01()[pri:0, instance:MAVENModule.GSONPractice.JIRACreateJSON@573f2bb1]" name="test01" duration-ms="238" started-at="2018-04-26T06:31:19Z" finished-at="2018-04-26T06:31:19Z">
+    <test name="Smoke tests" duration-ms="642" started-at="2018-05-03T10:21:30Z" finished-at="2018-05-03T10:21:30Z">
+      <class name="MAVENModule.GSONPractice.EtsyJSONDeserialize">
+        <test-method status="PASS" signature="deserializeJson()[pri:0, instance:MAVENModule.GSONPractice.EtsyJSONDeserialize@402f32ff]" name="deserializeJson" duration-ms="581" started-at="2018-05-03T10:21:30Z" finished-at="2018-05-03T10:21:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-      </class> <!-- MAVENModule.GSONPractice.JIRACreateJSON -->
+        </test-method> <!-- deserializeJson -->
+      </class> <!-- MAVENModule.GSONPractice.EtsyJSONDeserialize -->
     </test> <!-- Smoke tests -->
   </suite> <!-- JavaPractice test suite -->
 </testng-results>

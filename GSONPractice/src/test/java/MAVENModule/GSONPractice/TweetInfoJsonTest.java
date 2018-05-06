@@ -1,4 +1,4 @@
-package JSON;
+package MAVENModule.GSONPractice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -95,7 +95,6 @@ class Entities {
 
 	public Entities(User_mentions user_mentions) {
 		this.user_mentions.add(user_mentions);
-
 		System.out.println("*** Entities constuctor... ***");
 	}
 }
@@ -115,7 +114,6 @@ class User_mentions {
 			long id,
 			List<Integer> indices) {
 		System.out.println("**** User_mentions constuctor... ****");
-
 		this.screen_name = screen_name;
 		this.name = name;
 		this.id_str = id_str;
@@ -125,7 +123,7 @@ class User_mentions {
 }
 
 
-public class JsonTest  {
+public class TweetInfoJsonTest  {
 
 	@Test
 	public void createJsonObj() {
@@ -160,7 +158,6 @@ public class JsonTest  {
 				.create();
 
 		String stringJson = gs.toJson(tweetInfo);
-
 		System.out.println("stringJson = " + stringJson);
 	}
 }

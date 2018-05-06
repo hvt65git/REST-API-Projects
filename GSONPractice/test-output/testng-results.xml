@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="116" started-at="2018-05-01T06:01:33Z" finished-at="2018-05-01T06:01:33Z">
+  <suite name="Default suite" duration-ms="118" started-at="2018-05-06T03:53:54Z" finished-at="2018-05-06T03:53:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="116" started-at="2018-05-01T06:01:33Z" finished-at="2018-05-01T06:01:33Z">
-      <class name="MAVENModule.GSONPractice.JIRACreateJSON">
-        <test-method status="PASS" signature="test01()[pri:0, instance:MAVENModule.GSONPractice.JIRACreateJSON@49993335]" name="test01" duration-ms="85" started-at="2018-05-01T06:01:33Z" finished-at="2018-05-01T06:01:33Z">
+    <test name="Default test" duration-ms="118" started-at="2018-05-06T03:53:54Z" finished-at="2018-05-06T03:53:54Z">
+      <class name="MAVENModule.GSONPractice.JsonTest">
+        <test-method status="PASS" signature="createJsonObj()[pri:0, instance:MAVENModule.GSONPractice.JsonTest@29ca901e]" name="createJsonObj" duration-ms="65" started-at="2018-05-06T03:53:54Z" finished-at="2018-05-06T03:53:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01 -->
-      </class> <!-- MAVENModule.GSONPractice.JIRACreateJSON -->
+        </test-method> <!-- createJsonObj -->
+      </class> <!-- MAVENModule.GSONPractice.JsonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

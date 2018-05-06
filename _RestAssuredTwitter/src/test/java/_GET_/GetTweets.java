@@ -1,10 +1,11 @@
-package APIAutomation.IORestAssuredBuild;
+package _GET_;
 
-import static APIAutomation.IORestAssuredBuild.OAUTH.*;
+import  _core.Count;
+import static _core.OAUTH.*;
+
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
 
 
 
@@ -12,39 +13,22 @@ import io.restassured.response.Response;
 //the keys were to use the io.rest-assured maven libs
 //and the scribejava-api and -core version 2.5.2.jars
 
-
-class OAUTH {
-	public static final String consumerKey = "Ez8HSiCaVZb0EW5JPctxVFz30";
-	public static final String consumerSecret = "1jpzfBTO4cIIMFwYT6VsSFnetdBJkK4w032Qr813vwryZj5gwS";
-	public static final String accessToken = "3556936994-DYhVytMQCt1quSyh20dxOKs3NNVHsbT6ebvCce7";
-	public static final String accessTokenSecret = "pRVltgFncO2Eb0t5uUkPtywCQRwunT7MrfxJpV1dgHGkJ";
-}
-
-
-class Count {
-	private final String keyname = "count";
-	private int value;
-
-	public Count (int value) {
-		this.value = value;
-	}
-	public String getKeyname() {
-		return this.keyname;
-	}
-	public int getValue() {
-		return value;
-	}
-}
-
 public class GetTweets {
-	private final Count count = new Count(1);
+	private final Count count = new Count(11);
 	private final String baseURI = "https://api.twitter.com";
 	private final String resources = "/1.1/statuses/user_timeline.json";
+	
+	private void createTweet(String tweetJson) {
+		
+	}
 
 	@Test
-	public void getTweets() {
+	public void verifyTweetForUserTimeline() {
+		//create the tweet
+		createTweet(null);
+		
+		//verify tweet appears in user timeline
 		RestAssured.baseURI = baseURI;
-
 		Response response = RestAssured.given()
 				.auth()
 				.oauth(consumerKey, 
@@ -63,6 +47,8 @@ public class GetTweets {
 
 		System.out.println("*** Twitter Response Headers *** => " +
 				response.getHeaders().toString());
+		
+		///now need to get some of the fields and compare them to expected values
 	}
 }
 //output:

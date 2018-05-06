@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="126" started-at="2018-04-16T07:31:44Z" finished-at="2018-04-16T07:31:44Z">
+  <suite name="Default suite" duration-ms="3034" started-at="2018-05-06T06:31:34Z" finished-at="2018-05-06T06:31:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="126" started-at="2018-04-16T07:31:44Z" finished-at="2018-04-16T07:31:44Z">
-      <class name="JSON.JsonTest">
-        <test-method status="PASS" signature="createJsonObj()[pri:0, instance:JSON.JsonTest@27efef64]" name="createJsonObj" duration-ms="92" started-at="2018-04-16T07:31:44Z" finished-at="2018-04-16T07:31:44Z">
+    <test name="Default test" duration-ms="3034" started-at="2018-05-06T06:31:34Z" finished-at="2018-05-06T06:31:37Z">
+      <class name="_GET_.GetFavorites">
+        <test-method status="PASS" signature="getFavoritesList()[pri:0, instance:_GET_.GetFavorites@3159c4b8]" name="getFavoritesList" duration-ms="3006" started-at="2018-05-06T06:31:34Z" finished-at="2018-05-06T06:31:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createJsonObj -->
-      </class> <!-- JSON.JsonTest -->
+        </test-method> <!-- getFavoritesList -->
+      </class> <!-- _GET_.GetFavorites -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

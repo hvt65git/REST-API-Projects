@@ -1,4 +1,4 @@
-package APIAutomation.IORestAssuredBuild;
+package _GET_;
 /*
  * 
 https://developer.twitter.com/en/docs/direct-messages/sending-and-receiving/api-reference/list-events
