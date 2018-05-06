@@ -75,7 +75,7 @@ public class GetFavorites {
 		response.getHeaders().toString());
 	}
 }
-//
+//success!
 //[RemoteTestNG] detected TestNG version 6.14.2
 //Request method:	GET
 //Request URI:	https://api.twitter.com/1.1/favorites/list.json?count=1

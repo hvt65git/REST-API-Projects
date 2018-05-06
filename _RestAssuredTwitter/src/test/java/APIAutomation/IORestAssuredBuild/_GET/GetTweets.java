@@ -131,6 +131,7 @@ public class GetTweets {
 		///now need to get some of the fields and compare them to expected values
 	}
 }
+//success
 //output:
 //[RemoteTestNG] detected TestNG version 6.14.2
 //WARNING: An illegal reflective access operation has occurred
