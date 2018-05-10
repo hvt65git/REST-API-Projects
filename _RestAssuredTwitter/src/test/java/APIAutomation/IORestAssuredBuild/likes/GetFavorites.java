@@ -1,4 +1,4 @@
-package  APIAutomation.IORestAssuredBuild._GET;
+package  APIAutomation.IORestAssuredBuild.likes;
 
 import APIAutomation.IORestAssuredBuild._core.Count;
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;

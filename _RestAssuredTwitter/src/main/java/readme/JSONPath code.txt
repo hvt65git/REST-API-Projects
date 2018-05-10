@@ -1,0 +1,140 @@
+package MAVENModule.RestAssuredJSONPath;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.parsing.Parser;
+import io.restassured.response.Response;
+
+import static io.restassured.RestAssured.given;
+
+import java.util.List;
+import java.util.Map;
+/*
+ * https://jsonplaceholder.typicode.com/users =
+ * 
+{
+id: 1,
+name: "Leanne Graham",
+username: "Bret",
+email: "Sincere@april.biz",
+address: {
+street: "Kulas Light",
+suite: "Apt. 556",
+city: "Gwenborough",
+zipcode: "92998-3874",
+geo: {
+lat: "-37.3159",
+lng: "81.1496"
+}
+},
+phone: "1-770-736-8031 x56442",
+website: "hildegard.org",
+company: {
+name: "Romaguera-Crona",
+catchPhrase: "Multi-layered client-server neural-net",
+bs: "harness real-time e-markets"
+}
+},
+{
+id: 2,
+name: "Ervin Howell",
+username: "Antonette",
+email: "Shanna@melissa.tv",
+address: {
+street: "Victor Plains",
+suite: "Suite 879",
+city: "Wisokyburgh",
+zipcode: "90566-7771",
+geo: {
+lat: "-43.9509",
+lng: "-34.4618"
+}
+},
+phone: "010-692-6593 x09125",
+website: "anastasia.net",
+company: {
+name: "Deckow-Crist",
+catchPhrase: "Proactive didactic contingency",
+bs: "synergize scalable supply-chains"
+}
+},
+...
+ */
+
+public class RestTest {
+
+	public static Response doGetRequest(String endpoint) {
+		RestAssured.defaultParser = Parser.JSON;
+		return
+				given().headers("Content-Type", ContentType.JSON, "Accept", ContentType.JSON).
+				when().get(endpoint).
+				then().contentType(ContentType.JSON).extract().response();
+	}
+
+	public static void main(String[] args) {
+		Response response = doGetRequest("https://jsonplaceholder.typicode.com/users");
+
+		//Note the $ notation which means the root element.
+		List<String> jsonResponse = response.jsonPath().getList("$"); //a list of hashmap nodes
+
+		//The result of this call would print 10. 
+		System.out.println(jsonResponse.size());
+
+		//Parsing JSON Arrays and Lists:
+
+		//In the above example, if we wanted to get the username of all entries, we could use
+		String usernames = response.jsonPath().getString("username");
+		System.out.println(usernames);
+
+		//This would print the string like:
+		//[Bret, Antonette, Samantha, Karianne, Kamren, Leopoldo_Corkery, Elwyn.Skiles, Maxime_Nienow, Delphine, Moriah.Stanton]
+
+		//If we then want to get the username of the first entry we could use
+		usernames = response.jsonPath().getString("username[0]");
+		System.out.println(usernames);
+
+		//This would print the string like:
+		//Bret
+
+		//Using a List we can use
+		List<String> jsonResponse2 = response.jsonPath().getList("username");
+		System.out.println(jsonResponse2.get(0));
+
+		//This would print the string like:
+		//Bret
+
+		//Parsing JSON ArrayList and HashMap
+		//Looking at the above JSON structure, the company is actually a map. If we only had one record, we could use
+		Response response2 = doGetRequest("https://jsonplaceholder.typicode.com/users/1");
+
+		Map<String, String> company = response2.jsonPath().getMap("company");
+		System.out.println(company.get("name"));
+
+		//which would print Romaguera-Crona
+
+		//But if the response returns an array and we want to extract the first company name, we could use:
+		Response response3 = doGetRequest("https://jsonplaceholder.typicode.com/users/");
+
+		Map<String, String> company2 = response3.jsonPath().getMap("company2[0]");
+		System.out.println(company.get("name"));
+
+		//Alternatively, we could use:
+		Response response4 = doGetRequest("https://jsonplaceholder.typicode.com/users/");
+
+		List<Map<String, String>> companies = response.jsonPath().getList("company");
+		System.out.println(companies.get(0).get("name"));
+
+		//both of which will print Romaguera-Crona.
+
+	}
+
+}
+
+//output:
+//10
+//[Bret, Antonette, Samantha, Karianne, Kamren, Leopoldo_Corkery, Elwyn.Skiles, Maxime_Nienow, Delphine, Moriah.Stanton]
+//Bret
+//Bret
+//Romaguera-Crona
+//Romaguera-Crona
+//Romaguera-Crona

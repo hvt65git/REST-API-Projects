@@ -1,4 +1,4 @@
-package  APIAutomation.IORestAssuredBuild._GET;
+package  APIAutomation.IORestAssuredBuild.tweet_timelines.mentions_timeline;
 
 import APIAutomation.IORestAssuredBuild._core.Count;
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
@@ -17,7 +17,6 @@ import io.restassured.response.Response;
 GET statuses/home_timeline 
 GET statuses/mentions_timeline 
 GET statuses/user_timeline 
-GET statuses/mentions_timeline
 
 Returns the 20 most recent mentions (Tweets containing a users’s @screen_name) for the authenticating user.
 The timeline returned is the equivalent of the one seen when you view your mentions on twitter.com.
@@ -82,7 +81,7 @@ GET https://api.twitter.com/1.1/statuses/mentions_timeline.json?count=2&since_id
 
 
 public class GetTwitterMentions {
-	private final Count count = new Count(1);
+	private final Count count = new Count(22);
 	private final String baseURI = "https://api.twitter.com";
 	private final String resources = "/1.1/statuses/mentions_timeline.json";
 

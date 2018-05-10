@@ -1,4 +1,4 @@
-package APIAutomation.IORestAssuredBuild._GET;
+package APIAutomation.IORestAssuredBuild.tweet_timelines.home_timeline;
 
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.accessToken;
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.accessTokenSecret;
@@ -83,7 +83,7 @@ Example Response
  */
 
 public class GetHomeTimeline {
-	private final Count count = new Count(3);
+	private final Count count = new Count(1);
 	private final String baseURI = "https://api.twitter.com";
 	private final String resources = "1.1/statuses/home_timeline.json";
 	
@@ -112,11 +112,11 @@ public class GetHomeTimeline {
 				.when()
 				.get(resources)
 
-				.then().assertThat().statusCode(200).log().all()
+				.then().assertThat().statusCode(200)
 				.extract().response();
 
-		System.out.println("*** Twitter Response Headers *** => " +
-				response.getHeaders().toString());
+//		System.out.println("*** Twitter Response Headers *** => " +
+//				response.getHeaders().toString());
 	}
 
 }
