@@ -26,58 +26,7 @@ See Working with Timelines for instructions on traversing timelines.
 Resource URL
 https://api.twitter.com/1.1/statuses/mentions_timeline.json
 Resource Information
-
-
-Response formats
-JSON
-Requires authentication?
-Yes (user context only)
-Rate limited?
-Yes
-Requests / 15-min window (user auth)
-75
-Parameters
-
-
-
-
-
-Name
-Required
-Description
-Default Value
-Example
-count
-optional
-Specifies the number of Tweets to try and retrieve, up to a maximum of 200. The value of count is best thought of as a limit to the number of tweets to return because suspended or deleted content is removed after the count has been applied. We include retweets in the count, even if include_rts is not supplied. It is recommended you always send include_rts=1 when using this API method.
- 
- 
-since_id
-optional
-Returns results with an ID greater than (that is, more recent than) the specified ID. There are limits to the number of Tweets which can be accessed through the API. If the limit of Tweets has occured since the since_id, the since_id will be forced to the oldest ID available.
- 
-12345
-max_id
-optional
-Returns results with an ID less than (that is, older than) or equal to the specified ID.
- 
-54321
-trim_user
-optional
-When set to either true , t or 1 , each tweet returned in a timeline will include a user object including only the status authors numerical ID. Omit this parameter to receive the complete user object.
- 
-true
-include_entities
-optional
-The entities node will not be included when set to false.
- 
-false
-Example Request
-GET https://api.twitter.com/1.1/statuses/mentions_timeline.json?count=2&since_id=14927799
- * 
- *
- */
-
+*/
 
 
 public class GetTwitterMentions {

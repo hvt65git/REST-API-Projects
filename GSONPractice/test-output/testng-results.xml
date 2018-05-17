@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="203" started-at="2018-05-10T08:28:36Z" finished-at="2018-05-10T08:28:36Z">
+  <suite name="Default suite" duration-ms="400" started-at="2018-05-17T05:29:54Z" finished-at="2018-05-17T05:29:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="203" started-at="2018-05-10T08:28:36Z" finished-at="2018-05-10T08:28:36Z">
+    <test name="Default test" duration-ms="400" started-at="2018-05-17T05:29:54Z" finished-at="2018-05-17T05:29:54Z">
       <class name="MAVENModule.GSONPractice.EtsyJSONDeserialize">
-        <test-method status="PASS" signature="deserializeJson()[pri:0, instance:MAVENModule.GSONPractice.EtsyJSONDeserialize@4bec1f0c]" name="deserializeJson" duration-ms="156" started-at="2018-05-10T08:28:36Z" finished-at="2018-05-10T08:28:36Z">
+        <test-method status="PASS" signature="deserializeJson()[pri:0, instance:MAVENModule.GSONPractice.EtsyJSONDeserialize@73846619]" name="deserializeJson" duration-ms="340" started-at="2018-05-17T05:29:54Z" finished-at="2018-05-17T05:29:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deserializeJson -->

@@ -1,5 +1,5 @@
 package MAVENModule.GSONPractice;
-/*
+/*	DEVELOPER: Henry Todd
  * 	ASSIGNMENT: 
  * (1) Define and create Java class(es) that correspond to the Etsy Json records
  * (2) Read the JSON data in from a .js json file into a String and deserialize from JSON via GsonBuilder 
@@ -25,40 +25,6 @@ package MAVENModule.GSONPractice;
       "payment_method="PayPal",
       "payment_details="Via Paypal"
     },
-    {
-      "title="Reiki orgone decagon puck",
-      "purchase_date="07/26/2016",
-      "shipped_date="07/27/2016",
-      "shipping_address="1123 3rd East, , Seattle, WA, 98118, United States",
-      "shipping_recipient="Jamie Starr",
-      "shop_name="orgonetabernacle",
-      "order_number=,
-      "price="15.00",
-      "subtotal="15.00",
-      "taxes="0.00",
-      "shipping_cost="13.00",
-      "quantity=1,
-      "currency_code="USD",
-      "payment_method="Credit Card",
-      "payment_details="Credit Card"
-    },
-    {
-      "title="Small Reiki orgone pyramid",
-      "purchase_date="07/26/2016",
-      "shipped_date="07/27/2016",
-      "shipping_address="1123 3rd East, , Seattle, WA, 98118, United States",
-      "shipping_recipient="Jamie Starr",
-      "shop_name="orgonetabernacle",
-      "order_number=,
-      "price="15.00",
-      "subtotal="15.00",
-      "taxes="0.00",
-      "shipping_cost="13.00",
-      "quantity=1,
-      "currency_code="USD",
-      "payment_method="Credit Card",
-      "payment_details="Credit Card"
-    }
   ]
 ]
  */
@@ -78,41 +44,15 @@ class EtsyRecords {
 	List<EtsyRecord3> recordsList;
 }
 
-final class Singleton {
-	private static final Singleton INSTANCE = new Singleton();
-
-	private Singleton() {}
-
-	public static Singleton getInstance() {
-		return INSTANCE;
-	}
-}
-
 public class EtsyJSONDeserialize {
 	private static final String jsonFile = "C:\\json test data\\purchases.json";
 
 
 	@Test
 	public void deserializeJson() {
-		//  "purchase_date": "01/25/2018",
-		//  "shipped_date": "01/30/2018",
-		//  "shipping_address": "1111 39th Avenue South, , Seattle, WA, 98118, United States",
-		//  "shipping_recipient": "Jamie Starr",
-		//  "shop_name": "EternalBlissed",
-		//  "order_number": 1282826135,
-		//  "price": "27.50",
-		//  "subtotal": "27.50",
-		//  "taxes": "3.29",
-		//  "shipping_cost": "5.00",
-		//  "quantity": 1,
-		//  "currency_code": "USD",
-		//  "payment_method": "Credit Card",
-		//  "payment_details": "Credit Card"
-
-
+		
 		try {
 			//load the Json body from a file into a string
-			//(A) - convert to Json and print it out and compare to expected
 			String stringJson = PayloadGenerator.generatePayLoadString(jsonFile);
 			System.out.println("\r\n(A) - Arrays.asList -> stringJson =\r\n " + stringJson);
 
@@ -157,7 +97,7 @@ public class EtsyJSONDeserialize {
 				"total cost for item = " + String.format("%.2f", new BigDecimal(itemCost)));
 				System.out.println();
 			}
-
+			//now,tabulate all the cost fields and present the total cost to tthe console
 			System.out.println("COST SUMMARY ");
 			System.out.println("Total Taxes = "			+ String.format("%.2f", new BigDecimal(totalTaxes)));
 			System.out.println("Total Shipping Cost = " + String.format("%.2f", new BigDecimal(totalShippingCost)));

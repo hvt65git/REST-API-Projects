@@ -1,3 +1,5 @@
+
+
 package  APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline;
 
 import org.testng.annotations.Test;
@@ -19,22 +21,9 @@ import APIAutomation.IORestAssuredBuild._core.Count;
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 
 
-class Record {
-	private String created_at;
-	private String text;
-	private String quoted_text;
-
-	public Record(String created_at, String text, String quoted_text, String hashtag) {
-		super();
-		this.created_at = created_at;
-		this.text = text;
-		this.quoted_text = quoted_text;
-	}
-}
-
-public class GetUserTimeline {
-	private final Count count = new Count(111);
-	private final String screenName = "MaNithyaSudevi";
+public class GetUserTimeline_Swamiji {
+	private final Count count = new Count(100);
+	private final String screenName = "SriNithyananda";
 
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/user_timeline.json";
@@ -63,8 +52,10 @@ public class GetUserTimeline {
 	@Test
 	public void verifyTweetForUserTimeline() {
 		int count = 0;
-		
 		Response response = doGetRequest(baseURI + endpoint, 200);
+		//this puts the whole list into a string, not what we want to do
+		//System.out.println("tweet " + ++count +  " = " +
+		//response.jsonPath().get("text") + "\r\n");
 		
 		List<String> tweets = response.jsonPath().getList("text");
 		for(String tweet : tweets) {

@@ -33,7 +33,7 @@ If the number of updates posted by the user reaches the current allowed limit th
 public class CreateTweet {
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/update.json";
-	private final String theTweet = "testing 123...";
+	private final String theTweet = "hello hello automated tweet testing 123...";
 
 	
 	@Test(enabled = false, description = "expected 403 forbidden failure - sending no tweet param")
