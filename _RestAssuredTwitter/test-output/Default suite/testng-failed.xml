@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="APIAutomation.IORestAssuredBuild.likes.GetFavorites">
+      <class name="endtoend_tests.GetDirectMessages">
         <methods>
-          <include name="getFavoritesList"/>
+          <include name="getDMs"/>
         </methods>
-      </class> <!-- APIAutomation.IORestAssuredBuild.likes.GetFavorites -->
+      </class> <!-- endtoend_tests.GetDirectMessages -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
