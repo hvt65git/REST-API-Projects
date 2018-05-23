@@ -23,20 +23,20 @@ public class EtsyJSONSerialize {
 	public void test01() {
 
 		//create the test data 
-		List<EtsyRecord> purchases = Arrays.asList(
-				new EtsyRecord(
+		List<EtsyRecordEssential> purchases = Arrays.asList(
+				new EtsyRecordEssential(
 						"Personalized Custom Made Jewelry Orgone Pendant -  custom picture or crystals on the front side holiday gift ideas for him and her",
 						"07/27/2016",
 						"CosmicEnergyOrgonite",
 						45.00,
 						5.20),
-				new EtsyRecord(
+				new EtsyRecordEssential(
 						"Reiki orgone decagon puck",
 						"07/26/2016",
 						"orgonetabernacle",
 						15.00,
 						13.00),
-				new EtsyRecord(
+				new EtsyRecordEssential(
 						"Small Reiki orgone pyramid",
 						"07/27/2016",
 						"orgonetabernacle",

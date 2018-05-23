@@ -1,6 +1,6 @@
 package MAVENModule.GSONPractice;
 
-public class EtsyRecord3 {
+public class EtsyRecordFull {
 	//  "title": "Women's Racerback Tank",
 	//  "purchase_date": "01/25/2018",
 	//  "shipped_date": "01/30/2018",

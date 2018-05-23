@@ -7,9 +7,9 @@ public class EtsyPurchases {
 	private double totalPrice;
 	private double totalCost;
 	
-	private List<EtsyRecord> purchases;
+	private List<EtsyRecordEssential> purchases;
 	
-	public EtsyPurchases(List<EtsyRecord> purchases) {
+	public EtsyPurchases(List<EtsyRecordEssential> purchases) {
 		this.purchases = purchases;
 		setTotalCosts();
 	}
@@ -19,7 +19,7 @@ public class EtsyPurchases {
 		totalPrice = 0;
 		totalCost = 0;
 		
-		for(EtsyRecord er : purchases) {
+		for(EtsyRecordEssential er : purchases) {
 			totalShippingCost += er.getShipping_cost();
 			totalPrice += er.getPrice();
 		}

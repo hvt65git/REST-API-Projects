@@ -1,4 +1,4 @@
-package MAVENModule.GSONPractice;
+package MAVENModule.RestAssuredJSONPath;
 
 import java.util.ArrayList;
 import java.util.Arrays;

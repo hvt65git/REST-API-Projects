@@ -1,7 +1,7 @@
 package MAVENModule.GSONPractice;
 
 
-class EtsyRecord {
+class EtsyRecordEssential {
 	private String title;
 	private String purchase_date; 
 	private String shop_name;
@@ -16,9 +16,9 @@ class EtsyRecord {
 		return shipping_cost;
 	}
 
-	public EtsyRecord(){}
+	public EtsyRecordEssential(){}
 
-	public EtsyRecord(
+	public EtsyRecordEssential(
 			String title,
 			String purchase_date, 
 			String shop_name,
