@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 public class PayloadGenerator {
 //	private static Logger log = LogManager.getLogger(PayloadGenerator.class.getName());
 
-	public static String generatePayLoadString(String filePath){
+	public static String generatePayLoadStringFromFile(String filePath){
 		
 	//	log.info("Inside PayloadConverter function");
 		try {
