@@ -16,8 +16,6 @@ class EtsyRecordEssential {
 		return shipping_cost;
 	}
 
-	public EtsyRecordEssential(){}
-
 	public EtsyRecordEssential(
 			String title,
 			String purchase_date, 

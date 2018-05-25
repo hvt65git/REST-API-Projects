@@ -32,7 +32,7 @@ import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
  */
 public class GetUserTimeline_ishmail2015 {
 	private final Count count = new Count(100);
-	private final String screenName = "SriNithyananda";
+	private final String screenName = "ishmail2015";
 
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/user_timeline.json";

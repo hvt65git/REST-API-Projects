@@ -197,13 +197,16 @@ public class EtsyJSONDeserialize {
 		displayTotalCost();
 	}
 	
+	/*
+	 * 
+	 */
 	@Test
 	public void deserializeJsonAndGenerateReports() {
 		try {
 			//load the Json body from a file into a string
 			String stringJson = PayloadGenerator.generatePayLoadStringFromFile(jsonFile);
 
-			//deserialize the string into a java class
+			//deserialize the string into a java object
 			EtsyRecordFull[] records = new GsonBuilder()
 					.create()
 					.fromJson(stringJson, EtsyRecordFull[].class);

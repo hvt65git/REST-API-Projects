@@ -34,7 +34,6 @@ public class CreateTweet {
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/update.json";
 	private final String theTweet = "hello hello automated tweet testing 123...";
-
 	
 	@Test(enabled = false, description = "expected 403 forbidden failure - sending no tweet param")
 	public void verifyFailForSendingNoTweet() {
@@ -77,19 +76,20 @@ public class CreateTweet {
 		}
 	}
 
-	
 	@Test(enabled = true, description = "expected success")
 	public void verifyTweetForUserTimeline() {
 		RestAssured.baseURI = baseURI;
+		
 		try {
-			Response response = RestAssured.given()
+			Response response = 
+					RestAssured.given()
 					.auth()
 					.oauth(consumerKey, 
 							consumerSecret, 
 							accessToken, 
 							accessTokenSecret)
 
-					.param("status", theTweet)
+					.param("status", theTweet) //just a normal string not a json string
 					.log().all()
 
 					.when()
@@ -98,6 +98,7 @@ public class CreateTweet {
 					.then()
 					.log().all()
 					.statusCode(200)
+					
 					.extract().response();
 
 			//print out all the response headers as a string
