@@ -31,14 +31,14 @@ import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 public class GetUserTimeline_bringin_da_boom {
 	private int ctr = 0;
 	private final Count count = new Count(200);
-	private final String screenName = "bringin_da_boom";
+	private final String screenName = "ishmail2015"; //
 
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/user_timeline.json";
 
 	public Response doGetRequest(String endpoint, int statusCode) {
 		RestAssured.defaultParser = Parser.JSON;
-
+		
 		return
 				given()
 				.auth()
@@ -57,18 +57,20 @@ public class GetUserTimeline_bringin_da_boom {
 				.extract().response();
 	}
 	//http://www.baeldung.com/java-iterate-map
-	//	In this quick article, we’ll have a look at the different ways of iterating through the entries of a Map in Java.
 	//
-	//	Simply put, we can extract the contents of a Map using keySet(), valueSet() or entrySet(). 
-	//	Since those are all sets, similar iteration principles apply to all of them.
+	//In this quick article, we’ll have a look at the different ways of 
+	//iterating through the entries of a Map in Java.
 	//
-	//	The Map.entrySet API returns a collection-view of the map, whose elements are from the Map class. The only way to obtain a reference to a single map entry is from the iterator of this collection view.
+	//Simply put, we can extract the contents of a Map using 
+	//keySet(), valueSet() or entrySet(). 
+	//Since those are all sets, similar iteration principles apply to all of them.
 	//
-	//	The entry.getKey() returns the key and entry.getValue() returns the corresponding value.
+	//The Map.entrySet API returns a collection-view of the map, whose elements are from the Map class. The only way to obtain a reference to a single map entry is from the iterator of this collection view.
 	//
-	//	Let’s have a look at a few of these.
+	//The entry.getKey() returns the key and entry.getValue() returns the corresponding value.
+	//
+	//Let’s have a look at a few of these.
 	
-
 	private void iterateUsingEntrySet(Map<String, Object> map) {
 		for (Map.Entry<String, Object> entry : map.entrySet()) {
 			System.out.println(entry.getKey() + ":" + entry.getValue());
@@ -87,16 +89,18 @@ public class GetUserTimeline_bringin_da_boom {
 		map.forEach((k, v) -> System.out.println((k + ":" + v)));
 	}
 
-	//Stream API is one of the main features of Java 8. We can use this feature to loop through a Map as well but as in previous examples, we need to obtain a set of entries first:
+	//Stream API is one of the main features of Java 8.
+	//We can use this feature to
+	//loop through a Map as well but as in previous examples,
+	//we need to obtain a set of entries first:
 	public void iterateUsingStreamAPI(Map<String, Integer> map) {
 		map.entrySet().stream()
 		// ...
 		.forEach(e -> System.out.println(e.getKey() + ":" + e.getValue()));
 	}
 
-	
 	private void printOutDateOrTextStrings(Map<String, Object> map) {
-		System.out.println();
+		
 		for (Map.Entry<String, Object> entry : map.entrySet()) {
 			if(entry.getKey().equals("created_at")) {
 				System.out.println("Date: " + entry.getValue());
@@ -127,14 +131,15 @@ public class GetUserTimeline_bringin_da_boom {
 		List<Map<String, Object>> root = response.jsonPath().getList("$");
 		int rootSize = root.size();
 
-		List<String> created_at = response.jsonPath().getList("created_at");
-		int createdSize = root.size();
+		//List<String> created_at = response.jsonPath().getList("created_at");
+		//int createdSize = root.size();
 
-		List<String> tweets = response.jsonPath().getList("text");
-		int tweetsSize = tweets.size();
+		//List<String> tweets = response.jsonPath().getList("text");
+		//int tweetsSize = tweets.size();
 
 		//print out date or text strings
-		for(int i=0; i<root.size(); i++) {
+		for(int i=0; i<rootSize; i++) {
+			System.out.println();
 			Map<String, Object> map = root.get(i);
 			printOutDateOrTextStrings(map);
 		}

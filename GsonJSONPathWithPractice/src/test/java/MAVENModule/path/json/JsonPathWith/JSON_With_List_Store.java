@@ -184,9 +184,11 @@ public class JSON_With_List_Store {
 
 		//Get the first book category:
 		String categoryFirst = with(JSONstring).get("store.books[0].category");
+		System.out.println("categoryFirst = " + categoryFirst);
 
 		//Get the last book category:
 		String categoryLast = with(JSONstring).get("store.books[-1].category");
+		System.out.println("categoryLast = " + categoryLast);
 		
 		//To get a list of all book categories:
 		List<String> categories = with(JSONstring).get("store.books.category");
@@ -198,11 +200,64 @@ public class JSON_With_List_Store {
 		}
 		
 		//Another way to display all categories
+		System.out.println("List<?> booksList = with(JSONstring).get(\"store.books.category\")");
 		List<?> books = with(JSONstring).get("store.books.category");
 		for(int i=0; i<books.size(); i++) {
 			System.out.println(books.get(i));
 		}
+		
+		//Another way to display all categories
+		System.out.println("List<?> booksList = with(JSONstring).getList(\"store.books.category\")");
+		List<Object> booksList = with(JSONstring).getList("store.books.category");
+		for(int i=0; i<booksList.size(); i++) {
+			System.out.println(booksList.get(i));
+		}
+		
+		//Another way to display all categories
+		System.out.println("List<?> booksList2 = with(JSONstring).getList(\"store.books\")");
+		List<?> booksList2 = with(JSONstring).getList("store.books");
+		for(int i=0; i<booksList2.size(); i++) {
+			System.out.println(booksList2.get(i));
+		}
 	}
-
 }
+//OUTPUT:
+//[RemoteTestNG] detected TestNG version 6.14.2
+//Bicycle color = red
+//Bicycle price = 19.95
+//categoryFirst = level 1
+//categoryLast = level 7
+//
+//Displaying all categories in the JSON string...
+//book category = level 1
+//book category = level 3
+//book category = level 5
+//book category = level 7
+//List<?> booksList = with(JSONstring).get("store.books.category")
+//level 1
+//level 3
+//level 5
+//level 7
+//List<?> booksList = with(JSONstring).getList("store.books.category")
+//level 1
+//level 3
+//level 5
+//level 7
+//List<?> booksList2 = with(JSONstring).getList("store.books")
+//{author=Nigel Rees, price=8.95, isbn=null, category=level 1, title=Sayings of the Century}
+//{author=Evelyn Waugh, price=12.99, isbn=null, category=level 3, title=Sword of Honour}
+//{author=Herman Melville, price=8.99, isbn=0-553-21311-3, category=level 5, title=Moby Dick}
+//{author=J. R. R. Tolkien, price=22.99, isbn=0-395-19395-8, category=level 7, title=The Lord of the Rings}
+//PASSED: listAllBookCategories
+//
+//===============================================
+//    Default test
+//    Tests run: 1, Failures: 0, Skips: 0
+//===============================================
+//
+//
+//===============================================
+//Default suite
+//Total tests run: 1, Failures: 0, Skips: 0
+//===============================================
 

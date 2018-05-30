@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1425" started-at="2018-05-18T09:02:42Z" finished-at="2018-05-18T09:02:44Z">
+  <suite name="Default suite" duration-ms="1519" started-at="2018-05-30T06:07:12Z" finished-at="2018-05-30T06:07:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1425" started-at="2018-05-18T09:02:42Z" finished-at="2018-05-18T09:02:44Z">
-      <class name="MAVENModule.path.json.JsonPathDetailedPractice.JSON_With_List_Store">
-        <test-method status="PASS" signature="listAllBookCategories()[pri:0, instance:MAVENModule.path.json.JsonPathDetailedPractice.JSON_With_List_Store@42f93a98]" name="listAllBookCategories" duration-ms="1363" started-at="2018-05-18T09:02:42Z" finished-at="2018-05-18T09:02:44Z">
+    <test name="Default test" duration-ms="1519" started-at="2018-05-30T06:07:12Z" finished-at="2018-05-30T06:07:14Z">
+      <class name="MAVENModule.path.json.JsonPathWith.JSON_With_List_Store">
+        <test-method status="PASS" signature="listAllBookCategories()[pri:0, instance:MAVENModule.path.json.JsonPathWith.JSON_With_List_Store@42f93a98]" name="listAllBookCategories" duration-ms="1472" started-at="2018-05-30T06:07:12Z" finished-at="2018-05-30T06:07:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listAllBookCategories -->
-      </class> <!-- MAVENModule.path.json.JsonPathDetailedPractice.JSON_With_List_Store -->
+      </class> <!-- MAVENModule.path.json.JsonPathWith.JSON_With_List_Store -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
