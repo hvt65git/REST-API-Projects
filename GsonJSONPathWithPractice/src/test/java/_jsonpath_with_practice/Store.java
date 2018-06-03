@@ -14,7 +14,7 @@ package _jsonpath_with_practice;
                 "artist" : "binaural waves",
                 "price" : 11.11
             },
-                        {
+            {
                 "media type" : "DVD",
                 "name" : "chakra balancing",
                 "category" : "new age",
