@@ -66,7 +66,413 @@ false
 Example Request
 GET https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=2
 ----------------------------------------------------------------------------------------------------
-JSON FORMAT - from htemp account
+JSON FORMAT - practice map.entry list parsing for this sample presidential data:
+
+[RemoteTestNG] detected TestNG version 6.14.2
+log4j:WARN No appenders could be found for logger (APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.GetAUserTimeline).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Request method:	GET
+Request URI:	https://api.twitter.com/1.1/statuses/user_timeline.json?count=3&screen_name=realDonaldTrump
+Proxy:			<none>
+Request params:	count=3
+				screen_name=realDonaldTrump
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+content-disposition: attachment; filename=json.json
+content-encoding: gzip
+content-length: 1500
+content-type: application/json;charset=utf-8
+date: Sun, 10 Jun 2018 19:52:55 GMT
+expires: Tue, 31 Mar 1981 05:00:00 GMT
+last-modified: Sun, 10 Jun 2018 19:52:55 GMT
+pragma: no-cache
+server: tsa_a
+set-cookie: personalization_id="v1_kGAovtpfQhe5jiBa6hhnCw=="; Expires=Tue, 09 Jun 2020 19:52:55 GMT; Path=/; Domain=.twitter.com
+set-cookie: lang=en; Path=/
+set-cookie: guest_id=v1%3A152866037538511667; Expires=Tue, 09 Jun 2020 19:52:55 GMT; Path=/; Domain=.twitter.com
+status: 200 OK
+strict-transport-security: max-age=631138519
+x-access-level: read-write
+x-connection-hash: 0b45e8e6dbcec9aa7a2f16797f8258ab
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-rate-limit-limit: 900
+x-rate-limit-remaining: 896
+x-rate-limit-reset: 1528660502
+x-response-time: 42
+x-transaction: 00a4d5b300730b40
+x-twitter-response-tags: BouncerCompliant
+x-xss-protection: 1; mode=block; report=https://twitter.com/i/xss_report
+
+[
+    {
+        "created_at": "Sat Jun 09 23:04:54 +0000 2018",
+        "id": 1005586562959093760,
+        "id_str": "1005586562959093760",
+        "text": "PM Justin Trudeau of Canada acted so meek and mild during our @G7 meetings only to give a news conference after I l… https://t.co/pX1hvH41Ws",
+        "truncated": true,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "g7",
+                    "name": "G7 Canada",
+                    "id": 3191500397,
+                    "id_str": "3191500397",
+                    "indices": [
+                        62,
+                        65
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/pX1hvH41Ws",
+                    "expanded_url": "https://twitter.com/i/web/status/1005586562959093760",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 25073877,
+            "id_str": "25073877",
+            "name": "Donald J. Trump",
+            "screen_name": "realDonaldTrump",
+            "location": "Washington, DC",
+            "description": "45th President of the United States of America??",
+            "url": "https://t.co/OMxB0xp8tD",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/OMxB0xp8tD",
+                            "expanded_url": "http://www.Instagram.com/realDonaldTrump",
+                            "display_url": "Instagram.com/realDonaldTrump",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 52571077,
+            "friends_count": 46,
+            "listed_count": 88995,
+            "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+            "favourites_count": 25,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 37808,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": true,
+            "profile_background_color": "6D5C18",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1528585804",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "C5CEC0",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 28903,
+        "favorite_count": 97757,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat Jun 09 23:03:16 +0000 2018",
+        "id": 1005586152076689408,
+        "id_str": "1005586152076689408",
+        "text": "Based on Justin’s false statements at his news conference, and the fact that Canada is charging massive Tariffs to… https://t.co/8GTCnRTTEG",
+        "truncated": true,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/8GTCnRTTEG",
+                    "expanded_url": "https://twitter.com/i/web/status/1005586152076689408",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 25073877,
+            "id_str": "25073877",
+            "name": "Donald J. Trump",
+            "screen_name": "realDonaldTrump",
+            "location": "Washington, DC",
+            "description": "45th President of the United States of America??",
+            "url": "https://t.co/OMxB0xp8tD",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/OMxB0xp8tD",
+                            "expanded_url": "http://www.Instagram.com/realDonaldTrump",
+                            "display_url": "Instagram.com/realDonaldTrump",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 52571077,
+            "friends_count": 46,
+            "listed_count": 88995,
+            "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+            "favourites_count": 25,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 37808,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": true,
+            "profile_background_color": "6D5C18",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1528585804",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "C5CEC0",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 28346,
+        "favorite_count": 105860,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat Jun 09 20:58:15 +0000 2018",
+        "id": 1005554692133249026,
+        "id_str": "1005554692133249026",
+        "text": "…Create peace and great prosperity for his land. I look forward to meeting him and have a feeling that this one-tim… https://t.co/v8ybjUJ8HW",
+        "truncated": true,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/v8ybjUJ8HW",
+                    "expanded_url": "https://twitter.com/i/web/status/1005554692133249026",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": 1005554687678922752,
+        "in_reply_to_status_id_str": "1005554687678922752",
+        "in_reply_to_user_id": 25073877,
+        "in_reply_to_user_id_str": "25073877",
+        "in_reply_to_screen_name": "realDonaldTrump",
+        "user": {
+            "id": 25073877,
+            "id_str": "25073877",
+            "name": "Donald J. Trump",
+            "screen_name": "realDonaldTrump",
+            "location": "Washington, DC",
+            "description": "45th President of the United States of America??",
+            "url": "https://t.co/OMxB0xp8tD",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/OMxB0xp8tD",
+                            "expanded_url": "http://www.Instagram.com/realDonaldTrump",
+                            "display_url": "Instagram.com/realDonaldTrump",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 52571077,
+            "friends_count": 46,
+            "listed_count": 88995,
+            "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+            "favourites_count": 25,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 37808,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": true,
+            "profile_background_color": "6D5C18",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1528585804",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "C5CEC0",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 12494,
+        "favorite_count": 56179,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    }
+]
+
+Date: Sat Jun 09 23:04:54 +0000 2018
+Tweet #1: PM Justin Trudeau of Canada acted so meek and mild during our @G7 meetings only to give a news conference after I l… https://t.co/pX1hvH41Ws
+
+Date: Sat Jun 09 23:03:16 +0000 2018
+Tweet #2: Based on Justin’s false statements at his news conference, and the fact that Canada is charging massive Tariffs to… https://t.co/8GTCnRTTEG
+
+Date: Sat Jun 09 20:58:15 +0000 2018
+Tweet #3: …Create peace and great prosperity for his land. I look forward to meeting him and have a feeling that this one-tim… https://t.co/v8ybjUJ8HW
+PASSED: verifyTweetForUserTimeline
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+---------------------------------------------------------------------------------------------------
+sample bringin_da_boom data
 
 [
   {
