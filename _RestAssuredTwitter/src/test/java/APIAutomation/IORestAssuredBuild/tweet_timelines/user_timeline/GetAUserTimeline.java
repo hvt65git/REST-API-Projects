@@ -12,13 +12,9 @@ import io.restassured.http.ContentType;
 import io.restassured.parsing.Parser;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
-import io.restassured.specification.RequestSpecification;
 
-import static io.restassured.RestAssured.given;
 import APIAutomation.IORestAssuredBuild._core.Count;
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
-
-import org.apache.log4j.LogManager;
 
 /*
  * 
@@ -27,18 +23,16 @@ public class GetAUserTimeline {
 	private final Logger log = LogManager.getLogger(GetAUserTimeline.class.getName());
 
 	private int ctr = 0;
-	private final Count count = new Count(11);
-	private final String screenName = "tatti_d"; //
+	private final Count count = new Count(3);
+	private final String screenName = "realDonaldTrump"; //
 
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/user_timeline.json";
 
-
 	public Response doGetRequest(String endpoint, int statusCode) {
-		//log.info("Inside POSTRequest call");
-		RestAssured.defaultParser = Parser.JSON;
+		log.info("Inside doGetRequest call");
 		
-		Response response = 
+		ValidatableResponse vr = 
 				RestAssured.given().auth()
 				.oauth(consumerKey, 
 						consumerSecret, 
@@ -50,41 +44,59 @@ public class GetAUserTimeline {
 				.log().all()
 				.get(endpoint)
 				.then().contentType(ContentType.JSON)
-				.statusCode(statusCode).log().all()
-				.extract().response();
+				.statusCode(statusCode);
 		
-		//log.debug(requestSpecification.log().all());
-		return response;
+		log.debug(vr.log().all());
+		return vr.extract().response();
 	}
 
-//	public RequestSpecification doGetRequest(String endpoint, int statusCode) {
-//		RestAssured.defaultParser = Parser.JSON;
-//
-//		RequestSpecification requestSpecification = RestAssured.given()
-//				.auth()
-//				.oauth(consumerKey, 
-//						consumerSecret, 
-//						accessToken, 
-//						accessTokenSecret)
-//
-//				.param(count.getKeyname(), count.getValue())
-//				.param("screen_name", screenName)
-//
-//				.when().get(endpoint)
-//
-//				.then().contentType(ContentType.JSON)
-//				.statusCode(statusCode)
-//				.extract().response();;
-//
-//				return response;
-//
-//
-//	}
 	/*
 	 * 
 	 */
-	private void printOutDateTextStrings(Map<String, Object> map) {
-
+	private void printOutFormattedJsonReponse(Map<String, Object> map) {
+		log.info("Inside printOutDateTextStrings call");
+		/*
+		 * successfully formatted and printed this:
+		 *  
+			"created_at": "Sat Jun 09 23:03:16 +0000 2018",
+	        "id": 1005586152076689408,
+	        "id_str": "1005586152076689408",
+	        "text": "Based on Justin’s false statements at his news conference, and the fact that Canada is charging massive Tariffs to… https://t.co/8GTCnRTTEG",
+	        
+		 * next, format and print this data too:
+		 * 
+		 *  "user": {
+            "id": 25073877,
+            "id_str": "25073877",
+            "name": "Donald J. Trump",
+            "screen_name": "realDonaldTrump",
+            "location": "Washington, DC",
+            "description": "45th President of the United States of America??",
+            "url": "https://t.co/OMxB0xp8tD",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/OMxB0xp8tD",
+                            "expanded_url": "http://www.Instagram.com/realDonaldTrump",
+                            "display_url": "Instagram.com/realDonaldTrump",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 52571077,
+		 */
+		
 		for (Map.Entry<String, Object> entry : map.entrySet()) {
 			if(entry.getKey().equals("created_at")) {
 				System.out.println("Date: " + entry.getValue());
@@ -110,7 +122,7 @@ public class GetAUserTimeline {
 		for(int i=0; i<rootSize; i++) {
 			System.out.println();
 			Map<String, Object> map = root.get(i);
-			printOutDateTextStrings(map);
+			printOutFormattedJsonReponse(map);
 		}
 
 	}
