@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="endtoend_tests.GetDirectMessages">
+      <class name="APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.GetAUserTimeline">
         <methods>
-          <include name="getDMs"/>
+          <include name="verifyTweetForUserTimeline"/>
         </methods>
-      </class> <!-- endtoend_tests.GetDirectMessages -->
+      </class> <!-- APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.GetAUserTimeline -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
