@@ -1,0 +1,148 @@
+https://developers.google.com/youtube/v3/docs/playlists
+
+
+Playlists
+A playlist resource represents a YouTube playlist. A playlist is a collection of videos that can be viewed sequentially and shared with other users. By default, playlists are publicly visible to other users, but playlists can be public or private.
+
+YouTube also uses playlists to identify special collections of videos for a channel, such as:
+
+uploaded videos
+positively rated (liked) videos
+To be more specific, these lists are associated with a channel, which is a collection of a person, group, or company's videos, playlists, and other YouTube information. You can retrieve the playlist IDs for each of these lists from the channel resource for a given channel.
+
+You can then use the playlistItems.list method to retrieve any of those lists. You can also add or remove items from those lists by calling the playlistItems.insert and playlistItems.delete methods.
+Methods
+The API supports the following methods for playlists resources:
+
+list
+Returns a collection of playlists that match the API request parameters. For example, you can retrieve all playlists that the authenticated user owns, or you can retrieve one or more playlists by their unique IDs. Try it now.
+insert
+Creates a playlist. Try it now.
+update
+Modifies a playlist. For example, you could change a playlist's title, description, or privacy status. Try it now.
+delete
+Deletes a playlist. Try it now.
+Resource representation
+The following JSON structure shows the format of a playlists resource:
+
+{
+  "kind": "youtube#playlist",
+  "etag": etag,
+  "id": string,
+  "snippet": {
+    "publishedAt": datetime,
+    "channelId": string,
+    "title": string,
+    "description": string,
+    "thumbnails": {
+      (key): {
+        "url": string,
+        "width": unsigned integer,
+        "height": unsigned integer
+      }
+    },
+    "channelTitle": string,
+    "tags": [
+      string
+    ],
+    "defaultLanguage": string,
+    "localized": {
+      "title": string,
+      "description": string
+    }
+  },
+  "status": {
+    "privacyStatus": string
+  },
+  "contentDetails": {
+    "itemCount": unsigned integer
+  },
+  "player": {
+    "embedHtml": string
+  },
+  "localizations": {
+    (key): {
+      "title": string,
+      "description": string
+    }
+  }
+}
+
+Properties
+The following table defines the properties that appear in this resource:
+
+Properties
+kind	string
+Identifies the API resource's type. The value will be youtube#playlist.
+etag	etag
+The Etag of this resource.
+id	string
+The ID that YouTube uses to uniquely identify the playlist.
+snippet	object
+The snippet object contains basic details about the playlist, such as its title and description.
+snippet.publishedAt	datetime
+The date and time that the playlist was created. The value is specified in ISO 8601 (YYYY-MM-DDThh:mm:ss.sZ) format.
+snippet.channelId	string
+The ID that YouTube uses to uniquely identify the channel that published the playlist.
+snippet.title	string
+The playlist's title.
+snippet.description	string
+The playlist's description.
+snippet.thumbnails	object
+A map of thumbnail images associated with the playlist. For each object in the map, the key is the name of the thumbnail image, and the value is an object that contains other information about the thumbnail.
+snippet.thumbnails.(key)	object
+Valid key values are:
+default – The default thumbnail image. The default thumbnail for a video – or a resource that refers to a video, such as a playlist item or search result – is 120px wide and 90px tall. The default thumbnail for a channel is 88px wide and 88px tall.
+medium – A higher resolution version of the thumbnail image. For a video (or a resource that refers to a video), this image is 320px wide and 180px tall. For a channel, this image is 240px wide and 240px tall.
+high – A high resolution version of the thumbnail image. For a video (or a resource that refers to a video), this image is 480px wide and 360px tall. For a channel, this image is 800px wide and 800px tall.
+standard – An even higher resolution version of the thumbnail image than the high resolution image. This image is available for some videos and other resources that refer to videos, like playlist items or search results. This image is 640px wide and 480px tall.
+maxres – The highest resolution version of the thumbnail image. This image size is available for some videos and other resources that refer to videos, like playlist items or search results. This image is 1280px wide and 720px tall.
+snippet.thumbnails.(key).url	string
+The image's URL.
+snippet.thumbnails.(key).width	unsigned integer
+The image's width.
+snippet.thumbnails.(key).height	unsigned integer
+The image's height.
+snippet.channelTitle	string
+The channel title of the channel that the video belongs to.
+snippet.tags[]	list
+Keyword tags associated with the playlist.
+snippet.defaultLanguage	string
+The language of the text in the playlist resource's snippet.title and snippet.description properties.
+snippet.localized	object
+The snippet.localized object contains either a localized title and description for the playlist or the title in the default language for the playlist's metadata.
+Localized text is returned in the resource snippet if the playlists.list request used the hl parameter to specify a language for which localized text should be returned and localized text is available in that language.
+Metadata for the default language is returned if an hl parameter value is not specified or a value is specified but localized metadata is not available for the specified language.
+The property contains a read-only value. Use the localizations object to add, update, or delete localized titles.
+snippet.localized.title	string
+The localized playlist title.
+snippet.localized.description	string
+The localized playlist description.
+status	object
+The status object contains status information for the playlist.
+status.privacyStatus	string
+The playlist's privacy status.
+
+Valid values for this property are:
+private
+public
+unlisted
+contentDetails	object
+The contentDetails object contains information about the playlist content, including the number of videos in the playlist.
+contentDetails.itemCount	unsigned integer
+The number of videos in the playlist.
+player	object
+The player object contains information that you would use to play the playlist in an embedded player.
+player.embedHtml	string
+An <iframe> tag that embeds a player that will play the playlist.
+localizations	object
+The localizations object encapsulates translations of the playlist's metadata.
+localizations.(key)	object
+The language of the localized text associated with the key value. The value is a string that contains a BCP-47 language code.
+localizations.(key).title	string
+The localized playlist title.
+localizations.(key).description	string
+The localized playlist description.
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 3.0 License, and code samples are licensed under the Apache 2.0 License. For details, see our Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated October 27, 2017.

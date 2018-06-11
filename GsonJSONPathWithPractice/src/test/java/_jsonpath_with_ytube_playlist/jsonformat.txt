@@ -1,0 +1,94 @@
+[
+  {
+    "kind": "youtube#playlistListResponse",
+    "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/XmGf-qKQ7tfZ0yDuoFaENDVDROo\"",
+    "pageInfo": {
+      "totalResults": 2,
+      "resultsPerPage": 25
+    },
+    "items": [
+      {
+        "kind": "youtube#playlist",
+        "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/6e5U9Eo0r7himbdLdlILszTKUgs\"",
+        "id": "PLz3RQ1o28UjaS7pvmzdwL_46zS-vhZL0W",
+        "snippet": {
+          "publishedAt": "2018-06-10T03:30:47.000Z",
+          "channelId": "UC0tZImEOXUutIyNqkq7lykA",
+          "title": "ORBS",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/OZwwR4mkKts/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OZwwR4mkKts/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OZwwR4mkKts/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Hank65 65",
+          "localized": {
+            "title": "ORBS",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 5
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "\"DuHzAJ-eQIiCIp7p4ldoVcVAOeY/DLYRa5sVLfhUJk1stDOfCrbA2aw\"",
+        "id": "PLz3RQ1o28UjYspEt664JxPzrflMyovFLO",
+        "snippet": {
+          "publishedAt": "2018-06-10T03:28:18.000Z",
+          "channelId": "UC0tZImEOXUutIyNqkq7lykA",
+          "title": "YTUBE_FAVS",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6HyScCAgEI8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6HyScCAgEI8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6HyScCAgEI8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/6HyScCAgEI8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/6HyScCAgEI8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Hank65 65",
+          "localized": {
+            "title": "YTUBE_FAVS",
+            "description": ""
+          }
+        },
+        "contentDetails": {
+          "itemCount": 4
+        }
+      }
+    ]
+  }
+]

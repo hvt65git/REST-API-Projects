@@ -1,79 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3552" started-at="2018-06-10T21:56:02Z" finished-at="2018-06-10T21:56:06Z">
+  <suite name="Default suite" duration-ms="4729" started-at="2018-06-10T23:09:33Z" finished-at="2018-06-10T23:09:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3552" started-at="2018-06-10T21:56:02Z" finished-at="2018-06-10T21:56:06Z">
-      <class name="toolsqa.JsonPathUsage1">
-        <test-method status="FAIL" signature="jsonPathUsage1()[pri:0, instance:toolsqa.JsonPathUsage1@3159c4b8]" name="jsonPathUsage1" duration-ms="3510" started-at="2018-06-10T21:56:02Z" finished-at="2018-06-10T21:56:06Z">
-          <exception class="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException">
-            <message>
-              <![CDATA[Unrecognized field "website" (class toolsqa.Book), not marked as ignorable (0 known properties: ])
- at [Source: java.io.StringReader@1c4ee95c; line: 1, column: 13] (through reference chain: toolsqa.Book["website"])]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "website" (class toolsqa.Book), not marked as ignorable (0 known properties: ])
- at [Source: java.io.StringReader@1c4ee95c; line: 1, column: 13] (through reference chain: toolsqa.Book["website"])
-at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:79)
-at com.fasterxml.jackson.databind.DeserializationContext.reportUnknownProperty(DeserializationContext.java:555)
-at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:708)
-at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1160)
-at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:315)
-at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
-at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2888)
-at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2048)
-at com.fasterxml.jackson.databind.ObjectMapper$readValue$0.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
-at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.groovy:47)
-at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.groovy:98)
-at io.restassured.internal.path.json.mapping.JsonObjectDeserializer$deserializeWithJackson2.callStatic(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)
-at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.groovy:67)
-at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1016)
-at io.restassured.path.json.JsonPath.getList(JsonPath.java:398)
-at toolsqa.JsonPathUsage1.jsonPathUsage1(JsonPathUsage1.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException -->
+    <test name="Default test" duration-ms="4729" started-at="2018-06-10T23:09:33Z" finished-at="2018-06-10T23:09:38Z">
+      <class name="toolsqa.RestAssuredTestingTutorial">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherDetails" duration-ms="3099" started-at="2018-06-10T23:09:33Z" finished-at="2018-06-10T23:09:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jsonPathUsage1 -->
-      </class> <!-- toolsqa.JsonPathUsage1 -->
+        </test-method> <!-- GetWeatherDetails -->
+        <test-method status="PASS" signature="GetWeatherDetailsInvalidCity()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherDetailsInvalidCity" duration-ms="516" started-at="2018-06-10T23:09:36Z" finished-at="2018-06-10T23:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetailsInvalidCity -->
+        <test-method status="PASS" signature="GetWeatherDetailsResponse()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherDetailsResponse" duration-ms="551" started-at="2018-06-10T23:09:37Z" finished-at="2018-06-10T23:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetailsResponse -->
+        <test-method status="PASS" signature="GetWeatherStatusLine()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherStatusLine" duration-ms="524" started-at="2018-06-10T23:09:38Z" finished-at="2018-06-10T23:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherStatusLine -->
+      </class> <!-- toolsqa.RestAssuredTestingTutorial -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
