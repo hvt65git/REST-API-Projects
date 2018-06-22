@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4729" started-at="2018-06-10T23:09:33Z" finished-at="2018-06-10T23:09:38Z">
+  <suite name="Default suite" duration-ms="4759" started-at="2018-06-22T02:18:25Z" finished-at="2018-06-22T02:18:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4729" started-at="2018-06-10T23:09:33Z" finished-at="2018-06-10T23:09:38Z">
-      <class name="toolsqa.RestAssuredTestingTutorial">
-        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherDetails" duration-ms="3099" started-at="2018-06-10T23:09:33Z" finished-at="2018-06-10T23:09:36Z">
+    <test name="Default test" duration-ms="4759" started-at="2018-06-22T02:18:25Z" finished-at="2018-06-22T02:18:29Z">
+      <class name="twitter.ParseTwitterUserTimeline">
+        <test-method status="PASS" signature="verifyTweetForUserTimeline()[pri:0, instance:twitter.ParseTwitterUserTimeline@6e1ec318]" name="verifyTweetForUserTimeline" duration-ms="4708" started-at="2018-06-22T02:18:25Z" finished-at="2018-06-22T02:18:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetWeatherDetails -->
-        <test-method status="PASS" signature="GetWeatherDetailsInvalidCity()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherDetailsInvalidCity" duration-ms="516" started-at="2018-06-10T23:09:36Z" finished-at="2018-06-10T23:09:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetWeatherDetailsInvalidCity -->
-        <test-method status="PASS" signature="GetWeatherDetailsResponse()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherDetailsResponse" duration-ms="551" started-at="2018-06-10T23:09:37Z" finished-at="2018-06-10T23:09:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetWeatherDetailsResponse -->
-        <test-method status="PASS" signature="GetWeatherStatusLine()[pri:0, instance:toolsqa.RestAssuredTestingTutorial@3159c4b8]" name="GetWeatherStatusLine" duration-ms="524" started-at="2018-06-10T23:09:38Z" finished-at="2018-06-10T23:09:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetWeatherStatusLine -->
-      </class> <!-- toolsqa.RestAssuredTestingTutorial -->
+        </test-method> <!-- verifyTweetForUserTimeline -->
+      </class> <!-- twitter.ParseTwitterUserTimeline -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

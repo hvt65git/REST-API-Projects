@@ -23,7 +23,7 @@ public class GetAUserTimeline {
 	private final Logger log = LogManager.getLogger(GetAUserTimeline.class.getName());
 
 	private int ctr = 0;
-	private final Count count = new Count(3);
+	private final Count count = new Count(2);
 	private final String screenName = "realDonaldTrump"; //
 
 	private final String baseURI = "https://api.twitter.com";
