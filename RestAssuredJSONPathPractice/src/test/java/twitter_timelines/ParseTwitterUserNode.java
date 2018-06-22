@@ -1,4 +1,4 @@
-package twitter; 
+package twitter_timelines; 
 
 import static twittercore.OAUTH.*;
 
@@ -19,7 +19,7 @@ import io.restassured.response.ValidatableResponse;
 //use a list of maps data structure: List<Map<String,Object>> users
  */
 
-public class ParseTwitterUserTimeline {
+public class ParseTwitterUserNode {
 	private int ctr = 0;
 	private final Count count = new Count(1);
 	private final String screenName = "iamfonda"; //
@@ -38,12 +38,12 @@ public class ParseTwitterUserTimeline {
 				.param(count.getKeyname(), count.getValue())
 				.param("screen_name", screenName)
 				.contentType(ContentType.JSON)
-				//.log().all()
+				.log().all()
 				.get(endpoint)
 				.then().contentType(ContentType.JSON)
-				.statusCode(statusCode);
+				.statusCode(statusCode).log().all();
 
-		return vr.extract().response().log().all();
+		return vr.extract().response();
 	}
 
 	/*
