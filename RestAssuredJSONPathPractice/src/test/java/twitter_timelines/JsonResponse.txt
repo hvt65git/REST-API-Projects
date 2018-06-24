@@ -1,118 +1,10 @@
+
 [
     {
-        "created_at": "Thu Jun 21 20:46:44 +0000 2018",
-        "id": 1009900449456115719,
-        "id_str": "1009900449456115719",
-        "text": "Big Supreme Court win on internet sales tax - about time! Big victory for fairness and for our country. Great victo… https://t.co/wV2cxGtsWA",
-        "truncated": true,
-        "entities": {
-            "hashtags": [
-                
-            ],
-            "symbols": [
-                
-            ],
-            "user_mentions": [
-                
-            ],
-            "urls": [
-                {
-                    "url": "https://t.co/wV2cxGtsWA",
-                    "expanded_url": "https://twitter.com/i/web/status/1009900449456115719",
-                    "display_url": "twitter.com/i/web/status/1…retweet_count
-                    ",
-                    "indices": [
-                        117,
-                        140
-                    ]
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-            "id": 25073877,
-            "id_str": "25073877",
-            "name": "Donald J. Trump",
-            "screen_name": "realDonaldTrump",
-            "location": "Washington, DC",
-            "description": "45th President of the United States of America??",
-            "url": "https://t.co/OMxB0xp8tD",
-            "entities": {
-                "url": {
-                    "urls": [
-                        {
-                            "url": "https://t.co/OMxB0xp8tD",
-                            "expanded_url": "http://www.Instagram.com/realDonaldTrump",
-                            "display_url": "Instagram.com/realDonaldTrump",
-                            "indices": [
-                                0,
-                                23
-                            ]
-                        }
-                    ]
-                },
-                "description": {
-                    "urls": [
-                        
-                    ]
-                }
-            },
-            "protected": false,
-            "followers_count": 52963274,
-            "friends_count": 46,
-            "listed_count": 89415,
-            "created_at": "Wed Mar 18 13:46:38 +0000 2009",
-            "favourites_count": 25,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": true,
-            "verified": true,
-            "statuses_count": 37943,
-            "lang": "en",
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": true,
-            "profile_background_color": "6D5C18",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": true,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1529423542",
-            "profile_link_color": "1B95E0",
-            "profile_sidebar_border_color": "BDDCAD",
-            "profile_sidebar_fill_color": "C5CEC0",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": false,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "regular"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 3281,
-        "favorite_count": 13592,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Thu Jun 21 20:46:10 +0000 2018",
-        "id": 1009900306694656002,
-        "id_str": "1009900306694656002",
-        "text": "Farm Bill just passed in the House. So happy to see work requirements included. Big win for the farmers!",
+        "created_at": "Fri Jun 22 02:22:28 +0000 2018",
+        "id": 1009984937175314432,
+        "id_str": "1009984937175314432",
+        "text": "RT @WajahatAli: \"If Moderate Muslims Are Asked to Condemn Extremists, Where Are Moderate Republican Christians?\" - I ask for @thedailybeast…",
         "truncated": false,
         "entities": {
             "hashtags": [
@@ -122,7 +14,26 @@
                 
             ],
             "user_mentions": [
-                
+                {
+                    "screen_name": "WajahatAli",
+                    "name": "Wajahat Ali",
+                    "id": 21733692,
+                    "id_str": "21733692",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                },
+                {
+                    "screen_name": "thedailybeast",
+                    "name": "The Daily Beast",
+                    "id": 16012783,
+                    "id_str": "16012783",
+                    "indices": [
+                        125,
+                        139
+                    ]
+                }
             ],
             "urls": [
                 
@@ -135,23 +46,23 @@
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-            "id": 25073877,
-            "id_str": "25073877",
-            "name": "Donald J. Trump",
-            "screen_name": "realDonaldTrump",
-            "location": "Washington, DC",
-            "description": "45th President of the United States of America??",
-            "url": "https://t.co/OMxB0xp8tD",
+            "id": 201923339,
+            "id_str": "201923339",
+            "name": "Peter Henry Fonda",
+            "screen_name": "iamfonda",
+            "location": "",
+            "description": "Official Twitter Feed for Peter Henry Fonda - \r\nActor/Filmmaker/Author/Activist. \r\nVisit my website for latest blog and facebook page link.",
+            "url": "http://t.co/umCMAYmiAN",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/OMxB0xp8tD",
-                            "expanded_url": "http://www.Instagram.com/realDonaldTrump",
-                            "display_url": "Instagram.com/realDonaldTrump",
+                            "url": "http://t.co/umCMAYmiAN",
+                            "expanded_url": "http://www.peterfonda.com",
+                            "display_url": "peterfonda.com",
                             "indices": [
                                 0,
-                                23
+                                22
                             ]
                         }
                     ]
@@ -163,31 +74,30 @@
                 }
             },
             "protected": false,
-            "followers_count": 52963274,
-            "friends_count": 46,
-            "listed_count": 89415,
-            "created_at": "Wed Mar 18 13:46:38 +0000 2009",
-            "favourites_count": 25,
+            "followers_count": 57284,
+            "friends_count": 963,
+            "listed_count": 842,
+            "created_at": "Tue Oct 12 22:53:43 +0000 2010",
+            "favourites_count": 12234,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": true,
             "verified": true,
-            "statuses_count": 37943,
+            "statuses_count": 24807,
             "lang": "en",
             "contributors_enabled": false,
             "is_translator": false,
-            "is_translation_enabled": true,
-            "profile_background_color": "6D5C18",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": true,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1529423542",
-            "profile_link_color": "1B95E0",
-            "profile_sidebar_border_color": "BDDCAD",
-            "profile_sidebar_fill_color": "C5CEC0",
-            "profile_text_color": "333333",
+            "is_translation_enabled": false,
+            "profile_background_color": "13334C",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_link_color": "3B6188",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "95E8EC",
+            "profile_text_color": "3C3940",
             "profile_use_background_image": true,
             "has_extended_profile": false,
             "default_profile": false,
@@ -195,15 +105,1292 @@
             "following": false,
             "follow_request_sent": false,
             "notifications": false,
-            "translator_type": "regular"
+            "translator_type": "none"
         },
         "geo": null,
         "coordinates": null,
         "place": null,
         "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Jun 21 21:27:22 +0000 2018",
+            "id": 1009910674737295360,
+            "id_str": "1009910674737295360",
+            "text": "\"If Moderate Muslims Are Asked to Condemn Extremists, Where Are Moderate Republican Christians?\" - I ask for… https://t.co/n81NlYU7al",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    
+                ],
+                "symbols": [
+                    
+                ],
+                "user_mentions": [
+                    
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/n81NlYU7al",
+                        "expanded_url": "https://twitter.com/i/web/status/1009910674737295360",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            110,
+                            133
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 21733692,
+                "id_str": "21733692",
+                "name": "Wajahat Ali",
+                "screen_name": "WajahatAli",
+                "location": "D.C. by way of Fremontistan",
+                "description": "@nytimes Contributing Oped Writer; \"That Guy\" on TV; Emmy-Nominated Producer; Tired Dad Owned by Cute Babies.\n\nLovers & Trolls Talk To Me: MeAmWajahat@gmail.com",
+                "url": "https://t.co/cIdomigt7a",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/cIdomigt7a",
+                                "expanded_url": "http://www.thelavinagency.com/speaker-wajahat-ali.html",
+                                "display_url": "thelavinagency.com/speaker-wajaha…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 82437,
+                "friends_count": 1165,
+                "listed_count": 1454,
+                "created_at": "Tue Feb 24 05:57:37 +0000 2009",
+                "favourites_count": 12597,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 90217,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/859503016940097537/uaa6krZQ_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/859503016940097537/uaa6krZQ_normal.jpg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1228,
+            "favorite_count": 2628,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
         "is_quote_status": false,
-        "retweet_count": 3439,
-        "favorite_count": 14496,
+        "retweet_count": 1228,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Jun 22 02:20:42 +0000 2018",
+        "id": 1009984495376687106,
+        "id_str": "1009984495376687106",
+        "text": "RT @peterdaou: I know this has been said a million times, but sometimes you have to pause and think about the immense cruelty it takes to w…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "peterdaou",
+                    "name": "Peter Daou",
+                    "id": 18464266,
+                    "id_str": "18464266",
+                    "indices": [
+                        3,
+                        13
+                    ]
+                }
+            ],
+            "urls": [
+                
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 201923339,
+            "id_str": "201923339",
+            "name": "Peter Henry Fonda",
+            "screen_name": "iamfonda",
+            "location": "",
+            "description": "Official Twitter Feed for Peter Henry Fonda - \r\nActor/Filmmaker/Author/Activist. \r\nVisit my website for latest blog and facebook page link.",
+            "url": "http://t.co/umCMAYmiAN",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/umCMAYmiAN",
+                            "expanded_url": "http://www.peterfonda.com",
+                            "display_url": "peterfonda.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 57284,
+            "friends_count": 963,
+            "listed_count": 842,
+            "created_at": "Tue Oct 12 22:53:43 +0000 2010",
+            "favourites_count": 12234,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 24807,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "13334C",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_link_color": "3B6188",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "95E8EC",
+            "profile_text_color": "3C3940",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Fri Jun 22 00:10:04 +0000 2018",
+            "id": 1009951619335811072,
+            "id_str": "1009951619335811072",
+            "text": "I know this has been said a million times, but sometimes you have to pause and think about the immense cruelty it t… https://t.co/kUqeUCETQE",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    
+                ],
+                "symbols": [
+                    
+                ],
+                "user_mentions": [
+                    
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/kUqeUCETQE",
+                        "expanded_url": "https://twitter.com/i/web/status/1009951619335811072",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 18464266,
+                "id_str": "18464266",
+                "name": "Peter Daou",
+                "screen_name": "peterdaou",
+                "location": "",
+                "description": "What a time.",
+                "url": "http://t.co/PAymxiYMXb",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/PAymxiYMXb",
+                                "expanded_url": "http://peterdaou.com",
+                                "display_url": "peterdaou.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 190235,
+                "friends_count": 990,
+                "listed_count": 3155,
+                "created_at": "Tue Dec 30 00:21:14 +0000 2008",
+                "favourites_count": 20166,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 61418,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "709397",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/855902920222625796/E2_h_-xf_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/855902920222625796/E2_h_-xf_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/18464266/1468951118",
+                "profile_link_color": "30547D",
+                "profile_sidebar_border_color": "86A4A6",
+                "profile_sidebar_fill_color": "A0C5C7",
+                "profile_text_color": "4E6D83",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 3919,
+            "favorite_count": 11349,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 3919,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Jun 22 02:20:16 +0000 2018",
+        "id": 1009984385653792768,
+        "id_str": "1009984385653792768",
+        "text": "RT @ChrisMurphyCT: I’m not the smartest guy in the world but I think I can be for secure borders at the same time that I’m against taking 5…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "ChrisMurphyCT",
+                    "name": "Chris Murphy",
+                    "id": 150078976,
+                    "id_str": "150078976",
+                    "indices": [
+                        3,
+                        17
+                    ]
+                }
+            ],
+            "urls": [
+                
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 201923339,
+            "id_str": "201923339",
+            "name": "Peter Henry Fonda",
+            "screen_name": "iamfonda",
+            "location": "",
+            "description": "Official Twitter Feed for Peter Henry Fonda - \r\nActor/Filmmaker/Author/Activist. \r\nVisit my website for latest blog and facebook page link.",
+            "url": "http://t.co/umCMAYmiAN",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/umCMAYmiAN",
+                            "expanded_url": "http://www.peterfonda.com",
+                            "display_url": "peterfonda.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 57284,
+            "friends_count": 963,
+            "listed_count": 842,
+            "created_at": "Tue Oct 12 22:53:43 +0000 2010",
+            "favourites_count": 12234,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 24807,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "13334C",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_link_color": "3B6188",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "95E8EC",
+            "profile_text_color": "3C3940",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Jun 21 15:08:04 +0000 2018",
+            "id": 1009815220208984064,
+            "id_str": "1009815220208984064",
+            "text": "I’m not the smartest guy in the world but I think I can be for secure borders at the same time that I’m against tak… https://t.co/1cNE7Re8Oo",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    
+                ],
+                "symbols": [
+                    
+                ],
+                "user_mentions": [
+                    
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/1cNE7Re8Oo",
+                        "expanded_url": "https://twitter.com/i/web/status/1009815220208984064",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 150078976,
+                "id_str": "150078976",
+                "name": "Chris Murphy",
+                "screen_name": "ChrisMurphyCT",
+                "location": "",
+                "description": "U.S. Senator from Connecticut.",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": [
+                            
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 715178,
+                "friends_count": 178,
+                "listed_count": 4344,
+                "created_at": "Mon May 31 01:22:43 +0000 2010",
+                "favourites_count": 889,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 16393,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/871076844904361985/7NorOQHB_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/871076844904361985/7NorOQHB_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/150078976/1493845670",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": true,
+            "quoted_status_id": 1009807715798044672,
+            "quoted_status_id_str": "1009807715798044672",
+            "quoted_status": {
+                "created_at": "Thu Jun 21 14:38:15 +0000 2018",
+                "id": 1009807715798044672,
+                "id_str": "1009807715798044672",
+                "text": "Democrats want open Borders, where anyone can come into our Country, and stay. This is Nancy Pelosi’s dream. It won’t happen!",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        
+                    ],
+                    "symbols": [
+                        
+                    ],
+                    "user_mentions": [
+                        
+                    ],
+                    "urls": [
+                        
+                    ]
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 25073877,
+                    "id_str": "25073877",
+                    "name": "Donald J. Trump",
+                    "screen_name": "realDonaldTrump",
+                    "location": "Washington, DC",
+                    "description": "45th President of the United States of America??",
+                    "url": "https://t.co/OMxB0xp8tD",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/OMxB0xp8tD",
+                                    "expanded_url": "http://www.Instagram.com/realDonaldTrump",
+                                    "display_url": "Instagram.com/realDonaldTrump",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": [
+                                
+                            ]
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 52980254,
+                    "friends_count": 46,
+                    "listed_count": 89563,
+                    "created_at": "Wed Mar 18 13:46:38 +0000 2009",
+                    "favourites_count": 25,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 37963,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": true,
+                    "profile_background_color": "6D5C18",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/25073877/1529423542",
+                    "profile_link_color": "1B95E0",
+                    "profile_sidebar_border_color": "BDDCAD",
+                    "profile_sidebar_fill_color": "C5CEC0",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "regular"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 24786,
+                "favorite_count": 100952,
+                "favorited": false,
+                "retweeted": false,
+                "lang": "en"
+            },
+            "retweet_count": 8509,
+            "favorite_count": 32353,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": true,
+        "quoted_status_id": 1009807715798044672,
+        "quoted_status_id_str": "1009807715798044672",
+        "retweet_count": 8509,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Jun 22 02:19:51 +0000 2018",
+        "id": 1009984279764353024,
+        "id_str": "1009984279764353024",
+        "text": "RT @JohnWDean: Give Trump credit: He’s the PT Barnum of POTUS politics. Barnum famously said: “There's a sucker born every minute” and “I d…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "JohnWDean",
+                    "name": "John Dean",
+                    "id": 160010755,
+                    "id_str": "160010755",
+                    "indices": [
+                        3,
+                        13
+                    ]
+                }
+            ],
+            "urls": [
+                
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 201923339,
+            "id_str": "201923339",
+            "name": "Peter Henry Fonda",
+            "screen_name": "iamfonda",
+            "location": "",
+            "description": "Official Twitter Feed for Peter Henry Fonda - \r\nActor/Filmmaker/Author/Activist. \r\nVisit my website for latest blog and facebook page link.",
+            "url": "http://t.co/umCMAYmiAN",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/umCMAYmiAN",
+                            "expanded_url": "http://www.peterfonda.com",
+                            "display_url": "peterfonda.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 57284,
+            "friends_count": 963,
+            "listed_count": 842,
+            "created_at": "Tue Oct 12 22:53:43 +0000 2010",
+            "favourites_count": 12234,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 24807,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "13334C",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_link_color": "3B6188",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "95E8EC",
+            "profile_text_color": "3C3940",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Jun 21 22:47:49 +0000 2018",
+            "id": 1009930918734131201,
+            "id_str": "1009930918734131201",
+            "text": "Give Trump credit: He’s the PT Barnum of POTUS politics. Barnum famously said: “There's a sucker born every minute”… https://t.co/3y195xccZf",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    
+                ],
+                "symbols": [
+                    
+                ],
+                "user_mentions": [
+                    
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/3y195xccZf",
+                        "expanded_url": "https://twitter.com/i/web/status/1009930918734131201",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 160010755,
+                "id_str": "160010755",
+                "name": "John Dean",
+                "screen_name": "JohnWDean",
+                "location": "Los Angeles, CA",
+                "description": "Author, Lecturer, Columnist (Justia), CNN contributor, fmr Nixon White House Counsel, and fmr Goldwater Chair of Amer. Inst. at Az State Un. Pix of my girls.",
+                "url": "https://t.co/C7A6IfjL1s",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/C7A6IfjL1s",
+                                "expanded_url": "http://bitly.com/l1aVwg",
+                                "display_url": "bitly.com/l1aVwg",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 118701,
+                "friends_count": 1342,
+                "listed_count": 1649,
+                "created_at": "Sat Jun 26 23:32:22 +0000 2010",
+                "favourites_count": 156,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 11734,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1000863848402894848/wXdIlYg7_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1000863848402894848/wXdIlYg7_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/160010755/1403715425",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1655,
+            "favorite_count": 4875,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1655,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Jun 22 02:16:30 +0000 2018",
+        "id": 1009983434977042432,
+        "id_str": "1009983434977042432",
+        "text": "RT @ColMorrisDavis: Jesus had a “I really don’t care” coat, didn’t he?\n\n@FLOTUS \n@realDonaldTrump \n@Franklin_Graham \n@Pontifex \n@maddow htt…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "ColMorrisDavis",
+                    "name": "Col. Morris Davis",
+                    "id": 489475164,
+                    "id_str": "489475164",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                },
+                {
+                    "screen_name": "FLOTUS",
+                    "name": "Melania Trump",
+                    "id": 818876014390603776,
+                    "id_str": "818876014390603776",
+                    "indices": [
+                        72,
+                        79
+                    ]
+                },
+                {
+                    "screen_name": "realDonaldTrump",
+                    "name": "Donald J. Trump",
+                    "id": 25073877,
+                    "id_str": "25073877",
+                    "indices": [
+                        81,
+                        97
+                    ]
+                },
+                {
+                    "screen_name": "Franklin_Graham",
+                    "name": "Franklin Graham",
+                    "id": 44945327,
+                    "id_str": "44945327",
+                    "indices": [
+                        99,
+                        115
+                    ]
+                },
+                {
+                    "screen_name": "Pontifex",
+                    "name": "Pope Francis",
+                    "id": 500704345,
+                    "id_str": "500704345",
+                    "indices": [
+                        117,
+                        126
+                    ]
+                },
+                {
+                    "screen_name": "maddow",
+                    "name": "Rachel Maddow MSNBC",
+                    "id": 16129920,
+                    "id_str": "16129920",
+                    "indices": [
+                        128,
+                        135
+                    ]
+                }
+            ],
+            "urls": [
+                
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 201923339,
+            "id_str": "201923339",
+            "name": "Peter Henry Fonda",
+            "screen_name": "iamfonda",
+            "location": "",
+            "description": "Official Twitter Feed for Peter Henry Fonda - \r\nActor/Filmmaker/Author/Activist. \r\nVisit my website for latest blog and facebook page link.",
+            "url": "http://t.co/umCMAYmiAN",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/umCMAYmiAN",
+                            "expanded_url": "http://www.peterfonda.com",
+                            "display_url": "peterfonda.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 57284,
+            "friends_count": 963,
+            "listed_count": 842,
+            "created_at": "Tue Oct 12 22:53:43 +0000 2010",
+            "favourites_count": 12234,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 24807,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "13334C",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1264127446/Peter-Fonda-Picture-257x300_1__normal.jpg",
+            "profile_link_color": "3B6188",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "95E8EC",
+            "profile_text_color": "3C3940",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Fri Jun 22 00:09:43 +0000 2018",
+            "id": 1009951530894741505,
+            "id_str": "1009951530894741505",
+            "text": "Jesus had a “I really don’t care” coat, didn’t he?\n\n@FLOTUS \n@realDonaldTrump \n@Franklin_Graham \n@Pontifex \n@maddow https://t.co/4huAJMjYht",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    
+                ],
+                "symbols": [
+                    
+                ],
+                "user_mentions": [
+                    {
+                        "screen_name": "FLOTUS",
+                        "name": "Melania Trump",
+                        "id": 818876014390603776,
+                        "id_str": "818876014390603776",
+                        "indices": [
+                            52,
+                            59
+                        ]
+                    },
+                    {
+                        "screen_name": "realDonaldTrump",
+                        "name": "Donald J. Trump",
+                        "id": 25073877,
+                        "id_str": "25073877",
+                        "indices": [
+                            61,
+                            77
+                        ]
+                    },
+                    {
+                        "screen_name": "Franklin_Graham",
+                        "name": "Franklin Graham",
+                        "id": 44945327,
+                        "id_str": "44945327",
+                        "indices": [
+                            79,
+                            95
+                        ]
+                    },
+                    {
+                        "screen_name": "Pontifex",
+                        "name": "Pope Francis",
+                        "id": 500704345,
+                        "id_str": "500704345",
+                        "indices": [
+                            97,
+                            106
+                        ]
+                    },
+                    {
+                        "screen_name": "maddow",
+                        "name": "Rachel Maddow MSNBC",
+                        "id": 16129920,
+                        "id_str": "16129920",
+                        "indices": [
+                            108,
+                            115
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/4huAJMjYht",
+                        "expanded_url": "https://twitter.com/acosta/status/1009871069694627842",
+                        "display_url": "twitter.com/acosta/status/…",
+                        "indices": [
+                            116,
+                            139
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 489475164,
+                "id_str": "489475164",
+                "name": "Col. Morris Davis",
+                "screen_name": "ColMorrisDavis",
+                "location": "Washington, DC, area",
+                "description": "Former Guantanamo Chief Prosecutor/Colonel (ret). NATSEC opinions in NY Times, WSJ, LA Times, and on CNN, MSNBC, Fox News. Tweets in personal capacity only.",
+                "url": "https://t.co/aYNmi2um3X",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/aYNmi2um3X",
+                                "expanded_url": "https://en.wikipedia.org/wiki/Morris_Davis",
+                                "display_url": "en.wikipedia.org/wiki/Morris_Da…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 103083,
+                "friends_count": 822,
+                "listed_count": 1688,
+                "created_at": "Sat Feb 11 15:28:44 +0000 2012",
+                "favourites_count": 46,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 73182,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "8DCCAD",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/930274354256076802/frZnkJeh_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/930274354256076802/frZnkJeh_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/489475164/1496798697",
+                "profile_link_color": "981CEB",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "F9D6AC",
+                "profile_text_color": "988864",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": true,
+            "quoted_status_id": 1009871069694627842,
+            "quoted_status_id_str": "1009871069694627842",
+            "quoted_status": {
+                "created_at": "Thu Jun 21 18:50:00 +0000 2018",
+                "id": 1009871069694627842,
+                "id_str": "1009871069694627842",
+                "text": "FLOTUS spox confirms Mrs. Trump wore a jacket to visit border kids that reads: \"I really don't care. Do you?\" Spox… https://t.co/YZPfreAsgn",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        
+                    ],
+                    "symbols": [
+                        
+                    ],
+                    "user_mentions": [
+                        
+                    ],
+                    "urls": [
+                        {
+                            "url": "https://t.co/YZPfreAsgn",
+                            "expanded_url": "https://twitter.com/i/web/status/1009871069694627842",
+                            "display_url": "twitter.com/i/web/status/1…",
+                            "indices": [
+                                116,
+                                139
+                            ]
+                        }
+                    ]
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 22771961,
+                    "id_str": "22771961",
+                    "name": "Jim Acosta",
+                    "screen_name": "Acosta",
+                    "location": "Washington, DC",
+                    "description": "CNN's Chief White House Correspondent. I believe in #realnews.",
+                    "url": "https://t.co/IaghNWqyKC",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/IaghNWqyKC",
+                                    "expanded_url": "http://www.cnn.com",
+                                    "display_url": "cnn.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": [
+                                
+                            ]
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 605948,
+                    "friends_count": 3199,
+                    "listed_count": 6435,
+                    "created_at": "Wed Mar 04 13:48:04 +0000 2009",
+                    "favourites_count": 6004,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 29289,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "A39E96",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/986034071850635266/T8oLbp_f_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/986034071850635266/T8oLbp_f_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/22771961/1523891288",
+                    "profile_link_color": "1B95E0",
+                    "profile_sidebar_border_color": "33363D",
+                    "profile_sidebar_fill_color": "AD9D6B",
+                    "profile_text_color": "3D2406",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 17338,
+                "favorite_count": 26930,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "retweet_count": 143,
+            "favorite_count": 488,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": true,
+            "lang": "en"
+        },
+        "is_quote_status": true,
+        "quoted_status_id": 1009871069694627842,
+        "quoted_status_id_str": "1009871069694627842",
+        "retweet_count": 143,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
