@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3509" started-at="2018-06-24T08:17:29Z" finished-at="2018-06-24T08:17:33Z">
+  <suite name="Default suite" duration-ms="3928" started-at="2018-06-24T21:07:49Z" finished-at="2018-06-24T21:07:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3509" started-at="2018-06-24T08:17:29Z" finished-at="2018-06-24T08:17:33Z">
-      <class name="twitter_timelines.ParseTwitterUserEntitiesNode">
-        <test-method status="PASS" signature="verifyTweetForUserTimeline()[pri:0, instance:twitter_timelines.ParseTwitterUserEntitiesNode@6e1ec318]" name="verifyTweetForUserTimeline" duration-ms="3461" started-at="2018-06-24T08:17:29Z" finished-at="2018-06-24T08:17:33Z">
+    <test name="Default test" duration-ms="3928" started-at="2018-06-24T21:07:49Z" finished-at="2018-06-24T21:07:53Z">
+      <class name="twitter_timelines.ParseTwitterUserNode">
+        <test-method status="PASS" signature="verifyTweetForUserTimeline()[pri:0, instance:twitter_timelines.ParseTwitterUserNode@6e1ec318]" name="verifyTweetForUserTimeline" duration-ms="3866" started-at="2018-06-24T21:07:49Z" finished-at="2018-06-24T21:07:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTweetForUserTimeline -->
-      </class> <!-- twitter_timelines.ParseTwitterUserEntitiesNode -->
+      </class> <!-- twitter_timelines.ParseTwitterUserNode -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

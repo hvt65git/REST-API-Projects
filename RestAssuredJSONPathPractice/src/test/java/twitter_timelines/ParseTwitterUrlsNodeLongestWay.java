@@ -34,9 +34,10 @@ import io.restassured.response.ValidatableResponse;
 //Map<K,V>
 //
 //public static interface Map.Entry<K,V>
-//A map entry (key-value pair). The Map.entrySet method returns a collection-view of the map, whose elements are of this class
+//A map entry (key-value pair). The Map.entrySet method returns a 
+//collection-view of the map, whose elements are of this class
 
-public class ParseTwitterUserEntitiesNode {
+public class ParseTwitterUrlsNodeLongestWay {
 	private int ctr = 0;
 	private final Count count = new Count(5);
 	private final String screenName = "iamfonda"; //
@@ -94,7 +95,7 @@ public class ParseTwitterUserEntitiesNode {
 		//                },
 		//need to use nested maps
 		for (Map.Entry<String, Map<String, List<Map<String,Object>>>>
-				outerEntry : map.entrySet()) {
+		outerEntry : map.entrySet()) {
 			String outerKey = outerEntry.getKey();
 
 			if(outerKey.equals("url")) {
@@ -102,6 +103,7 @@ public class ParseTwitterUserEntitiesNode {
 				innerMap = outerEntry.getValue();
 
 				for (Map.Entry<String, List<Map<String,Object>>>
+
 				innerEntry : innerMap.entrySet()) {
 					innerKey = innerEntry.getKey();
 
@@ -118,47 +120,17 @@ public class ParseTwitterUserEntitiesNode {
 			}
 		}
 	}
-	
-	
+
+
 	/*
 	 * 
 	 */
-	@SuppressWarnings("unchecked")
 	private void parseAndPrintUserData(
 			List<Map<String, Map<String, Map<String, Map<String, List<Map<String,Object>>>>>>> root) {
 
 		String innerKey = null;
 
 		try {
-			//Json to parse:
-			//	        "user": {
-			//            "id": 201923339,
-			//            "id_str": "201923339",
-			//            "name": "Peter Henry Fonda",
-			//            "screen_name": "iamfonda",
-			//            "location": "",
-			//            "description": "Official Twitter Feed for Peter Henry Fonda - \r\nActor/Filmmaker/Author/Activist. \r\nVisit my website for latest blog and facebook page link.",
-			//            "url": "http://t.co/umCMAYmiAN",
-			//            "entities": {
-			//                "url": {
-			//                    "urls": [
-			//                        {
-			//                            "url": "http://t.co/umCMAYmiAN",
-			//                            "expanded_url": "http://www.peterfonda.com",
-			//                            "display_url": "peterfonda.com",
-			//                            "indices": [
-			//                                0,
-			//                                22
-			//                            ]
-			//                        }
-			//                    ]
-			//                },
-			//                "description": {
-			//                    "urls": [
-			//                        
-			//                    ]
-			//                }
-			//            },
 			Map<String, Map<String, Map<String, Map<String, List<Map<String,Object>>>>>> map;
 
 			//print out date and text strings
@@ -168,7 +140,7 @@ public class ParseTwitterUserEntitiesNode {
 
 				//need to use nested maps
 				for (Map.Entry<String, Map<String, Map<String, Map<String, List<Map<String,Object>>>>>>
-						outerEntry : map.entrySet()) {
+				outerEntry : map.entrySet()) {
 					String outerKey = outerEntry.getKey();
 
 					if(outerKey.equals("user")) {
@@ -177,28 +149,25 @@ public class ParseTwitterUserEntitiesNode {
 
 						for (Map.Entry<String, Map<String, Map<String, List<Map<String,Object>>>>>
 						innerEntry : innerMap.entrySet()) {
+
 							innerKey = innerEntry.getKey();
 							Object innerValue = innerEntry.getValue();
 
 							switch(innerKey) {
 							case "entities":
 								System.out.println("TODO: process entities nodes");
-								
-//								//create a Map from innerEntry
-//								Map<String, Map<String, Map<String, List<Map<String,Object>>>>> entMap = 
-//										new HashMap<>();
-//								
-							    //fill in map
-							    Set<Map.Entry<String, Map<String, List<Map<String,Object>>>>> set = 
-							    		innerEntry.getValue().entrySet();
+
+								//fill in map
+								Set<Map.Entry<String, Map<String, List<Map<String,Object>>>>> set = 
+										innerEntry.getValue().entrySet();
 
 								Map<String, Map<String, List<Map<String,Object>>>> mapFromSet = 
 										new HashMap<>();
-							    
-							    for(Map.Entry<String, Map<String, List<Map<String,Object>>>>  entry : set) {
-							        mapFromSet.put(entry.getKey(), entry.getValue());
-							    }
-								
+
+								for(Map.Entry<String, Map<String, List<Map<String,Object>>>>  entry : set) {
+									mapFromSet.put(entry.getKey(), entry.getValue());
+								}
+
 								printEntitiesUrls(mapFromSet);
 								break;
 							}
@@ -223,10 +192,19 @@ public class ParseTwitterUserEntitiesNode {
 			int count = 0;
 			Response response = doGetRequest(baseURI + endpoint, 200);
 
+			//Goal: print out this Json data (key:value pair)
+			//"url": "http://t.co/umCMAYmiAN",
+			//"expanded_url": "http://www.peterfonda.com",
+			//"display_url": "peterfonda.com
+
+			//(A) the hard way! lots of nested Map.entry enhanced for loops
 			List<Map<String, Map<String, Map<String, Map<String, List<Map<String,Object>>>>>>> root = 
 					response.jsonPath().getList("$");
 
 			parseAndPrintUserData(root);
+
+			//(B) the easy way! only one Map.entry enhanced for loop is needed
+			List<Map<String, Object>> urlsNode = response.jsonPath().getList("user.entities.url.urls");
 		}
 		catch(Exception e) {
 			System.out.println(e.getMessage());

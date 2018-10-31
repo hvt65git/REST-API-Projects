@@ -22,9 +22,12 @@ import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 public class GetAUserTimeline {
 	private final Logger log = LogManager.getLogger(GetAUserTimeline.class.getName());
 
-	private int ctr = 0;
-	private final Count count = new Count(2);
 	private final String screenName = "realDonaldTrump"; //
+	
+	private int ctr = 0;
+	
+	private final int tweets = 33;
+	private final Count count = new Count(tweets);
 
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/user_timeline.json";
@@ -41,12 +44,12 @@ public class GetAUserTimeline {
 				.param(count.getKeyname(), count.getValue())
 				.param("screen_name", screenName)
 				.contentType(ContentType.JSON)
-				.log().all()
+				//.log().all()
 				.get(endpoint)
 				.then().contentType(ContentType.JSON)
 				.statusCode(statusCode);
 		
-		log.debug(vr.log().all());
+		//log.debug(vr.log().all());
 		return vr.extract().response();
 	}
 
@@ -97,7 +100,7 @@ public class GetAUserTimeline {
             "followers_count": 52571077,
 		 */
 		
-		for (Map.Entry<String, Object> entry : map.entrySet()) {
+		for(Map.Entry<String, Object> entry : map.entrySet()) {
 			if(entry.getKey().equals("created_at")) {
 				System.out.println("Date: " + entry.getValue());
 			} else if(entry.getKey().equals("text")) {
@@ -110,20 +113,24 @@ public class GetAUserTimeline {
 	 * 
 	 */
 	@Test
-	public void verifyTweetForUserTimeline() {
-		int count = 0;
+	public void verifyTweetForUserTimeline() {	
 		Response response = doGetRequest(baseURI + endpoint, 200);
 		//System.out.println("verifyTweetForUserTimeline Response = " + response.toString());
 
 		List<Map<String, Object>> root = response.jsonPath().getList("$");
 		int rootSize = root.size();
-
+		
+		System.out.println("\r\n***********************************************************************");
+		System.out.println("\r\nPrinting out the first " + count.getValue() +" tweets for: " + screenName);
+		
 		//print out date and text strings
 		for(int i=0; i<rootSize; i++) {
 			System.out.println();
 			Map<String, Object> map = root.get(i);
 			printOutFormattedJsonReponse(map);
 		}
+		
+		System.out.println("\r\n***********************************************************************");
 
 	}
 }

@@ -22,7 +22,7 @@ import io.restassured.response.ValidatableResponse;
 
 public class ParseTwitterUserNode {
 	private int ctr = 0;
-	private final Count count = new Count(5);
+	private final Count count = new Count(3);
 	private final String screenName = "iamfonda"; //
 
 	private final String baseURI = "https://api.twitter.com";
@@ -39,7 +39,7 @@ public class ParseTwitterUserNode {
 				.param(count.getKeyname(), count.getValue())
 				.param("screen_name", screenName)
 				.contentType(ContentType.JSON)
-				.log().all()
+				//.log().all()
 				.get(endpoint)
 				.then().contentType(ContentType.JSON)
 				.statusCode(statusCode).log().all();
@@ -81,7 +81,7 @@ public class ParseTwitterUserNode {
 						case "description":
 						case "url":
 							String childValue = (String)innerEntry.getValue();
-							System.out.println(childKey + "= " + childValue);
+							//System.out.println(childKey + "= " + childValue);
 							break;
 						}
 					}
@@ -105,7 +105,7 @@ public class ParseTwitterUserNode {
 
 			List<Map<String, Map<String, Object>>> root = response.jsonPath().getList("$");
 			int rootSize = root.size();
-
+			
 			//print out date and text strings
 			for(int i=0; i<rootSize; i++) {
 				System.out.println();
@@ -113,7 +113,7 @@ public class ParseTwitterUserNode {
 			}
 		}
 		catch(Exception e) {
-			System.out.println(e.getMessage());
+			//System.out.println(e.getMessage());
 
 		}
 
