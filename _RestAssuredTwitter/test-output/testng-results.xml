@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3717" started-at="2018-10-31T21:33:46Z" finished-at="2018-10-31T21:33:49Z">
+  <suite name="Default suite" duration-ms="6723" started-at="2019-02-28T05:33:33Z" finished-at="2019-02-28T05:33:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3717" started-at="2018-10-31T21:33:46Z" finished-at="2018-10-31T21:33:49Z">
+    <test name="Default test" duration-ms="6723" started-at="2019-02-28T05:33:33Z" finished-at="2019-02-28T05:33:39Z">
       <class name="APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.GetAUserTimeline">
-        <test-method status="PASS" signature="verifyTweetForUserTimeline()[pri:0, instance:APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.GetAUserTimeline@731a74c]" name="verifyTweetForUserTimeline" duration-ms="3670" started-at="2018-10-31T21:33:46Z" finished-at="2018-10-31T21:33:49Z">
+        <test-method status="PASS" signature="verifyTweetForUserTimeline()[pri:0, instance:APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.GetAUserTimeline@617faa95]" name="verifyTweetForUserTimeline" duration-ms="6673" started-at="2019-02-28T05:33:33Z" finished-at="2019-02-28T05:33:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTweetForUserTimeline -->

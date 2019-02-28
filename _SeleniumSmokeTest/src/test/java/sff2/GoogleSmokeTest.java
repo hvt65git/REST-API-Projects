@@ -119,6 +119,7 @@ public class GoogleSmokeTest extends SeleniumTestCase {
 		tc.setTestData(new String[][] {
 			{"seahawks"},
 			{"storm"},
+			{"mariners"},
 			{"sounders"}
 		});
 	}
