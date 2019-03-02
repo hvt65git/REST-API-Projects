@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.easybix.Issue.CreateIssue">
+      <class name="com.jira.JIRACreateIssueSmokeTest">
         <methods>
-          <include name="createIssue"/>
-          <include name="setUp"/>
+          <include name="createIssue" invocation-numbers="2 0 1"/>
         </methods>
-      </class> <!-- com.easybix.Issue.CreateIssue -->
+      </class> <!-- com.jira.JIRACreateIssueSmokeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

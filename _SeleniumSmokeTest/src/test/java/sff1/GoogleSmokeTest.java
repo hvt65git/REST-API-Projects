@@ -59,7 +59,6 @@ enum DriverType implements DriverConfig {
 	public List<String> getConstantValues() {
 		return this.values;
 	}
-	
 }
 
 class DriverFactory {
@@ -67,9 +66,9 @@ class DriverFactory {
 	private static final List<String> constantValues = dt.getConstantValues();
 	private static final ThreadLocal<WebDriver> tl = new ThreadLocal<WebDriver>() ;
 
-	private void setWebDriver(WebDriver driver) {
-		tl.set(driver);
-	}
+//	private void setWebDriver(WebDriver driver) {
+//		tl.set(driver);
+//	}
 
 	public static WebDriver getWebDriver() {
 		return tl.get();
@@ -103,28 +102,8 @@ class DriverFactory {
 }
 
 class SeleniumTest extends DriverFactory {
-	
-
 	protected static final long WAIT_TIMEOUT = 20; //secs
-
 	
-//  encapsulation example for methods to hide implementation details in methods
-//	private  void invisibleMethod1() {
-//	}
-//
-//	private  void invisibleMethod2() {
-//	}
-//	
-//	private  void invisibleMethod3() {
-//	}
-//	
-//	protected  final void callInvisibleMethods() {
-//		System.out.println("callInvisibleMethods");
-//		invisibleMethod1();
-//		invisibleMethod2();
-//		invisibleMethod3();
-//	}
-
 	protected class TestCase<X> {
 		private X[][] testData;
 
@@ -147,8 +126,6 @@ class GoogleMainPage{
 	WebElement searchBox;
 
 	public GoogleMainPage(String term) {
-		
-		
 		long id = Thread.currentThread().getId();
 		System.out.println("GoogleMainPage->Search term: - " + term + " - Current thread #: " + id);
 

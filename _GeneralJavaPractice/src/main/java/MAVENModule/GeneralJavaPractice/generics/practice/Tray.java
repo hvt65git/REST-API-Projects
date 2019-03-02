@@ -4,12 +4,14 @@ package MAVENModule.GeneralJavaPractice.generics.practice;
 import java.util.ArrayList;
 import java.util.List;
 
-interface Liquid {
+//note if we tried to declare final interface we get error:
+//Illegal modifier for the interface Liquid; only public & abstract are permitted
+ interface Liquid {
 	public String getDrinkTaste();
 	public String getDrinkName();
 }
 
-abstract class Drink implements Liquid {
+abstract class Drink implements Liquid {//abstract prevents instantiation of this class
 	String name;
 	String taste;
 
@@ -31,7 +33,10 @@ class Juice extends Drink {
 	private static String defaultTaste = "basic juice taste";
 
 	public Juice() {
-		super(defaultName, defaultTaste);
+		//call seper class constructor and pass required args
+		//super(defaultName, defaultTaste);
+		//or call this class' constructor
+		this(defaultName, defaultTaste);
 	} 
 
 	public Juice(String name, String taste) {
