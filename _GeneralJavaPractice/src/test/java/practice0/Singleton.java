@@ -1,4 +1,4 @@
-package MAVENModule.GeneralJavaPractice;
+package practice0;
 
 interface Java8 {
 	static void j18staticnoop() {}

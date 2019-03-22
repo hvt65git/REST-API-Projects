@@ -1,4 +1,4 @@
-package MAVENModule.GeneralJavaPractice;
+package practice0;
 
 /*
  * Accessing Superclass Members

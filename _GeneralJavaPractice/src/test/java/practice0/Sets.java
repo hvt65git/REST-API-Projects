@@ -1,4 +1,4 @@
-package MAVENModule.GeneralJavaPractice;
+package practice0;
 
 import java.util.Set;
 import java.util.HashSet;

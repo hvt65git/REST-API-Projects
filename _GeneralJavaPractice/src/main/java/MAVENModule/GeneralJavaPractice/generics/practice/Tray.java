@@ -104,7 +104,7 @@ class PepsiTray {
 public class Tray {
 	List<Glass<?>> glasses = new ArrayList<>() ;
 
-	public void addGlass(Glass<?> glass) {
+	public void addGlass(Glass glass) {
 		glasses.add(glass);
 	}
 

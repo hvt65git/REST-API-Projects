@@ -1,4 +1,4 @@
-package MAVENModule.GeneralJavaPractice;
+package practice0;
 
 //note:staitc modifier = Illegal modifier for the class Superclass;
 //only public, abstract & final are permitted
