@@ -1,4 +1,4 @@
-package practice0;
+package test1;
 
 interface Java8 {
 	static void j18staticnoop() {}

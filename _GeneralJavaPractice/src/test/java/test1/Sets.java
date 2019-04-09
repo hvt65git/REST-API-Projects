@@ -1,4 +1,4 @@
-package practice0;
+package test1;
 
 import java.util.Set;
 import java.util.HashSet;

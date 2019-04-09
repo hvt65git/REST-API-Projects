@@ -1,4 +1,4 @@
-package practice0;
+package test1;
 
 //note:staitc modifier = Illegal modifier for the class Superclass;
 //only public, abstract & final are permitted
