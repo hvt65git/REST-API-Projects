@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
  * Simple demonstration of tallying word counts in Java - 
  * HVT comment: fixed bug with hardcoded index boundary
  * hvt - Print this code out, study it, and modify twitter
- * program to display talluy of trumps tweets over the last 200 tweets
+ * program to display tally of trumps tweets over the last 200 tweets
  * by day, showing number of tweets each day
  */
 
@@ -28,21 +28,19 @@ import java.util.regex.Pattern;
 
 public final class TweetTally {
 	private static final Pattern WORD = Pattern.compile("\\w+");
-	private static final String inputfilename = "tweetdates.txt";
-	
 
-	
-	//private static String user_dir = System.getProperty("user.dir") + "\\src\\test\\java\\practice1";
-	
 	private static String user_dir = System.getProperty("user.dir") +
 			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline";
 
-	
-	
+	private static String testdatafilename = System.getProperty("user.dir") +
+			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline"+
+			"\\tweetdates.txt";
+
+
 	/**
 	 * Used to sort Map.Entry elements in decreasing order of value.
 	 */
-	 private static final class EntryComparator<K,V extends Comparable<V>> implements Comparator<Map.Entry<K,V>> {
+	private static final class EntryComparator<K,V extends Comparable<V>> implements Comparator<Map.Entry<K,V>> {
 		public int compare(Entry<K, V> o1, Entry<K, V> o2) {
 			return - o1.getValue().compareTo(o2.getValue());
 		}		
@@ -60,7 +58,7 @@ public final class TweetTally {
 			String word = line.substring(matcher.start(), matcher.end());
 			result.add(word.toLowerCase());
 		}
-		
+
 		return result;
 	}
 
@@ -71,7 +69,7 @@ public final class TweetTally {
 	 */
 	private static Map<String,Integer> tallyWords(BufferedReader reader) throws IOException {
 		Map<String,Integer> result = new HashMap<String,Integer>();
-		
+
 		while(reader.ready()) {
 			String line = reader.readLine();
 			for(String word : words(line)) {
@@ -82,33 +80,35 @@ public final class TweetTally {
 				result.put(word, count+1);
 			}
 		}
-		
+
 		return result;
 	}
-	
-	
+
+
 	public static void main(String[] args) {
-		
+		BufferedReader reader = null;
+
 		try {
 			//read the data from file and store into hashmap
-			BufferedReader reader = new BufferedReader(new FileReader(user_dir + "\\" + inputfilename ));
+			//BufferedReader reader = new BufferedReader(new FileReader(user_dir + "\\" + inputfilename ));
+			reader = new BufferedReader(new FileReader(testdatafilename));
+
 			Map<String,Integer> tally = tallyWords(reader);
 			reader.close();
-			
+
 			//sort the hash maps and put them into a list
 			List<Map.Entry<String, Integer>> entries = 
-				new ArrayList<Map.Entry<String,Integer>>(tally.entrySet());
+					new ArrayList<Map.Entry<String,Integer>>(tally.entrySet());
 			Collections.sort(entries, new EntryComparator<String, Integer>());
-			
-			
+
+
 			//hvt code enhanced for loop to iterate over map nodes
 			System.out.println("printing out the tally hash map... ");
 			for (Map.Entry<String,Integer> entry : tally.entrySet()) {
 				System.out.println(entry.getKey() + ": " + entry.getValue());
 			}
-			
-			//hvt code
-			System.out.println("\r\nprinting out the array list of the tally hash maps... ");	
+
+			System.out.println("\r\nprinting out the sorted array list of the tally hash maps... ");	
 			int size = entries.size();
 			int index = 0;
 			while(index < size) {
@@ -116,9 +116,11 @@ public final class TweetTally {
 				System.out.println(entry.getKey() + ": " + entry.getValue());
 			}
 		}
+		catch(IOException e) {
+			System.out.println("ERROR: " + e.getMessage());
+		}
 		catch(Exception e) {
 			System.out.println("ERROR: " + e.getMessage());
 		}
-		
 	}
 }

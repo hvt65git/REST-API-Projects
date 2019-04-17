@@ -38,17 +38,18 @@ public class GetTwitterMentions {
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/mentions_timeline.json";
 
-	@Test
-	public void verifyTweetForUserTimeline() {
-		int ctr = 0;
-		
-		Response response = doGetRequest(baseURI + endpoint, statusCode, count);
-		List<String> tweets = response.jsonPath().getList("text");
-		
-		for(String tweet : tweets) {
-			System.out.println("tweet " + ++ctr +  " = " + tweet + "\r\n");
-		}
-
-	}
+//	@Test
+//	public void verifyTweetForUserTimeline() {
+//		int ctr = 0;
+//		
+//		Response response = doGetRequest(baseURI + endpoint, statusCode, count);
+//		List<String> tweets = response.jsonPath().getList("text");
+//		
+//		for(String tweet : tweets) {
+//			System.out.println("tweet " + ++ctr +  " = " + tweet + "\r\n");
+//		}
+//
+//	}
 }
+
 
