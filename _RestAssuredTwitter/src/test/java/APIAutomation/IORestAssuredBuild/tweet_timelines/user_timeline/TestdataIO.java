@@ -37,11 +37,4 @@ public class TestdataIO {
 		}
 	}
 	
-//	public static void main(String[] arg) {	
-//		String filename = System.getProperty("user.dir") + "\\" + "test123.txt";
-//		TestdataIO td = new TestdataIO();
-//		td.createFile(filename);
-//		td.write("testing 123...test test test\r\n");
-//		td.close();
-//	}
 }

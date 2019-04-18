@@ -85,7 +85,7 @@ public final class TweetTally {
 	}
 
 
-	public static void main(String[] args) {
+	public static void tallyTweetResults() {
 		BufferedReader reader = null;
 
 		try {
@@ -102,11 +102,11 @@ public final class TweetTally {
 			Collections.sort(entries, new EntryComparator<String, Integer>());
 
 
-			//hvt code enhanced for loop to iterate over map nodes
-			System.out.println("printing out the tally hash map... ");
-			for (Map.Entry<String,Integer> entry : tally.entrySet()) {
-				System.out.println(entry.getKey() + ": " + entry.getValue());
-			}
+//			//hvt code enhanced for loop to iterate over map nodes
+//			System.out.println("printing out the tally hash map... ");
+//			for (Map.Entry<String,Integer> entry : tally.entrySet()) {
+//				System.out.println(entry.getKey() + ": " + entry.getValue());
+//			}
 
 			System.out.println("\r\nprinting out the sorted array list of the tally hash maps... ");	
 			int size = entries.size();
@@ -115,6 +115,8 @@ public final class TweetTally {
 				Map.Entry<String, Integer> entry = entries.get(index++);
 				System.out.println(entry.getKey() + ": " + entry.getValue());
 			}
+			
+			//tally the results
 		}
 		catch(IOException e) {
 			System.out.println("ERROR: " + e.getMessage());

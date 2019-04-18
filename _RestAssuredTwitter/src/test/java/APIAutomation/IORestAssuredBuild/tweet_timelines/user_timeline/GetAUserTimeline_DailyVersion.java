@@ -29,27 +29,20 @@ import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
  */
 public class GetAUserTimeline_DailyVersion {
 	private int ctr = 0;
-	private final int tweets = 21;
+	private final int tweets = 200;
 	private final Count count = new Count(tweets);
 
-	//private final String screenName = "realDonaldTrump"; 
-	private final String screenName = "Tatti_D"; 
-	//private final String screenName = "Pontifex"; 
-	
-	
+	private final String screenName = "realDonaldTrump"; 
+	//private final String screenName = "Tatti_D"; 
+	//private final String screenName = "Ishmail2015"; 
+	//private final String screenName = "JustMaelle"; 
 	
 	private final String baseURI = "https://api.twitter.com";
-	private final String endpoint = "/1.1/statuses/user_timeline.json";
-	
-	//private final String testdatafilename = System.getProperty("user.dir") + "\\" + "tweetdates.txt";
-	
+	private final String endpoint = "/1.1/statuses/user_timeline.json";	
 	private static String testdatafilename = System.getProperty("user.dir") +
 			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline"+
 			"\\tweetdates.txt";
 	
-	
-
-
 	private final Logger log = LogManager.getLogger(GetAUserTimeline_DailyVersion.class.getName());
 
 	public Response doGetRequest(String endpoint, int statusCode) {
@@ -124,8 +117,7 @@ public class GetAUserTimeline_DailyVersion {
 		int rootSize = root.size();
 
 		System.out.println("\r\n***********************************************************************");
-		//System.out.println("\r\nGREETINGS TOM!!!\r\nPrinting out the first " + count.getValue() +" tweets for: " + screenName);
-
+	
 		Date date2 = null;
 		String sdate = null;
 
@@ -164,6 +156,8 @@ public class GetAUserTimeline_DailyVersion {
 		finally {
 			td.close();
 		}
-
+		
+		//tally the tweet results
+		TweetTally.tallyTweetResults();
 	}
 }
