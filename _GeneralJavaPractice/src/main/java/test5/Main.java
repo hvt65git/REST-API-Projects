@@ -10,12 +10,18 @@ public class Main {
 		//create some drinks and glasses
 		BeerMug<Beer> bm1 = new BeerMug<>(new Beer());
 		BeerMug<Beer> bm2 = new BeerMug<>(new Beer("Rainieeer Beeer!"));
-	
+		
+		WineGlass<Wine> wg1 = new WineGlass<>(new Wine("Chateau D'yquem!!!"));
+		WineGlass<Wine> wg2 = new WineGlass<>(new Wine("BV Chardonnay!"));
 
 		//put the glasses on the tray
 		Tray tray = new Tray();
+		
 		tray.addGlassToTray(bm1);
 		tray.addGlassToTray(bm2);
+		
+		tray.addGlassToTray(wg1);
+		tray.addGlassToTray(wg2);
 
 		//browse the tray
 		tray.browseTray();

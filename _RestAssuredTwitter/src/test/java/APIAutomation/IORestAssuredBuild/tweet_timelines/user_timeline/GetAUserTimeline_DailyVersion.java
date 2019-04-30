@@ -35,14 +35,14 @@ public class GetAUserTimeline_DailyVersion {
 	private final String screenName = "realDonaldTrump"; 
 	//private final String screenName = "Tatti_D"; 
 	//private final String screenName = "Ishmail2015"; 
-	//private final String screenName = "JustMaelle"; 
-	
+	///private final String screenName = "JustMaelle"; 
+
 	private final String baseURI = "https://api.twitter.com";
 	private final String endpoint = "/1.1/statuses/user_timeline.json";	
-	private static String testdatafilename = System.getProperty("user.dir") +
+	private final static String testdatafilename = System.getProperty("user.dir") +
 			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline"+
 			"\\tweetdates.txt";
-	
+
 	private final Logger log = LogManager.getLogger(GetAUserTimeline_DailyVersion.class.getName());
 
 	public Response doGetRequest(String endpoint, int statusCode) {
@@ -71,7 +71,39 @@ public class GetAUserTimeline_DailyVersion {
 	/*
 	 * 
 	 */
-	private void printOutFormattedJsonReponse(
+	private void printOutFormattedJsonReponseAllTweets(
+			Map<String, Object> map, String matchingdate, TestdataIO td) {
+
+		String sdate = "";
+		String stemp[] = {};
+
+		//Boolean printTweet = true;
+		//do not test for matching date, print all tweets
+
+		for(Map.Entry<String, Object> entry : map.entrySet()) {
+			if(entry.getKey().equals("created_at")) {
+				sdate = (String) entry.getValue();
+				stemp = sdate.split(" ");
+				sdate = stemp[1] + " " + stemp[2];
+			} 
+			else if(entry.getKey().equals("text") ) {
+				//write date to test file
+				td.write(sdate + "\r\n");
+
+				System.out.println("Tweet #" + ++ctr + ": " + entry.getValue() + 
+						"\r\nTweet Date = " + sdate +
+						"\r\nDesired Date to Match: " + matchingdate);
+
+
+			}
+		}
+	}
+
+
+	/*
+	 * 
+	 */
+	private void printOutFormattedJsonReponseDateMatchingTweets(
 			Map<String, Object> map, String matchingdate, TestdataIO td) {
 
 		String sdate = "";
@@ -83,12 +115,15 @@ public class GetAUserTimeline_DailyVersion {
 				sdate = (String) entry.getValue();
 				stemp = sdate.split(" ");
 				sdate = stemp[1] + " " + stemp[2];
+
+				//test for matching date
 				printTweet = matchingdate.equals(sdate);
+				printTweet = true; 			//hack
 			} 
 			else if(entry.getKey().equals("text") ) {
 				//write date to test file
 				td.write(sdate + "\r\n");
-				
+
 				if(printTweet) {
 					printTweet = false;
 					System.out.println("Tweet #" + ++ctr + ": " + entry.getValue() + 
@@ -117,7 +152,7 @@ public class GetAUserTimeline_DailyVersion {
 		int rootSize = root.size();
 
 		System.out.println("\r\n***********************************************************************");
-	
+
 		Date date2 = null;
 		String sdate = null;
 
@@ -126,8 +161,8 @@ public class GetAUserTimeline_DailyVersion {
 
 		SimpleDateFormat format = new SimpleDateFormat("MM-dd"); 
 		String dateString = format.format(date);
-		
-		
+
+
 		//create testdataio object for writing tweet dates to a file
 		//if file exists it will be truncated (contents removed) and appended
 		TestdataIO td = new TestdataIO();
@@ -147,7 +182,8 @@ public class GetAUserTimeline_DailyVersion {
 			for(int i=0; i<rootSize; i++) {
 				System.out.println();
 				Map<String, Object> map = root.get(i);
-				printOutFormattedJsonReponse(map, sdate, td);
+				//printOutFormattedJsonReponseDateMatchingTweets(map, sdate, td);
+				printOutFormattedJsonReponseAllTweets(map, sdate, td);
 			}
 		}
 		catch(ParseException pe) {
@@ -156,7 +192,7 @@ public class GetAUserTimeline_DailyVersion {
 		finally {
 			td.close();
 		}
-		
+
 		//tally the tweet results
 		TweetTally.tallyTweetResults();
 	}

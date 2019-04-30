@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81" started-at="2019-04-30T07:58:02Z" finished-at="2019-04-30T07:58:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81" started-at="2019-04-30T07:58:02Z" finished-at="2019-04-30T07:58:02Z">
+      <class name="test8_unitTest.testBeer">
+        <test-method status="PASS" signature="testBeerGetName()[pri:0, instance:test8_unitTest.testBeer@402a079c]" name="testBeerGetName" duration-ms="30" started-at="2019-04-30T07:58:02Z" finished-at="2019-04-30T07:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeerGetName -->
+        <test-method status="PASS" signature="testBeerGetNameDefault()[pri:0, instance:test8_unitTest.testBeer@402a079c]" name="testBeerGetNameDefault" duration-ms="11" started-at="2019-04-30T07:58:02Z" finished-at="2019-04-30T07:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeerGetNameDefault -->
+      </class> <!-- test8_unitTest.testBeer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
