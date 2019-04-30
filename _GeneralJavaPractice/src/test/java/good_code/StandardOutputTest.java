@@ -1,5 +1,5 @@
-package test8_unitTest;
- 
+package good_code;
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.Random;

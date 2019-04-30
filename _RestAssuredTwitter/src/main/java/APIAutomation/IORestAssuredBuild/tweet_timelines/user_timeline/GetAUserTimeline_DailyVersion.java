@@ -43,7 +43,7 @@ public class GetAUserTimeline_DailyVersion {
 			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline"+
 			"\\tweetdates.txt";
 
-	private final Logger log = LogManager.getLogger(GetAUserTimeline_DailyVersion.class.getName());
+	private final Logger log = LogManager.getLogger(GetAUserTimeline_DailyVersion_Test.class.getName());
 
 	public Response doGetRequest(String endpoint, int statusCode) {
 
@@ -72,7 +72,7 @@ public class GetAUserTimeline_DailyVersion {
 	 * 
 	 */
 	private void printOutFormattedJsonReponseAllTweets(
-			Map<String, Object> map, String matchingdate, TestdataIO td) {
+			Map<String, Object> map, String matchingdate, TestdataIO_Test td) {
 
 		String sdate = "";
 		String stemp[] = {};
@@ -104,7 +104,7 @@ public class GetAUserTimeline_DailyVersion {
 	 * 
 	 */
 	private void printOutFormattedJsonReponseDateMatchingTweets(
-			Map<String, Object> map, String matchingdate, TestdataIO td) {
+			Map<String, Object> map, String matchingdate, TestdataIO_Test td) {
 
 		String sdate = "";
 		String stemp[] = {};
@@ -165,7 +165,7 @@ public class GetAUserTimeline_DailyVersion {
 
 		//create testdataio object for writing tweet dates to a file
 		//if file exists it will be truncated (contents removed) and appended
-		TestdataIO td = new TestdataIO();
+		TestdataIO_Test td = new TestdataIO_Test();
 		td.createFile(testdatafilename);
 
 		try {
@@ -194,6 +194,6 @@ public class GetAUserTimeline_DailyVersion {
 		}
 
 		//tally the tweet results
-		TweetTally.tallyTweetResults();
+		TweetTally_Test.tallyTweetResults();
 	}
 }
