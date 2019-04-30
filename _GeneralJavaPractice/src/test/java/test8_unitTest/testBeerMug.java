@@ -24,7 +24,7 @@ public class testBeerMug {
 		// Redirect all System.out to consoleContent.
 		System.setOut(new PrintStream(this.consoleContent));
 	}
-	
+
 	@Test(description="Test method 1", invocationCount=1)
 	public void testMethod1()
 	{
@@ -33,8 +33,8 @@ public class testBeerMug {
 		//ht added - this appears to be what i need to test my BeerMug class
 		assertTrue(this.consoleContent.toString().indexOf(testname)!=-1);
 	}
-	
-	
+
+
 	@AfterMethod
 	public void afterTest()
 	{
@@ -43,9 +43,10 @@ public class testBeerMug {
 
 		// Print what has been captured.
 		System.out.println(this.consoleContent.toString());
-		
-		System.out.println(String.format("====>Captured Console length=%d", 
-				this.consoleContent.toString().length()));
+
+		System.out.println(
+				String.format("====>Captured Console length=%d", 
+						this.consoleContent.toString().length()));
 
 		// Clear the consoleContent.
 		this.consoleContent = new ByteArrayOutputStream();    
