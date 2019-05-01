@@ -7,6 +7,12 @@ public abstract class Glass<X extends Liquid> {
 		System.out.println("Drinking a: " + this.liquid.getClass().getSimpleName() +
 				" with name: " + this.liquid.getName());
 	}
+	
+	public void BrowseIt() {
+		System.out.println("Browsing a: " + this.liquid.getClass().getSimpleName() +
+				" with name: " + this.liquid.getName());
+	}
+	
 	public Glass(X drink) {
 		this.liquid = drink;
 	}

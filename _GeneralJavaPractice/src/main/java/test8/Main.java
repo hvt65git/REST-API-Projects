@@ -20,22 +20,24 @@ public class Main {
 		//put the glasses in the tray
 		Tray tray = new Tray();
 		tray.addGlassToTray(gb1);
-		tray.addGlassToTray(gb2);
-		tray.addGlassToTray(wg1);
-		tray.addGlassToTray(wg2);
-			
-		//browse the tray
-		//tray.browseTray();
-		
-		//drink all the drinks
-		tray.getGlassAndDrinkIt();
-		tray.getGlassAndDrinkIt();
-		tray.getGlassAndDrinkIt();
-		tray.getGlassAndDrinkIt();		
+//		tray.addGlassToTray(gb2);
+//		tray.addGlassToTray(wg1);
+//		tray.addGlassToTray(wg2);
+//			
+//		//browse the tray
+//		//tray.browseTray();
+//		
+//		//drink all the drinks
+//		tray.getGlassAndDrinkIt();
+//		tray.getGlassAndDrinkIt();
+//		tray.getGlassAndDrinkIt();
+//		tray.getGlassAndDrinkIt();		
 		tray.getGlassAndDrinkIt();
 
 		
-		//tray.browseTray();
+		tray.browseTray();
 	}
 
 }
+//output
+//Drinking a: Beer with name: Rainier Beer!

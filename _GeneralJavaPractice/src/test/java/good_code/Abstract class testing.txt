@@ -1,0 +1,66 @@
+https://stackoverflow.com/questions/243274/how-to-unit-test-abstract-classes-extend-with-stubs
+
+Following @patrick-desjardins answer, 
+I implemented abstract and it's implementation class along with @Test as follows:
+
+Abstract class - ABC.java
+
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class ABC {
+
+    abstract String sayHello();
+
+    public List<String> getList() {
+        final List<String> defaultList = new ArrayList<>();
+        defaultList.add("abstract class");
+        return defaultList;
+    }
+}
+As Abstract classes cannot be instantiated, but they can be subclassed,
+ concrete class DEF.java, is as follows:
+
+public class DEF extends ABC { //ht comment class DEF is a stub
+
+    @Override
+    public String sayHello() {
+        return "Hello!";
+    }
+}
+@Test class to test both abstract as well as non-abstract method:
+
+import org.junit.Before;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.empty;
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.not;
+import static org.hamcrest.Matchers.contains;
+import java.util.Collection;
+import java.util.List;
+import static org.hamcrest.Matchers.equalTo;
+
+import org.junit.Test;
+
+public class DEFTest {
+
+    private DEF def;
+
+    @Before
+    public void setup() {
+        def = new DEF();
+    }
+
+    @Test
+    public void add(){
+        String result = def.sayHello();
+        assertThat(result, is(equalTo("Hello!")));
+    }
+
+    @Test
+    public void getList(){
+        List<String> result = def.getList();
+        assertThat((Collection<String>) result, is(not(empty())));
+        assertThat(result, contains("abstract class"));
+    }
+}

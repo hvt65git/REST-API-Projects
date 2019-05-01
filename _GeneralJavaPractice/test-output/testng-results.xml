@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
+  <suite name="Default suite" duration-ms="151" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
-      <class name="test8_unitTest.testBeerMugClass">
-        <test-method status="PASS" signature="beerNoParamConstructor()[pri:0, instance:test8_unitTest.testBeerMugClass@1e397ed7]" name="beerNoParamConstructor" duration-ms="10" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beerNoParamConstructor -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test8_unitTest.testBeerMugClass@1e397ed7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
+    <test name="Default test" duration-ms="151" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
+      <class name="test8_unitTest.TrayTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="beforeTest" is-config="true" duration-ms="15" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test8_unitTest.testBeerMugClass@1e397ed7]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
+        <test-method status="PASS" signature="addGlassToTray()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="addGlassToTray" duration-ms="80" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addGlassToTray -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="afterTest" is-config="true" duration-ms="4" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test8_unitTest.testBeerMugClass@1e397ed7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
+        <test-method status="PASS" signature="browseTrayAfterAddingGlass()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="browseTrayAfterAddingGlass" duration-ms="5" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseTrayAfterAddingGlass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beerSingleParamConstructor()[pri:0, instance:test8_unitTest.testBeerMugClass@1e397ed7]" name="beerSingleParamConstructor" duration-ms="4" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beerSingleParamConstructor -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test8_unitTest.testBeerMugClass@1e397ed7]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-30T20:50:17Z" finished-at="2019-04-30T20:50:17Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- test8_unitTest.testBeerMugClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="browseTrayAfterRemovineGlass()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="browseTrayAfterRemovineGlass" duration-ms="5" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseTrayAfterRemovineGlass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test8_unitTest.TrayTest@1e397ed7]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-01T07:22:56Z" finished-at="2019-05-01T07:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test8_unitTest.TrayTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

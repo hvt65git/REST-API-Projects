@@ -11,9 +11,9 @@ import static org.testng.Assert.assertTrue;
 import test8.Beer;
 import test8.BeerMug;
 
-public class testBeerMugClass {
+public class BeerMugTest {
 	
-	//create test data for the BeerMug class constructor
+	//test data
 	private final String beerDefaultName = "Rainier Beer!";	
 	private final String beerName = "Japanese Craft Pale Ale!";
 

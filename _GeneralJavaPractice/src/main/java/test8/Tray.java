@@ -33,7 +33,7 @@ public class Tray {
 				throw new EmptyTrayException();
 			}
 			//list out all the drink names - minimal code way
-			this.tray.forEach(x->x.DrinkIt());
+			this.tray.forEach(x->x.BrowseIt());
 			
 			//or can use enhanced for loop
 			//for(Glass<?> x : this.tray) {
