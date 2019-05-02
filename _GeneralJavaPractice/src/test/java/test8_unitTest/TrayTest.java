@@ -18,7 +18,7 @@ import test8.WineGlass;
 
 public class TrayTest {
 	
-	//test data
+	//test data setup
 	private final String beerName = "Japanese Craft Pale Ale";
 	private final String beerDefaultName = "Rainier Beer";
 	
@@ -38,7 +38,6 @@ public class TrayTest {
 	
 	private final Glass<Wine> wg1 = new WineGlass<>(w1);
 	private final WineGlass<Wine> wg2 = new WineGlass<>(w2);
-	
 	
 	// Store the original standard out before changing it.
 	private final PrintStream originalStdOut = System.out;
