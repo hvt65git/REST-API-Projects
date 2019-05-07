@@ -40,12 +40,6 @@ public class Main {
 		Glass<Beer> bg3	= new BeerGlass<Beer>(rb1);
 		BeerGlass<Beer> bg4	 = new BeerGlass<Beer>(rb2);
 
-		//		//drink the beer
-		//		bg1.drink();
-		//		bg2.drink();
-		//		bg3.drink();
-		//		bg4.drink();
-
 		//create some wine glasses and add the win
 		Glass<Wine> wg1	= new WineGlass<Wine>(wine1);
 		WineGlass<Wine> wg2	 = new WineGlass<Wine>(wine2);

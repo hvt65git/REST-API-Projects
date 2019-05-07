@@ -20,16 +20,7 @@ public class BeerMugTest {
 	private final Beer beerNoParamConstructor = new Beer();
 	private final Beer beerSingleParamConstructor = new Beer(beerName);
 	
-	// Store the original standard out before changing it.
-	private final PrintStream originalStdOut = System.out;
-	private ByteArrayOutputStream consoleContent = new ByteArrayOutputStream();
-	
 
-	@BeforeMethod
-	public void beforeTest() {
-		// Redirect all System.out to consoleContent.
-		System.setOut(new PrintStream(this.consoleContent));
-	}
 
 	@Test
 	public void beerNoParamConstructor() {
@@ -39,7 +30,10 @@ public class BeerMugTest {
 		
 		//drink the beer and verify string appears in console
 		bm.DrinkIt();
-		assertTrue(this.consoleContent.toString().indexOf(beerDefaultName)!=-1);
+		
+		//assert that the expected string appears in the console buffer
+		
+	
 	}
 	
 
@@ -51,18 +45,22 @@ public class BeerMugTest {
 		
 		//drink the beer and verify string appears in console
 		bm.DrinkIt();
-		assertTrue(this.consoleContent.toString().indexOf(beerName)!=-1);
+		
+
+		//assert that the expected string appears in the console buffer
+		
+
 	}
 	
 	@AfterMethod
 	public void afterTest() {
-		// Put back the standard out.
-		System.setOut(this.originalStdOut);
+		//Restore the standard out.
+		
+		//print out the console buffer to standard out
+		
+		
+		//reset the console buffer
+		
 
-		// Print what has been captured.
-		System.out.println(this.consoleContent.toString());
-
-		// Clear the consoleContent.
-		this.consoleContent = new ByteArrayOutputStream();    
 	}
 }
