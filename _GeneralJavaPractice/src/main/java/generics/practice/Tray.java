@@ -1,4 +1,4 @@
-package MAVENModule.GeneralJavaPractice.generics.practice;
+package generics.practice;
 
 
 import java.util.ArrayList;

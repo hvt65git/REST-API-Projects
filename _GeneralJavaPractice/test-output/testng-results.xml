@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="130" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
+  <suite name="Default suite" duration-ms="121" started-at="2019-05-22T06:40:03Z" finished-at="2019-05-22T06:40:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="130" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-      <class name="test2_unitTest.WineGlassTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="beforeTest" is-config="true" duration-ms="10" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
+    <test name="Default test" duration-ms="121" started-at="2019-05-22T06:40:03Z" finished-at="2019-05-22T06:40:03Z">
+      <class name="test7.Main">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test7.Main@3f49dace]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-05-22T06:40:03Z" finished-at="2019-05-22T06:40:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test01_WineGlass_wg1_peek_def_Wine()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="test01_WineGlass_wg1_peek_def_Wine" duration-ms="15" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:test7.Main@3f49dace]" name="main" duration-ms="70" started-at="2019-05-22T06:40:03Z" finished-at="2019-05-22T06:40:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test01_WineGlass_wg1_peek_def_Wine -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="afterTest" is-config="true" duration-ms="3" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test02_WineGlass_wg2_peek_var_Wine()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="test02_WineGlass_wg2_peek_var_Wine" duration-ms="5" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test02_WineGlass_wg2_peek_var_Wine -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test7.Main@3f49dace]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-22T06:40:03Z" finished-at="2019-05-22T06:40:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test03_WineGlass_wg1_drink_def_Wine()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="test03_WineGlass_wg1_drink_def_Wine" duration-ms="5" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test03_WineGlass_wg1_drink_def_Wine -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="beforeTest" is-config="true" duration-ms="5" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="test04_WineGlass_wg2_drink_var_Wine()[pri:0, instance:test2_unitTest.WineGlassTest@1e397ed7]" name="test04_WineGlass_wg2_drink_var_Wine" duration-ms="0" started-at="2019-05-07T07:32:06Z" finished-at="2019-05-07T07:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test04_WineGlass_wg2_drink_var_Wine -->
-      </class> <!-- test2_unitTest.WineGlassTest -->
+      </class> <!-- test7.Main -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

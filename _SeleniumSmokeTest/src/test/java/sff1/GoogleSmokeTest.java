@@ -7,11 +7,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import static org.testng.Assert.fail;
+import static org.testng.Assert.assertTrue;
 
 import sff1.SeleniumTest.TestCase;
 
@@ -46,29 +49,11 @@ enum DriverType implements DriverConfig {
 			return null;
 		}
 	};
-	
-	private List<String> values = new ArrayList<>();
-	
-	//private constructors for enum constants
-	private DriverType(String ... arg0) {
-		this.values = Arrays.asList(arg0);
-		
-	}
-	
-	//public accessors for enum constant values
-	public List<String> getConstantValues() {
-		return this.values;
-	}
 }
 
 class DriverFactory {
-	private static final DriverType dt = CHROME;
-	private static final List<String> constantValues = dt.getConstantValues();
-	private static final ThreadLocal<WebDriver> tl = new ThreadLocal<WebDriver>() ;
-
-//	private void setWebDriver(WebDriver driver) {
-//		tl.set(driver);
-//	}
+	//must init our static final ThreadLocal var here, cannot do it in a constructor
+	private static final ThreadLocal<WebDriver> tl = new ThreadLocal<WebDriver>() ; 
 
 	public static WebDriver getWebDriver() {
 		return tl.get();
@@ -77,12 +62,9 @@ class DriverFactory {
 	@BeforeMethod()
 	public void createWebDriver() {
 		try {
-			//just playing around here with enum!
-			constantValues.forEach( x->System.out.println("enum constant value: " + x));
-			
 			long id = Thread.currentThread().getId();
 			System.out.println("@BeforeMethod->createWebDriver->Current thread #: " + id);
-			tl.set(dt.getDriver());
+			tl.set(DriverType.values()[0].getDriver());
 		}
 		catch(Exception e) {
 			System.out.println("Could not create the WebDriver... " + e.getMessage());
@@ -96,7 +78,7 @@ class DriverFactory {
 		System.out.println("@AfterMethod->releaseWebDriver->Current thread #: " + id);
 
 		getWebDriver().quit();
-		tl.remove();
+		tl.remove(); //may not be necessary
 	}
 
 }
@@ -194,13 +176,14 @@ public class GoogleSmokeTest extends SeleniumTest {
 			//verify result - assert
 
 			//wait for search results page to appear then get the page title
-			//maven project error: Lambda expressions are allowed only at source level 1.8 or above
+			//maven project error: 
+			//Lambda expressions are allowed only at source level 1.8 or above
 			//i fixed the error added right JDK version section to pom.xml
 			String pageTitle = new WebDriverWait(DriverFactory.getWebDriver(), WAIT_TIMEOUT).
 					until(d->d.getTitle());
 
 			//look for search term in the page title
-			Assert.assertTrue(pageTitle.contains(term));
+			assertTrue(pageTitle.contains(term));
 
 			id = Thread.currentThread().getId();
 			System.out.println("searchGoogleSmokeTest after Assert ->Search term: - " + term + " - Current thread #: " + id);
@@ -208,7 +191,7 @@ public class GoogleSmokeTest extends SeleniumTest {
 		}
 		catch(Exception e) {
 			System.out.println(e.getMessage());
-			Assert.fail();
+			fail();
 		}
 	}
 

@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test2_unitTest.WineGlassTest">
+      <class name="test7.Main">
         <methods>
-          <include name="test02_WineGlass_wg1_peek_var_Wine"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- test2_unitTest.WineGlassTest -->
+      </class> <!-- test7.Main -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

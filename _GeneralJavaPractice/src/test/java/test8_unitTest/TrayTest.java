@@ -6,7 +6,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import test8.Beer;
@@ -44,13 +46,13 @@ public class TrayTest {
 	private ByteArrayOutputStream consoleContent = new ByteArrayOutputStream();
 	
 
-	@BeforeMethod
-	public void beforeTest() {
+	@BeforeTest
+	public void beforeMethod() {
 		// Redirect all System.out to consoleContent.
 		System.setOut(new PrintStream(this.consoleContent));
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void addGlassToTray() {
 		final Tray tray = new Tray();
 		
@@ -151,8 +153,8 @@ public class TrayTest {
 	}
 	
 
-	@AfterMethod
-	public void afterTest() {
+	@AfterTest
+	public void afterMethod() {
 		// Put back the standard out.
 		System.setOut(this.originalStdOut);
 

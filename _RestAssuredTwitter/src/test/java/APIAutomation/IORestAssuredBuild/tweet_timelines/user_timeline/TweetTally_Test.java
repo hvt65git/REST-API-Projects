@@ -102,11 +102,11 @@ public final class TweetTally_Test {
 			Collections.sort(entries, new EntryComparator<String, Integer>());
 
 
-//			//hvt code enhanced for loop to iterate over map nodes
-//			System.out.println("printing out the tally hash map... ");
-//			for (Map.Entry<String,Integer> entry : tally.entrySet()) {
-//				System.out.println(entry.getKey() + ": " + entry.getValue());
-//			}
+			//			//hvt code enhanced for loop to iterate over map nodes
+			//			System.out.println("printing out the tally hash map... ");
+			//			for (Map.Entry<String,Integer> entry : tally.entrySet()) {
+			//				System.out.println(entry.getKey() + ": " + entry.getValue());
+			//			}
 
 			System.out.println("\r\nprinting out the sorted array list of the tally hash maps... ");	
 			int size = entries.size();
@@ -115,7 +115,7 @@ public final class TweetTally_Test {
 				Map.Entry<String, Integer> entry = entries.get(index++);
 				System.out.println(entry.getKey() + ": " + entry.getValue());
 			}
-			
+
 			//tally the results
 		}
 		catch(IOException e) {
@@ -125,4 +125,39 @@ public final class TweetTally_Test {
 			System.out.println("ERROR: " + e.getMessage());
 		}
 	}
+
+	public static void main(String...a) {
+		TweetTally_Test.tallyTweetResults();
+	}
 }
+
+//OUTPUT - may 14 run
+//printing out the sorted array list of the tally hash maps... 
+//55: 13 - changes are in progress
+//44: 11 - your angels are around you supporting you
+//22: 9
+//11: 8
+//33: 6
+//00: 2
+
+//OUTPUT - MAY 15 RUN
+//printing out the sorted array list of the tally hash maps... 
+//55: 18
+//22: 16
+//44: 14
+//11: 12
+//33: 11 <---greatest rate of change 33 from 6 to 11
+//00: 3
+//88: 2
+//99: 1
+//OUTPUT - MAY 17 RUN
+//printing out the sorted array list of the tally hash maps... 
+//55: 22 <- THE WINNER! - changes are in progress
+//22: 18
+//44: 17
+//11: 14
+//33: 12
+//88: 5 <---greatest rate of change 
+//00: 3
+//99: 1
+
