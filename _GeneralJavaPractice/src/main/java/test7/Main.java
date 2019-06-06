@@ -52,9 +52,10 @@ public class Main {
 		tray.browseDrinks();
 
 		//assert the buffer does contain desired strings
-		Assert.assertTrue(consoleBuffer.toString().indexOf("Browsing Tray: found a BeerMug") != -1);
+		Assert.assertFalse(consoleBuffer.toString().indexOf("Browsing Tray: found a BeerMug") != -1);
 		Assert.assertTrue(consoleBuffer.toString().indexOf("Browsing Tray: found a WineGlass") != -1);
 	}
+	
 	@AfterMethod(enabled = true)
 	public void afterTest() {
 		//restore std out

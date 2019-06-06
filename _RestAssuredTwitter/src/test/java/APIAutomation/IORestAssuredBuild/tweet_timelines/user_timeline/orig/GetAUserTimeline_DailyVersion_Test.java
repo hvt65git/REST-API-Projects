@@ -1,4 +1,4 @@
-package APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline;
+package APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.orig;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -22,12 +22,14 @@ import io.restassured.response.ValidatableResponse;
 import static io.restassured.RestAssured.given;
 
 import APIAutomation.IORestAssuredBuild._core.Count;
+import htrestmff1.GetAUserTimeline_DailyVersion;
+
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 
 /*
  * 
  */
-public class GetAUserTimeline_DailyVersion {
+public class GetAUserTimeline_DailyVersion_Test {
 	private int ctr = 0;
 	private final int tweets = 200;
 	private final Count count = new Count(tweets);
@@ -43,7 +45,7 @@ public class GetAUserTimeline_DailyVersion {
 			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline"+
 			"\\tweetdates.txt";
 
-	private final Logger log = LogManager.getLogger(GetAUserTimeline_DailyVersion_Test.class.getName());
+	private final Logger log = LogManager.getLogger(GetAUserTimeline_DailyVersion.class.getName());
 
 	public Response doGetRequest(String endpoint, int statusCode) {
 

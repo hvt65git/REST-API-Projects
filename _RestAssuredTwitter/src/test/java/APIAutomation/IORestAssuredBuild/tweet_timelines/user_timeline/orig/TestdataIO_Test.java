@@ -1,11 +1,11 @@
-package APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline;
+package APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline.orig;
 
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class TestdataIO {
+public class TestdataIO_Test {
 	BufferedWriter bw = null;
 
 	public void createFile(String file) {

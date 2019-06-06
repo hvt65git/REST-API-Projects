@@ -1,17 +1,17 @@
-package APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline;
+package htrestmff1;
 
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class TestdataIO_Test {
+public class TestdataIO {
 	BufferedWriter bw = null;
 
 	public void createFile(String file) {
-		// If the file doesn't exist, create it
-		// If the file exists, truncate (remove all content)
 		try {
+			// If the file doesn't exist, create it
+			// If the file exists, truncate (remove all content)
 			bw = new BufferedWriter(new FileWriter(file));
 		} 
 		catch (IOException e) {

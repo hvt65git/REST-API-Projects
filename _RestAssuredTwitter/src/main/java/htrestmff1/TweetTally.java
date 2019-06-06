@@ -1,4 +1,4 @@
-package APIAutomation.IORestAssuredBuild.tweet_timelines.user_timeline;
+package htrestmff1;
 
 
 import java.io.BufferedReader;
@@ -29,13 +29,19 @@ import java.util.regex.Pattern;
 public final class TweetTally {
 	private static final Pattern WORD = Pattern.compile("\\w+");
 
-	private static String user_dir = System.getProperty("user.dir") +
-			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline";
+	//	private static String user_dir = System.getProperty("user.dir") +
+	//			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline";
+	//
+	//	private static String testdatafilename = System.getProperty("user.dir") +
+	//			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline"+
+	//			"\\tweetdates.txt";
+
+	//NEW location for tweetdates.txt
+	//C:\htgitlocalrepo\_RestAssuredTwitter\src\main\java\htrestmff1\tweetdates.txt
+	//_RestAssuredTwitter/src/main/java/htrestmff1/tweetdates.txt
 
 	private static String testdatafilename = System.getProperty("user.dir") +
-			"\\src\\test\\java\\APIAutomation\\IORestAssuredBuild\\tweet_timelines\\user_timeline"+
-			"\\tweetdates.txt";
-
+			"\\src\\main\\java\\htrestmff1\\tweetdates.txt";
 
 	/**
 	 * Used to sort Map.Entry elements in decreasing order of value.
@@ -97,16 +103,15 @@ public final class TweetTally {
 			reader.close();
 
 			//sort the hash maps and put them into a list
-			List<Map.Entry<String, Integer>> entries = 
-					new ArrayList<Map.Entry<String,Integer>>(tally.entrySet());
+			List<Entry<String, Integer>> entries = new ArrayList<Entry<String,Integer>>(tally.entrySet());
 			Collections.sort(entries, new EntryComparator<String, Integer>());
 
 
-//			//hvt code enhanced for loop to iterate over map nodes
-//			System.out.println("printing out the tally hash map... ");
-//			for (Map.Entry<String,Integer> entry : tally.entrySet()) {
-//				System.out.println(entry.getKey() + ": " + entry.getValue());
-//			}
+			//			//hvt code enhanced for loop to iterate over map nodes
+			//			System.out.println("printing out the tally hash map... ");
+			//			for (Map.Entry<String,Integer> entry : tally.entrySet()) {
+			//				System.out.println(entry.getKey() + ": " + entry.getValue());
+			//			}
 
 			System.out.println("\r\nprinting out the sorted array list of the tally hash maps... ");	
 			int size = entries.size();
@@ -115,7 +120,7 @@ public final class TweetTally {
 				Map.Entry<String, Integer> entry = entries.get(index++);
 				System.out.println(entry.getKey() + ": " + entry.getValue());
 			}
-			
+
 			//tally the results
 		}
 		catch(IOException e) {
