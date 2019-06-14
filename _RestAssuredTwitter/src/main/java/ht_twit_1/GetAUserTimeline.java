@@ -90,7 +90,7 @@ public class GetAUserTimeline {
 	/*
 	 * 
 	 */
-	private static Response GETRequest(String resourceURL, int statusCode) {
+	private static Response GETRequest(String resURL, int sCode) {
 		ValidatableResponse vr = 
 				given()
 				.auth()
@@ -103,14 +103,14 @@ public class GetAUserTimeline {
 				.contentType(ContentType.JSON)
 				.log().all()
 				.when()
-				.get(resourceURL)
+				.get(resURL)
 				.then()
 				.contentType(ContentType.JSON)
-				.assertThat().statusCode(OK); /*ValidatableResponse feature*/
+				.assertThat().statusCode(sCode); /*ValidatableResponse feature*/
 
 		return vr.extract().response();
 	}
-	
+
 	/*
 	 * 
 	 */
