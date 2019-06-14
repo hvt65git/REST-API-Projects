@@ -110,7 +110,10 @@ public class GetAUserTimeline {
 
 		return vr.extract().response();
 	}
-
+	
+	/*
+	 * 
+	 */
 	private static void printTweet(int ctr, HashMap<String, Object> map) {
 		//iterate the map using Entry objects
 		for(Entry<String, Object> entry : map.entrySet()) {
