@@ -16,6 +16,9 @@ import static ht_twit_1.OAUTH.accessToken;
 import static ht_twit_1.OAUTH.accessTokenSecret;
 import static ht_twit_1.OAUTH.consumerKey;
 import static ht_twit_1.OAUTH.consumerSecret;
+
+import  ht_twit_1.CountParam;
+import  ht_twit_1.ScreenNameParam;
 import static ht_twit_1.Resource.get_user_timeline_resource_URL;
 
 /*
@@ -52,22 +55,14 @@ class Resource {
  * 
  */
 class ScreenNameParam {
-	private final String key = "screen_name";
-	private String value = "realDonaldTrump";
+	private static final String key = "screen_name";
+	private static final String value = "realDonaldTrump";
 
-	public ScreenNameParam( ) {
-		super();
-	}
-
-	public ScreenNameParam(String value) {
-		this.value = value;
-	}
-
-	public String getValue() {
+	public static String getValue() {
 		return value;
 	}
 
-	public String getKey() {
+	public static  String getKey() {
 		return key;
 	}
 }
@@ -76,19 +71,13 @@ class ScreenNameParam {
  * 
  */
 class CountParam {
-	private int value = 5;
-	private final String key = "count";
-	
-	public CountParam() {
-		super();
+	private static final int value = 5;
+	private static final String key = "count";
+
+	public static String getKey() {
+		return key;
 	}
-	public CountParam (int value) {
-		this.value = value;
-	}
-	public String getKey() {
-		return this.key;
-	}
-	public int getValue() {
+	public static int getValue() {
 		return value;
 	}
 }
@@ -97,8 +86,6 @@ class CountParam {
  * 
  */
 public class GetAUserTimeline {
-	private static final CountParam countParam = new CountParam();
-	private static final ScreenNameParam screenNameParam = new ScreenNameParam();
 
 	/*
 	 * 
@@ -107,9 +94,12 @@ public class GetAUserTimeline {
 		ValidatableResponse vr = 
 				given()
 				.auth()
-				.oauth(consumerKey, consumerSecret, accessToken, accessTokenSecret)
-				.param(countParam.getKey(), countParam.getValue())
-				.param(screenNameParam.getKey(), screenNameParam.getValue())
+				.oauth(consumerKey, 
+						consumerSecret, 
+						accessToken, 
+						accessTokenSecret)
+				.param(CountParam.getKey(), CountParam.getValue())
+				.param(ScreenNameParam.getKey(), ScreenNameParam.getValue())
 				.contentType(ContentType.JSON)
 				.log().all()
 				.when()
@@ -135,11 +125,13 @@ public class GetAUserTimeline {
 		}
 	}
 
+	/*
+	 * 
+	 */
 	public static void main(String[] arg) {	
 		try {
-			//issue the REST get request
+			//issue the twitter user time line REST get request
 			Response response = GETRequest(get_user_timeline_resource_URL(), OK);
-			//System.out.println(response.body().asString());
 
 			//store response in list of hashmaps
 			List<HashMap<String, Object>> root = response.jsonPath().getList("$");
