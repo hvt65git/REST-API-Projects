@@ -17,20 +17,7 @@ Types of polymorphism and method overloading & overriding are covered in the sep
  */
 public interface Animal{ //runtime polym
 	default void sound(){
-		System.out.println("Animal is making a sound");   
+		System.out.println("Animal is making an animal sound");   
 	}
 }
 
-class Horse implements Animal{
-	@Override
-	public void sound(){
-		System.out.println("Neigh");
-	}
-}
-
-class Cat implements Animal{
-	@Override
-	public void sound(){
-		System.out.println("Meow");
-	}
-}

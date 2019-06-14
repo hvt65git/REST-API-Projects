@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\nightbeats2\AppData\Local\Temp\testng-eclipse-142240754\testng-customsuite.xml</span>
+                    <span>C:\Users\nightbeats2\AppData\Local\Temp\testng-eclipse--923866480\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test5.Main" hash-for-method="main">main</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_drinki1.TestDrink" hash-for-method="testDrink_goodBeerName">testDrink_goodBeerName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,20 +120,20 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">test5.Main</span>
+              <span class="class-name">test_drinki1.TestDrink</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="main">
-                  </a> <!-- main -->
-                  <span class="method-name">main</span>
+                  <a name="testDrink_goodBeerName">
+                  </a> <!-- testDrink_goodBeerName -->
+                  <span class="method-name">testDrink_goodBeerName</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
 	at org.testng.Assert.assertTrue(Assert.java:54)
-	at test5.Main.main(Main.java:61)
+	at test_drinki1.TestDrink.testDrink_goodBeerName(TestDrink.java:93)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -168,7 +168,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nightbeats2\AppData\Local\Temp\testng-eclipse-142240754\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\nightbeats2\AppData\Local\Temp\testng-eclipse--923866480\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -177,7 +177,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test5.Main&quot;/&gt;
+      &lt;class name=&quot;test_drinki1.TestDrink&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -219,8 +219,8 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'main')
-data.setCell(0, 2, 'test5.Main')
+data.setCell(0, 1, 'testDrink_goodBeerName')
+data.setCell(0, 2, 'test_drinki1.TestDrink')
 data.setCell(0, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
@@ -241,9 +241,22 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test_drinki1.TestDrink</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testDrink_badNameBlankSpace</span>
+                <br/>
+                <span class="ignored-method-name">testDrink_badNameBlank</span>
+                <br/>
+                <span class="ignored-method-name">testDrink_</span>
+                <br/>
+                <span class="ignored-method-name">testDrink_badNameNull</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -252,7 +265,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test5.Main</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test_drinki1.TestDrink</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeEachTest</span>
                 <span class="method-start">0 ms</span>
@@ -260,12 +273,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">main</span>
-                <span class="method-start">16 ms</span>
+                <span class="method-name">testDrink_goodBeerName</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTest</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

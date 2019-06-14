@@ -22,7 +22,7 @@ import io.restassured.response.ValidatableResponse;
 import static io.restassured.RestAssured.given;
 
 import APIAutomation.IORestAssuredBuild._core.Count;
-import htrestmff1.GetAUserTimeline_DailyVersion;
+import ht_twit_restapi.GetAUserTimeline_DailyVersion;
 
 import static APIAutomation.IORestAssuredBuild._core.OAUTH.*;
 

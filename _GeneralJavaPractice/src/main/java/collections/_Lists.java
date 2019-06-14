@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import static collections.PerformanceReview.Grade.*;
@@ -15,26 +16,29 @@ public class _Lists {
 		
 		//(a) ArrayList
 		List<Employee> employees = new ArrayList<>();
-		employees.add(johnD);
-		employees.add(janeD);
-		employees.add(mrT);
+
 		
 		//print out the employee list
 		System.out.println("Printing out an ArrayList:");
-		employees.forEach(x->System.out.println("Employee Name: " + x.getName()
-		+ ", Performance Review Grade: " + x.getPerformanceReview().getGrade()));
+		employees.forEach(x->System.out.println("Employee Name: " +
+		 ", Performance Review Grade: " ));
 		
 		//(b) LinkedList
 		List<Employee> employees2 = new LinkedList<>();
-		employees2.add(johnD);
-		employees2.add(janeD);
-		employees2.add(mrT);
+
 		
 		//print out the employee list
 		System.out.println("\r\nPrinting out a LinkedList:");
-		employees2.forEach(x->System.out.println("Employee Name: " + x.getName()
-		+ ", Performance Review Grade: " + x.getPerformanceReview().getGrade()));
-
+		employees2.forEach(x->System.out.println("Employee Name: " +
+				 ", Performance Review Grade: " ));
+		
+		//(c) Arrays.asList()
+		List<Employee> employeesList = Arrays.asList(johnD, johnD, janeD, mrT);
+		
+		//print out
+		System.out.println("\r\nPrinting out a List with johnD dupes (c) Arrays.asList():");
+		employees.forEach(x->System.out.println("Employee Name: " +
+				 ", Performance Review Grade: " ));
 	}
 
 }

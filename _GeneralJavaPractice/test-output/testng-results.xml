@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="4" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="118" started-at="2019-05-24T06:40:19Z" finished-at="2019-05-24T06:40:19Z">
+  <suite name="Default suite" duration-ms="85" started-at="2019-06-09T04:58:33Z" finished-at="2019-06-09T04:58:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="118" started-at="2019-05-24T06:40:19Z" finished-at="2019-05-24T06:40:19Z">
-      <class name="test5.Main">
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:test5.Main@3f49dace]" name="beforeEachTest" is-config="true" duration-ms="16" started-at="2019-05-24T06:40:19Z" finished-at="2019-05-24T06:40:19Z">
+    <test name="Default test" duration-ms="85" started-at="2019-06-09T04:58:33Z" finished-at="2019-06-09T04:58:33Z">
+      <class name="test_drinki1.TestDrink">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:test_drinki1.TestDrink@3f49dace]" name="beforeEachTest" is-config="true" duration-ms="0" started-at="2019-06-09T04:58:33Z" finished-at="2019-06-09T04:58:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="FAIL" signature="main()[pri:0, instance:test5.Main@3f49dace]" name="main" duration-ms="0" started-at="2019-05-24T06:40:19Z" finished-at="2019-05-24T06:40:19Z">
+        <test-method status="FAIL" signature="testDrink_goodBeerName()[pri:0, instance:test_drinki1.TestDrink@3f49dace]" name="testDrink_goodBeerName" duration-ms="0" started-at="2019-06-09T04:58:33Z" finished-at="2019-06-09T04:58:33Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -22,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at test5.Main.main(Main.java:61)
+at test_drinki1.TestDrink.testDrink_goodBeerName(TestDrink.java:93)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,12 +53,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test5.Main@3f49dace]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-05-24T06:40:19Z" finished-at="2019-05-24T06:40:19Z">
+        </test-method> <!-- testDrink_goodBeerName -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test_drinki1.TestDrink@3f49dace]" name="afterEachTest" is-config="true" duration-ms="4" started-at="2019-06-09T04:58:33Z" finished-at="2019-06-09T04:58:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-      </class> <!-- test5.Main -->
+      </class> <!-- test_drinki1.TestDrink -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
