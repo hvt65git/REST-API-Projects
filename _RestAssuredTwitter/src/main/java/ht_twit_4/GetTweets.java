@@ -14,8 +14,11 @@ import static utils.OAUTH.accessTokenSecret;
 import static utils.OAUTH.consumerKey;
 import static utils.OAUTH.consumerSecret;
 
+/*
+ * 
+ */
 public class GetTweets {
-	private static final int httpStatusCodeOK = 200;
+	private static final int httpOK = 200;
 	private static final String baseURI = "https://api.twitter.com";
 	private static final String user_timeline_endpoint = "/1.1/statuses/user_timeline.json";
 	
@@ -41,7 +44,6 @@ public class GetTweets {
 	 * 
 	 */
 	private static Response getTweets() {
-		
 		ValidatableResponse vr = 
 				RestAssured.given()
 				.auth()
@@ -52,8 +54,7 @@ public class GetTweets {
 				.log().all()
 				.when()
 				.get(baseURI+user_timeline_endpoint)
-				.then().assertThat().statusCode(httpStatusCodeOK);
-		
+				.then().assertThat().statusCode(httpOK);
 		return vr.extract().response();
 	}
 
