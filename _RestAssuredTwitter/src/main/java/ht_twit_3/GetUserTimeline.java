@@ -1,5 +1,6 @@
 package ht_twit_3;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -22,12 +23,6 @@ import static ht_twit_3.TwitterResource.screenNameParam;
 /*
  * 
  */
-class OAUTH {
-	public static final String consumerKey 			= "Ez8HSiCaVZb0EW5JPctxVFz30";
-	public static final String consumerSecret 		= "1jpzfBTO4cIIMFwYT6VsSFnetdBJkK4w032Qr813vwryZj5gwS";
-	public static final String accessToken 			= "3556936994-DYhVytMQCt1quSyh20dxOKs3NNVHsbT6ebvCce7";
-	public static final String accessTokenSecret	= "pRVltgFncO2Eb0t5uUkPtywCQRwunT7MrfxJpV1dgHGkJ";
-}
 
 /*
  * 
@@ -49,12 +44,13 @@ class Param {
 		return value;
 	}
 }
+
 class TwitterResource {
 	public static final int httpOK = 200;
 	public static final String baseURI = "https://api.twitter.com";
 	public static final String user_timeline_endpoint = "/1.1/statuses/user_timeline.json";
 	
-	public static final Param countParam = new Param("count", 5);
+	public static final Param countParam = new Param("count", 3);
 	public static final Param screenNameParam = new Param("screen_name", "realDonaldTrump");
 }
 
@@ -62,13 +58,12 @@ class TwitterResource {
  * Calls the Twitter ReST API for getting tweets, parses the response, then displays the tweets.
  */
 public class GetUserTimeline {
-
-
+	
 	/*
 	 * 
 	 */
 	private static Response GetTwitterUserTimeline() {
-		//issue the Get request
+		//issue the Get request for tweets
 		ValidatableResponse vr = 
 				RestAssured.given()
 				.auth()
@@ -81,15 +76,14 @@ public class GetUserTimeline {
 				.get(baseURI+user_timeline_endpoint)
 				.then()
 				.assertThat().statusCode(httpOK);
-
 		return vr.extract().response();
 	}
 
 	/*
 	 * 
 	 */
-	private static void printTweets(List<Map<String,Object>> list) {
-		//iterate the hash maps using an entry set
+	private static void printTweets(List<HashMap<String,Object>> list) {
+		//iterate the  map using an entry set
 		for(int i=0; i<list.size(); i++) {
 			for(Map.Entry<String, Object> entry : list.get(i).entrySet()) {
 				switch(entry.getKey()) {
@@ -107,6 +101,7 @@ public class GetUserTimeline {
 			}
 		}
 	}
+	
 	/*
 	 * 
 	 */
@@ -118,3 +113,34 @@ public class GetUserTimeline {
 		printTweets(response.jsonPath().getList("$"));
 	}
 }
+
+//OUTPUT
+//Request method:	GET
+//Request URI:	https://api.twitter.com/1.1/statuses/user_timeline.json?count=3&screen_name=realDonaldTrump
+//Proxy:			<none>
+//Request params:	count=3
+//				screen_name=realDonaldTrump
+//Query params:	<none>
+//Form params:	<none>
+//Path params:	<none>
+//Headers:		Accept=*/*
+//				Content-Type=application/json; charset=UTF-8
+//Cookies:		<none>
+//Multiparts:		<none>
+//Body:			<none>
+//Tweet #1 Date Created:Fri Jun 14 22:37:38 +0000 2019
+//retweet_count = 10201
+//favorite_count = 48480
+//....While Pennsylvania is BOOMING, I don’t want there to be even a little glitch in Coatesville – every job counts.… https://t.co/DZ7LVDm0iu
+//
+//Tweet #2 Date Created:Fri Jun 14 22:37:37 +0000 2019
+//retweet_count = 9875
+//favorite_count = 47375
+//Just spoke to Marillyn Hewson, CEO of @LockheedMartin, about continuing operations for the @Sikorsky in Coatesville… https://t.co/DqqlThg65Z
+//
+//Tweet #3 Date Created:Fri Jun 14 21:32:53 +0000 2019
+//retweet_count = 11681
+//favorite_count = 0
+//RT @RepMarkMeadows: This week President Trump was able to do something no one else could: get the left to care about foreign intel in our e…
+
+

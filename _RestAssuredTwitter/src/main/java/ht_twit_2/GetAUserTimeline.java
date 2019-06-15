@@ -62,8 +62,7 @@ public class GetAUserTimeline {
 
 	private static void printTweet(int ctr, HashMap<String, Object> map) {
 		
-		for(Entry<String, Object> entry : map.entrySet()) {
-			
+		for(Entry<String, Object> entry : map.entrySet()) {		
 			switch(entry.getKey()) {
 			case "created_at":
 				System.out.println("\r\nTweet #" + ++ctr + ": " + entry.getValue());
