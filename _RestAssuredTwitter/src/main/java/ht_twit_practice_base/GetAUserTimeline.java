@@ -61,10 +61,11 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 
 import static io.restassured.RestAssured.given;
-import static ht_twit_practice_base.OAUTH.consumerKey;
-import static ht_twit_practice_base.OAUTH.consumerSecret;
-import static ht_twit_practice_base.OAUTH.accessToken;
-import static ht_twit_practice_base.OAUTH.accessTokenSecret;
+
+import static utils.OAUTH.accessToken;
+import static utils.OAUTH.accessTokenSecret;
+import static utils.OAUTH.consumerKey;
+import static utils.OAUTH.consumerSecret;
 
 import static ht_twit_practice_base.StatusCode.OK;
 import static ht_twit_practice_base.Resource.get_user_timeline_resource_URL;
@@ -74,12 +75,7 @@ class StatusCode {
 	public static final int OK = 200;
 }
 
-class OAUTH {
-	public static final String consumerKey 			= "Ez8HSiCaVZb0EW5JPctxVFz30";
-	public static final String consumerSecret 		= "1jpzfBTO4cIIMFwYT6VsSFnetdBJkK4w032Qr813vwryZj5gwS";
-	public static final String accessToken 			= "3556936994-DYhVytMQCt1quSyh20dxOKs3NNVHsbT6ebvCce7";
-	public static final String accessTokenSecret	= "pRVltgFncO2Eb0t5uUkPtywCQRwunT7MrfxJpV1dgHGkJ";
-}
+
 
 class Resource {
 	private static final String baseURI = "https://api.twitter.com";
