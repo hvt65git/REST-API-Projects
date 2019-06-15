@@ -21,7 +21,6 @@ import static ht_twit_3.TwitterResource.user_timeline_endpoint;
 import static ht_twit_3.TwitterResource.countParam;
 import static ht_twit_3.TwitterResource.screenNameParam;
 
-
 /*
  * 
  */
