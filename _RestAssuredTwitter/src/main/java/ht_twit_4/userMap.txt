@@ -1,0 +1,124 @@
+Printing out a USER HashMap...
+
+***KEY*** = utc_offset
+***VALUE*** = null
+
+***KEY*** = friends_count
+***VALUE*** = 38
+
+***KEY*** = profile_image_url_https
+***VALUE*** = https://pbs.twimg.com/profile_images/1091423317419012098/usm10f8I_normal.jpg
+
+***KEY*** = listed_count
+***VALUE*** = 5993
+
+***KEY*** = profile_background_image_url
+***VALUE*** = http://abs.twimg.com/images/themes/theme1/bg.png
+
+***KEY*** = default_profile_image
+***VALUE*** = false
+
+***KEY*** = favourites_count
+***VALUE*** = 2402
+
+***KEY*** = description
+***VALUE*** = I want to Love like Jesus!
+
+***KEY*** = created_at
+***VALUE*** = Sat Mar 03 00:39:20 +0000 2012
+
+***KEY*** = is_translator
+***VALUE*** = false
+
+***KEY*** = profile_background_image_url_https
+***VALUE*** = https://abs.twimg.com/images/themes/theme1/bg.png
+
+***KEY*** = protected
+***VALUE*** = false
+
+***KEY*** = screen_name
+***VALUE*** = DangeRussWilson
+
+***KEY*** = id_str
+***VALUE*** = 512613427
+
+***KEY*** = profile_link_color
+***VALUE*** = 0084B4
+
+***KEY*** = is_translation_enabled
+***VALUE*** = false
+
+***KEY*** = translator_type
+***VALUE*** = none
+
+***KEY*** = id
+***VALUE*** = 512613427
+
+***KEY*** = geo_enabled
+***VALUE*** = false
+
+***KEY*** = profile_background_color
+***VALUE*** = C0DEED
+
+***KEY*** = lang
+***VALUE*** = null
+
+***KEY*** = has_extended_profile
+***VALUE*** = false
+
+***KEY*** = profile_sidebar_border_color
+***VALUE*** = C0DEED
+
+***KEY*** = profile_text_color
+***VALUE*** = 333333
+
+***KEY*** = verified
+***VALUE*** = true
+
+***KEY*** = profile_image_url
+***VALUE*** = http://pbs.twimg.com/profile_images/1091423317419012098/usm10f8I_normal.jpg
+
+***KEY*** = time_zone
+***VALUE*** = null
+
+***KEY*** = url
+***VALUE*** = https://t.co/DqtUWiljpn
+
+***KEY*** = contributors_enabled
+***VALUE*** = false
+
+***KEY*** = profile_background_tile
+***VALUE*** = true
+
+***KEY*** = profile_banner_url
+***VALUE*** = https://pbs.twimg.com/profile_banners/512613427/1549050572
+
+***KEY*** = entities
+***VALUE*** = {description={urls=[]}, url={urls=[{display_url=PlayTally.com, indices=[0, 23], expanded_url=http://www.PlayTally.com, url=https://t.co/DqtUWiljpn}]}}
+
+***KEY*** = statuses_count
+***VALUE*** = 10364
+
+***KEY*** = follow_request_sent
+***VALUE*** = false
+
+***KEY*** = followers_count
+***VALUE*** = 5417664
+
+***KEY*** = profile_use_background_image
+***VALUE*** = true
+
+***KEY*** = default_profile
+***VALUE*** = false
+
+***KEY*** = following
+***VALUE*** = true
+
+***KEY*** = name
+***VALUE*** = Russell Wilson
+
+***KEY*** = location
+***VALUE*** = Global
+
+***KEY*** = profile_sidebar_fill_color
+***VALUE*** = DDEEF6

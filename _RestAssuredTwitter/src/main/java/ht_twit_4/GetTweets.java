@@ -21,7 +21,7 @@ public class GetTweets {
 	private static final int httpOK = 200;
 	private static final String baseURI = "https://api.twitter.com";
 	private static final String user_timeline_endpoint = "/1.1/statuses/user_timeline.json";
-	
+
 	/*
 	 *  
 	 */
@@ -39,7 +39,7 @@ public class GetTweets {
 			}
 		}
 	}
-	
+
 	/*
 	 * 
 	 */
