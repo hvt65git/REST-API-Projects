@@ -45,11 +45,17 @@ public class GetTweets {
 			
 			for(Map.Entry<String, Object> entry : list.get(i).entrySet()) {
 				switch(entry.getKey()) {
+				case "created_at":
+					System.out.println("Date Created:" + entry.getValue());
+					break;
 				case "text":
 					System.out.println("Tweet text = " + entry.getValue());
 					break;
 				case "entities" :
-					System.out.println(entry.getKey() + " = " + entry.getValue());
+					HashMap<String, Object> userMap = (HashMap<String, Object>)entry.getValue();
+					for(Map.Entry<String, Object> userData : userMap.entrySet()) {
+						System.out.println(userData.getKey() + " = " + userData.getValue());
+					}
 					break;
 				}
 			}
@@ -82,7 +88,7 @@ public class GetTweets {
 	 */
 	public static void main(String[] args) {
 		final int sCodeOK = 200;
-		final int count = 2;
+		final int count = 22;
 		final String screenName = "realDonaldTrump";
 		final String resourceURL = "https://api.twitter.com/1.1/statuses/user_timeline.json";
 		
