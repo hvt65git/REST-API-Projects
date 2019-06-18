@@ -36,7 +36,7 @@ public class GetTweets {
 	/*
 	 * printTweets
 	 */
-	private static void printAllTweets(int count, String screenName, List<HashMap<String, Object>> list) {
+	private static void printTweetsAndEntities(int count, String screenName, List<HashMap<String, Object>> list) {
 		System.out.println("\r\nPrinting out the " + count + 
 				" most recent tweets from twitter user: " + screenName);
 		
@@ -66,7 +66,7 @@ public class GetTweets {
 	/*
 	 * printTweets
 	 */
-	private static void printUserData(String screenName, List<HashMap<String, Object>> list) {
+	private static void printUserMetadata(String screenName, List<HashMap<String, Object>> list) {
 		System.out.println("\r\nPrinting out the twitter user profile data for: " + screenName);
 		
 		for(int i=0; i<1; i++) {
@@ -88,7 +88,7 @@ public class GetTweets {
 	 */
 	public static void main(String[] args) {
 		final int sCodeOK = 200;
-		final int count = 22;
+		final int count = 33;
 		final String screenName = "realDonaldTrump";
 		final String resourceURL = "https://api.twitter.com/1.1/statuses/user_timeline.json";
 		
@@ -96,10 +96,10 @@ public class GetTweets {
 		Response response = getTweets(resourceURL, count, screenName, sCodeOK);
 		
 		//print out the twitter user data before printing out the user's tweets
-		printUserData(screenName, response.jsonPath().getList("$"));
+		printUserMetadata(screenName, response.jsonPath().getList("$"));
 
 		//print out the user's tweets
-		printAllTweets(count, screenName, response.jsonPath().getList("$"));
+		printTweetsAndEntities(count, screenName, response.jsonPath().getList("$"));
 	}
 }
 
