@@ -1,66 +1,289 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26623" started-at="2019-06-18T07:15:35Z" finished-at="2019-06-18T07:16:02Z">
+  <suite name="Default suite" duration-ms="3403" started-at="2019-07-15T19:28:01Z" finished-at="2019-07-15T19:28:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26623" started-at="2019-06-18T07:15:35Z" finished-at="2019-06-18T07:16:02Z">
+    <test name="Default test" duration-ms="3403" started-at="2019-07-15T19:28:01Z" finished-at="2019-07-15T19:28:04Z">
       <class name="sff10.GoogleSmokeTest">
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="createWebDriver" is-config="true" duration-ms="5259" started-at="2019-06-18T07:15:35Z" finished-at="2019-06-18T07:15:41Z">
+        <test-method status="FAIL" signature="createWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="createWebDriver" is-config="true" duration-ms="3247" started-at="2019-07-15T19:28:01Z" finished-at="2019-07-15T19:28:04Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to parse remote response: Unknown error]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at sff10.DriverType$2.getDriver(GoogleSmokeTest.java:39)
+at sff10.DriverFactory.createWebDriver(GoogleSmokeTest.java:57)
+at sff10.GoogleSmokeTest.createWebDriver(GoogleSmokeTest.java:1)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MTFJEHHC', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="createWebDriver" is-config="true" duration-ms="3988" started-at="2019-06-18T07:15:35Z" finished-at="2019-06-18T07:15:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="createWebDriver" is-config="true" duration-ms="5174" started-at="2019-06-18T07:15:35Z" finished-at="2019-06-18T07:15:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="googleSmokeTest" duration-ms="21838" started-at="2019-06-18T07:15:39Z" data-provider="getTestData" finished-at="2019-06-18T07:16:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seattle seahawks]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="googleSmokeTest" duration-ms="0" started-at="2019-07-15T19:28:04Z" data-provider="getTestData" finished-at="2019-07-15T19:28:04Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to parse remote response: Unknown error]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at sff10.DriverType$2.getDriver(GoogleSmokeTest.java:39)
+at sff10.DriverFactory.createWebDriver(GoogleSmokeTest.java:57)
+at sff10.GoogleSmokeTest.createWebDriver(GoogleSmokeTest.java:1)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MTFJEHHC', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSmokeTest -->
-        <test-method status="PASS" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="googleSmokeTest" duration-ms="17585" started-at="2019-06-18T07:15:41Z" data-provider="getTestData" finished-at="2019-06-18T07:15:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seattle sounders]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSmokeTest -->
-        <test-method status="PASS" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="googleSmokeTest" duration-ms="20210" started-at="2019-06-18T07:15:41Z" data-provider="getTestData" finished-at="2019-06-18T07:16:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seattle storm]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSmokeTest -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="releaseWebDriver" is-config="true" duration-ms="953" started-at="2019-06-18T07:15:58Z" finished-at="2019-06-18T07:15:59Z">
+        <test-method status="SKIP" signature="releaseWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="releaseWebDriver" is-config="true" duration-ms="0" started-at="2019-07-15T19:28:04Z" finished-at="2019-07-15T19:28:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="releaseWebDriver" is-config="true" duration-ms="807" started-at="2019-06-18T07:16:01Z" finished-at="2019-06-18T07:16:02Z">
+        <test-method status="SKIP" signature="createWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="createWebDriver" is-config="true" duration-ms="0" started-at="2019-07-15T19:28:04Z" finished-at="2019-07-15T19:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="SKIP" signature="releaseWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="releaseWebDriver" is-config="true" duration-ms="0" started-at="2019-07-15T19:28:04Z" finished-at="2019-07-15T19:28:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="releaseWebDriver" is-config="true" duration-ms="749" started-at="2019-06-18T07:16:01Z" finished-at="2019-06-18T07:16:02Z">
+        <test-method status="SKIP" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="googleSmokeTest" duration-ms="0" started-at="2019-07-15T19:28:04Z" data-provider="getTestData" finished-at="2019-07-15T19:28:04Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to parse remote response: Unknown error]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at sff10.DriverType$2.getDriver(GoogleSmokeTest.java:39)
+at sff10.DriverFactory.createWebDriver(GoogleSmokeTest.java:57)
+at sff10.GoogleSmokeTest.createWebDriver(GoogleSmokeTest.java:1)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MTFJEHHC', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSmokeTest -->
+        <test-method status="SKIP" signature="createWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="createWebDriver" is-config="true" duration-ms="0" started-at="2019-07-15T19:28:04Z" finished-at="2019-07-15T19:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="SKIP" signature="googleSmokeTest(java.lang.String)[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="googleSmokeTest" duration-ms="0" started-at="2019-07-15T19:28:04Z" data-provider="getTestData" finished-at="2019-07-15T19:28:04Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to parse remote response: Unknown error]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: Unknown error
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at sff10.DriverType$2.getDriver(GoogleSmokeTest.java:39)
+at sff10.DriverFactory.createWebDriver(GoogleSmokeTest.java:57)
+at sff10.GoogleSmokeTest.createWebDriver(GoogleSmokeTest.java:1)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MTFJEHHC', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
+at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
+at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
+at org.openqa.selenium.json.Json.toType(Json.java:69)
+at org.openqa.selenium.json.Json.toType(Json.java:55)
+at org.openqa.selenium.json.Json.toType(Json.java:50)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSmokeTest -->
+        <test-method status="SKIP" signature="releaseWebDriver()[pri:0, instance:sff10.GoogleSmokeTest@4b952a2d]" name="releaseWebDriver" is-config="true" duration-ms="0" started-at="2019-07-15T19:28:04Z" finished-at="2019-07-15T19:28:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->

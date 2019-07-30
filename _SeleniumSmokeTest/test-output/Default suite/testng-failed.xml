@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sff8.GoogleSmokeTest">
+      <class name="sff10.GoogleSmokeTest">
         <methods>
           <include name="googleSmokeTest"/>
-          <include name="createWebDriver"/>
           <include name="releaseWebDriver"/>
+          <include name="createWebDriver"/>
         </methods>
-      </class> <!-- sff8.GoogleSmokeTest -->
+      </class> <!-- sff10.GoogleSmokeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,1616 @@
+
+Printing tweets for: ishMail2015
+Current Date and Time: 2019-06-23T19:45:42.112
+
+
+Tweet #1 :
+Date Created:Wed Jun 19 08:07:59 +0000 2019
+text= RT @Inspire_Us: Be courageous https://t.co/PU2GqwhtU3
+urls= []
+hashtags= []
+media= [{display_url=pic.twitter.com/PU2GqwhtU3, source_user_id=129845242, type=photo, media_url=http://pbs.twimg.com/media/D9MpVMZXsAAZ21z.jpg, source_status_id=1140300576468668416, url=https://t.co/PU2GqwhtU3, indices=[30, 53], sizes={small={w=640, h=640, resize=fit}, large={w=640, h=640, resize=fit}, thumb={w=150, h=150, resize=crop}, medium={w=640, h=640, resize=fit}}, id_str=1140300574736494592, expanded_url=https://twitter.com/Inspire_Us/status/1140300576468668416/photo/1, source_status_id_str=1140300576468668416, media_url_https=https://pbs.twimg.com/media/D9MpVMZXsAAZ21z.jpg, id=1140300574736494592, source_user_id_str=129845242}]
+user_mentions= [{indices=[3, 14], screen_name=Inspire_Us, id_str=129845242, name=Inspirational Quotes, id=129845242}]
+symbols= []
+
+Tweet #2 :
+Date Created:Wed Jun 19 07:56:24 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 14], screen_name=Inspire_Us, id_str=129845242, name=Inspirational Quotes, id=129845242}]
+symbols= []
+text= RT @Inspire_Us: You must do the thing which you think you cannot do. -Eleanor Roosevelt
+
+Tweet #3 :
+Date Created:Wed Jun 19 07:56:16 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 14], screen_name=Inspire_Us, id_str=129845242, name=Inspirational Quotes, id=129845242}]
+symbols= []
+text= RT @Inspire_Us: Gratitude: recognize the good in your life.
+
+Tweet #4 :
+Date Created:Wed Jun 19 07:55:18 +0000 2019
+urls= [{display_url=po.st/NXXs37, indices=[53, 76], expanded_url=http://po.st/NXXs37, url=https://t.co/ZHQwTnwERx}]
+hashtags= []
+user_mentions= [{indices=[81, 93], screen_name=BrainyQuote, id_str=29573746, name=BrainyQuote, id=29573746}]
+symbols= []
+text= "If a man does not keep pace with his companions..." https://t.co/ZHQwTnwERx via @BrainyQuote
+
+Tweet #5 :
+Date Created:Wed Jun 19 07:54:31 +0000 2019
+text= RT @BrainyQuote: There are no shortcuts in evolution. - Louis D. Brandeis
+https://t.co/qIpqYOVMQ4 #brainyquote #QOTD #evolution #noshortcuts
+urls= [{display_url=brainyquote.com/quotes/quotes/…, indices=[74, 97], expanded_url=http://www.brainyquote.com/quotes/quotes/l/louisdbra100215.html, url=https://t.co/qIpqYOVMQ4}]
+hashtags= [{indices=[98, 110], text=brainyquote}, {indices=[111, 116], text=QOTD}, {indices=[117, 127], text=evolution}, {indices=[128, 140], text=noshortcuts}]
+user_mentions= [{indices=[3, 15], screen_name=BrainyQuote, id_str=29573746, name=BrainyQuote, id=29573746}]
+symbols= []
+
+Tweet #6 :
+Date Created:Wed Jun 19 07:52:53 +0000 2019
+urls= [{display_url=po.st/xtJC39, indices=[54, 77], expanded_url=http://po.st/xtJC39, url=https://t.co/dysgHVrxNx}]
+hashtags= []
+user_mentions= [{indices=[82, 94], screen_name=BrainyQuote, id_str=29573746, name=BrainyQuote, id=29573746}]
+symbols= []
+text= "My mission in life is not merely to survive, but..." https://t.co/dysgHVrxNx via @BrainyQuote
+
+Tweet #7 :
+Date Created:Wed Jun 19 07:52:04 +0000 2019
+urls= [{display_url=po.st/TO3OFG, indices=[60, 83], expanded_url=http://po.st/TO3OFG, url=https://t.co/jFcSfjNhPd}]
+hashtags= []
+user_mentions= [{indices=[88, 100], screen_name=BrainyQuote, id_str=29573746, name=BrainyQuote, id=29573746}]
+symbols= []
+text= "The best and most beautiful things in the world cannot..." https://t.co/jFcSfjNhPd via @BrainyQuote
+
+Tweet #8 :
+Date Created:Tue Jun 18 23:02:33 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 10], screen_name=ValeNappi, id_str=2199317030, name=Valentina Nappi, id=2199317030}]
+symbols= []
+text= @ValeNappi I see two FULL MOONS in this picture! 😆😊😘
+
+Tweet #9 :
+Date Created:Tue Jun 18 19:36:13 +0000 2019
+urls= [{display_url=youtu.be/g-gvHfYxdRk, indices=[42, 65], expanded_url=https://youtu.be/g-gvHfYxdRk, url=https://t.co/rSg5PTvwf1}]
+hashtags= [{indices=[79, 92], text=Supernatural}, {indices=[93, 99], text=Truth}, {indices=[100, 107], text=plasma}, {indices=[108, 113], text=orbs}]
+user_mentions= [{indices=[70, 78], screen_name=YouTube, id_str=10228272, name=YouTube, id=10228272}]
+symbols= []
+text= April 2019 ORB! Can you handle the truth? https://t.co/rSg5PTvwf1 via @YouTube #Supernatural #Truth #plasma #orbs
+
+Tweet #10 :
+Date Created:Sun Jun 16 22:23:47 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= @Pontifex that's really beautiful, thank you! 🙏🙏🙏
+
+Tweet #11 :
+Date Created:Sun Jun 16 00:39:45 +0000 2019
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= hello world!
+
+Tweet #12 :
+Date Created:Sun Jun 16 00:31:14 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}]
+symbols= []
+text= @Tatti_D ❤️❤️❤️
+
+Tweet #13 :
+Date Created:Sun Jun 16 00:30:25 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}, {indices=[9, 22], screen_name=NikkiDavisXO, id_str=480031181, name=NikkiTheFarmerXO, id=480031181}]
+symbols= []
+text= @Tatti_D @NikkiDavisXO no bueno!😆😂
+
+Tweet #14 :
+Date Created:Wed Jun 05 17:20:18 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 16], screen_name=DangeRussWilson, id_str=512613427, name=Russell Wilson, id=512613427}]
+symbols= []
+text= @DangeRussWilson You are the light of the world and the salt of the earth Russ! I send you my love, gratitude, and blessings! 🙏🙏🙏
+
+Tweet #15 :
+Date Created:Sun Jun 02 01:40:07 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 16], screen_name=DangeRussWilson, id_str=512613427, name=Russell Wilson, id=512613427}, {indices=[17, 23], screen_name=ciara, id_str=28897926, name=Ciara, id=28897926}]
+symbols= []
+text= @DangeRussWilson @ciara you're awesome Russ!
+
+Tweet #16 :
+Date Created:Sun May 26 01:50:21 +0000 2019
+urls= []
+hashtags= [{indices=[21, 25], text=BVD}]
+user_mentions= [{indices=[3, 19], screen_name=DangeRussWilson, id_str=512613427, name=Russell Wilson, id=512613427}]
+symbols= []
+text= RT @DangeRussWilson: #BVD “This is the day that the Lord has made; let us rejoice and be glad in it.”
+Psalms 118:24 ESV
+
+Tweet #17 :
+Date Created:Sun May 26 01:50:19 +0000 2019
+urls= []
+hashtags= [{indices=[21, 25], text=BVD}]
+user_mentions= [{indices=[3, 19], screen_name=DangeRussWilson, id_str=512613427, name=Russell Wilson, id=512613427}]
+symbols= []
+text= RT @DangeRussWilson: #BVD “for we walk by faith, not by sight.”
+2 Corinthians 5:7 ESV
+
+Tweet #18 :
+Date Created:Sat May 25 23:22:54 +0000 2019
+urls= []
+hashtags= [{indices=[44, 52], text=GoHawks}]
+user_mentions= [{indices=[0, 16], screen_name=DangeRussWilson, id_str=512613427, name=Russell Wilson, id=512613427}]
+symbols= []
+text= @DangeRussWilson I FEEL IT! Superbowl 2020! #GoHawks
+
+Tweet #19 :
+Date Created:Sun May 12 00:11:12 +0000 2019
+urls= [{display_url=youtube.com/watch?v=HTq7vE…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=HTq7vE_5un4, url=https://t.co/01k4bqahuJ}]
+hashtags= [{indices=[24, 31], text=Reggae}]
+user_mentions= []
+symbols= []
+text= https://t.co/01k4bqahuJ #Reggae
+
+Tweet #20 :
+Date Created:Sun May 12 00:01:42 +0000 2019
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[116, 139], expanded_url=https://twitter.com/i/web/status/1127363181423222784, url=https://t.co/aKdHvhbK2R}]
+hashtags= []
+user_mentions= [{indices=[0, 14], screen_name=Alyssa_Milano, id_str=26642006, name=Alyssa Milano, id=26642006}]
+symbols= []
+text= @Alyssa_Milano Stand up for your rights! Right on Alyssa, tell it! As the great Bob Marley said, Get up, stand up,… https://t.co/aKdHvhbK2R
+
+Tweet #21 :
+Date Created:Sat May 11 23:54:09 +0000 2019
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/1127361280673632256, url=https://t.co/wnSTgP2FDE}]
+hashtags= []
+user_mentions= [{indices=[0, 16], screen_name=DangeRussWilson, id_str=512613427, name=Russell Wilson, id=512613427}, {indices=[17, 31], screen_name=DougBaldwinJr, id_str=45892981, name=Doug Baldwin Jr, id=45892981}, {indices=[32, 46], screen_name=KamChancellor, id_str=37823344, name=Kameron Chancellor, id=37823344}]
+symbols= []
+text= @DangeRussWilson @DougBaldwinJr @KamChancellor I Love you guys!!! Thanks for the memories and uh, yes, thanks for t… https://t.co/wnSTgP2FDE
+
+Tweet #22 :
+Date Created:Mon Apr 29 21:49:04 +0000 2019
+urls= []
+hashtags= [{indices=[32, 40], text=GoHawks}]
+user_mentions= [{indices=[0, 12], screen_name=dkmetcalf14, id_str=1366057639, name=DK Metcalf, id=1366057639}, {indices=[13, 25], screen_name=EAMaddenNFL, id_str=50096544, name=Madden NFL 20, id=50096544}]
+symbols= []
+text= @dkmetcalf14 @EAMaddenNFL WHOA! #GoHawks
+
+Tweet #23 :
+Date Created:Sun Apr 28 23:03:36 +0000 2019
+urls= []
+hashtags= [{indices=[42, 50], text=gohawks}]
+user_mentions= [{indices=[0, 9], screen_name=Seahawks, id_str=23642374, name=Seattle Seahawks, id=23642374}, {indices=[10, 19], screen_name=UAmadi7_, id_str=2345939707, name=Ugo Amadi, id=2345939707}]
+symbols= []
+text= @Seahawks @UAmadi7_ 123HAWKS! LET'S GO!!! #gohawks
+
+Tweet #24 :
+Date Created:Sun Apr 28 19:40:29 +0000 2019
+urls= []
+hashtags= [{indices=[50, 58], text=GoHawks}]
+user_mentions= [{indices=[0, 12], screen_name=dkmetcalf14, id_str=1366057639, name=DK Metcalf, id=1366057639}, {indices=[13, 17], screen_name=NFL, id_str=19426551, name=NFL, id=19426551}, {indices=[18, 27], screen_name=Seahawks, id_str=23642374, name=Seattle Seahawks, id=23642374}, {indices=[28, 37], screen_name=OldSpice, id_str=48797251, name=Old Spice, id=48797251}]
+symbols= []
+text= @dkmetcalf14 @NFL @Seahawks @OldSpice GO HAWKS!!! #GoHawks
+
+Tweet #25 :
+Date Created:Sun Apr 28 19:38:00 +0000 2019
+urls= []
+hashtags= [{indices=[119, 127], text=gohawks}]
+user_mentions= [{indices=[0, 9], screen_name=Seahawks, id_str=23642374, name=Seattle Seahawks, id=23642374}, {indices=[10, 22], screen_name=dkmetcalf14, id_str=1366057639, name=DK Metcalf, id=1366057639}]
+symbols= []
+text= @Seahawks @dkmetcalf14 welcome to seattle DK! its time for another Super Bowl run around here!!!  LET'S GO! 123 HAWKS! #gohawks
+
+Tweet #26 :
+Date Created:Sun Apr 28 19:34:52 +0000 2019
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[107, 130], expanded_url=https://twitter.com/i/web/status/1122584986958176256, url=https://t.co/bxcl7Jw6Gf}]
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Seahawks, id_str=23642374, name=Seattle Seahawks, id=23642374}, {indices=[10, 22], screen_name=ljcollier91, id_str=443221247, name=Lj collier, id=443221247}, {indices=[23, 35], screen_name=dkmetcalf14, id_str=1366057639, name=DK Metcalf, id=1366057639}, {indices=[36, 44], screen_name=_gman12, id_str=2367569921, name=Gary Jennings, id=2367569921}, {indices=[45, 58], screen_name=PhilHaynes95, id_str=319352939, name=Phil Haynes, id=319352939}, {indices=[59, 68], screen_name=UAmadi7_, id_str=2345939707, name=Ugo Amadi, id=2345939707}, {indices=[69, 77], screen_name=benbk25, id_str=2247600524, name=Ben Burr-Kirven, id=2247600524}, {indices=[78, 91], screen_name=travishomer4, id_str=1489341643, name=Travis Homer, id=1489341643}, {indices=[92, 105], screen_name=christmas_93, id_str=3020175545, name=DeMarcus Christmas, id=3020175545}]
+symbols= []
+text= @Seahawks @ljcollier91 @dkmetcalf14 @_gman12 @PhilHaynes95 @UAmadi7_ @benbk25 @travishomer4 @christmas_93… https://t.co/bxcl7Jw6Gf
+
+Tweet #27 :
+Date Created:Sun Apr 28 19:30:41 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Seahawks, id_str=23642374, name=Seattle Seahawks, id=23642374}, {indices=[10, 22], screen_name=PeteCarroll, id_str=15876379, name=Pete Carroll, id=15876379}, {indices=[23, 35], screen_name=dkmetcalf14, id_str=1366057639, name=DK Metcalf, id=1366057639}]
+symbols= []
+text= @Seahawks @PeteCarroll @dkmetcalf14 yeah no comment on that one! lol! go hawks!
+
+Tweet #28 :
+Date Created:Sun Apr 28 19:29:39 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 5], screen_name=espn, id_str=2557521, name=ESPN, id=2557521}, {indices=[6, 15], screen_name=Seahawks, id_str=23642374, name=Seattle Seahawks, id=23642374}]
+symbols= []
+text= @espn @Seahawks another star is born! go hawks!!!
+
+Tweet #29 :
+Date Created:Sun Apr 28 08:55:18 +0000 2019
+urls= [{display_url=bit.ly/2vzbTU1, indices=[52, 75], expanded_url=http://bit.ly/2vzbTU1, url=https://t.co/BXly5u7cID}]
+hashtags= []
+user_mentions= [{indices=[44, 51], screen_name=cdbaby, id_str=19599314, name=CD Baby, id=19599314}]
+symbols= []
+text= ♫  Rosemary (Rosmarino) -  Damanhur. Listen @cdbaby https://t.co/BXly5u7cID
+
+Tweet #30 :
+Date Created:Sun Apr 28 08:54:52 +0000 2019
+urls= [{display_url=bit.ly/2XQlGRq, indices=[44, 67], expanded_url=http://bit.ly/2XQlGRq, url=https://t.co/0cJaiZxyVH}]
+hashtags= []
+user_mentions= [{indices=[36, 43], screen_name=cdbaby, id_str=19599314, name=CD Baby, id=19599314}]
+symbols= []
+text= ♫  Grass (Erba) -  Damanhur. Listen @cdbaby https://t.co/0cJaiZxyVH
+
+Tweet #31 :
+Date Created:Sun Apr 28 08:54:33 +0000 2019
+urls= [{display_url=bit.ly/2XVu7Lx, indices=[58, 81], expanded_url=http://bit.ly/2XVu7Lx, url=https://t.co/SMZAAsabET}]
+hashtags= []
+user_mentions= [{indices=[50, 57], screen_name=cdbaby, id_str=19599314, name=CD Baby, id=19599314}]
+symbols= []
+text= ♫  White Roses (Rose Bianche) -  Damanhur. Listen @cdbaby https://t.co/SMZAAsabET
+
+Tweet #32 :
+Date Created:Sun Apr 28 08:54:22 +0000 2019
+urls= [{display_url=bit.ly/2XXXLzR, indices=[54, 77], expanded_url=http://bit.ly/2XXXLzR, url=https://t.co/8tD1SpB8WK}]
+hashtags= []
+user_mentions= [{indices=[46, 53], screen_name=cdbaby, id_str=19599314, name=CD Baby, id=19599314}]
+symbols= []
+text= ♫  Red Roses (Rose Rosse) -  Damanhur. Listen @cdbaby https://t.co/8tD1SpB8WK
+
+Tweet #33 :
+Date Created:Wed Apr 24 19:46:18 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=Rude_Astrology, id_str=927204517539655680, name=Rude Astrology, id=927204517539655680}, {indices=[16, 24], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}]
+symbols= []
+text= @Rude_Astrology @Tatti_D from the people I know, this is pretty accurate! 😆😆😆
+
+Tweet #34 :
+Date Created:Tue Apr 23 22:34:56 +0000 2019
+urls= [{display_url=youtube.com/watch?v=lhWbo1…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=lhWbo135Efc, url=https://t.co/yXKDDQH8QN}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/yXKDDQH8QN funny birds! 😂😂😂🤣🤣🤣
+
+Tweet #35 :
+Date Created:Mon Feb 25 22:41:34 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= @Pontifex And then I hope action will follow. 🙏🙏🙏
+
+Tweet #36 :
+Date Created:Fri Feb 22 23:41:21 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 13], screen_name=TrashTalkNFL, id_str=2579500110, name=Trash Talk NFL, id=2579500110}]
+symbols= []
+text= @TrashTalkNFL WOOOOW! 🤣🤣🤣
+
+Tweet #37 :
+Date Created:Fri Feb 22 21:17:01 +0000 2019
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/1099055484563156992, url=https://t.co/AcjA39dxK6}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Time to find God billionaire Robert Kraft, it is not too late. Your Kraft stock plunged today and you have an arres… https://t.co/AcjA39dxK6
+
+Tweet #38 :
+Date Created:Sun Feb 10 23:02:07 +0000 2019
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= @Pontifex Amen.
+
+Tweet #39 :
+Date Created:Thu Jan 10 07:40:17 +0000 2019
+urls= [{display_url=youtube.com/watch?v=91MEsG…, indices=[42, 65], expanded_url=https://www.youtube.com/watch?v=91MEsGxe8tE, url=https://t.co/cSOx6to1eI}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= My favorite wolf howl to the setting sun!
+https://t.co/cSOx6to1eI
+
+Tweet #40 :
+Date Created:Thu Jan 10 05:45:10 +0000 2019
+urls= [{display_url=youtube.com/watch?v=een8Lr…, indices=[10, 33], expanded_url=https://www.youtube.com/watch?v=een8LrM3QzQ, url=https://t.co/dYNjiBMD6R}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= AHOOOOO! 
+https://t.co/dYNjiBMD6R 
+🐺🐺🐺
+❤️❤️❤️
+
+Tweet #41 :
+Date Created:Wed Dec 26 23:35:06 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}]
+symbols= []
+text= @Tatti_D wow! :D😂😂😂
+
+Tweet #42 :
+Date Created:Fri Dec 21 22:42:36 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}]
+symbols= []
+text= @Tatti_D Happy Holidays Tatti! Papi will make a come back in 2019! cheers! papi :D
+
+Tweet #43 :
+Date Created:Sun Nov 18 00:37:17 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 10], screen_name=raccooons, id_str=1006221458710786048, name=Raccoons🦝, id=1006221458710786048}, {indices=[11, 19], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}]
+symbols= []
+text= @raccooons @Tatti_D I think raccoon is having a bad dream!
+
+Tweet #44 :
+Date Created:Wed Nov 14 06:22:31 +0000 2018
+text= 🤣🤣🤣 https://t.co/ANZd33qU1C
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[4, 27], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1061952535861161984, url=https://t.co/ANZd33qU1C}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #45 :
+Date Created:Wed Nov 14 06:16:22 +0000 2018
+text= pure joy!!! https://t.co/qcTmHFqSvf
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[12, 35], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1062452530381230080, url=https://t.co/qcTmHFqSvf}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #46 :
+Date Created:Wed Nov 14 06:14:02 +0000 2018
+text= lol! https://t.co/GtEMDLdIaa
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[5, 28], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1062009183472472069, url=https://t.co/GtEMDLdIaa}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #47 :
+Date Created:Fri Oct 26 00:16:23 +0000 2018
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= ❤️❤️❤️❤️    ❤️❤️❤️❤️    ❤️❤️❤️ ❤️
+
+Tweet #48 :
+Date Created:Mon Oct 15 22:41:38 +0000 2018
+text= #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul… https://t.co/BpDZitj90i
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[113, 136], expanded_url=https://twitter.com/i/web/status/1051966356747247616, url=https://t.co/BpDZitj90i}]
+hashtags= [{indices=[0, 13], text=thankyoupaul}, {indices=[14, 27], text=thankyoupaul}, {indices=[28, 41], text=thankyoupaul}, {indices=[42, 55], text=thankyoupaul}, {indices=[56, 69], text=thankyoupaul}, {indices=[70, 83], text=thankyoupaul}, {indices=[84, 97], text=thankyoupaul}, {indices=[98, 111], text=thankyoupaul}]
+user_mentions= []
+symbols= []
+
+Tweet #49 :
+Date Created:Mon Oct 15 22:41:06 +0000 2018
+text= #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul #thankyoupaul… https://t.co/2gWQvxIcno
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[113, 136], expanded_url=https://twitter.com/i/web/status/1051966222739206145, url=https://t.co/2gWQvxIcno}]
+hashtags= [{indices=[0, 13], text=thankyoupaul}, {indices=[14, 27], text=thankyoupaul}, {indices=[28, 41], text=thankyoupaul}, {indices=[42, 55], text=thankyoupaul}, {indices=[56, 69], text=thankyoupaul}, {indices=[70, 83], text=thankyoupaul}, {indices=[84, 97], text=thankyoupaul}, {indices=[98, 111], text=thankyoupaul}]
+user_mentions= []
+symbols= []
+
+Tweet #50 :
+Date Created:Mon Oct 15 22:40:00 +0000 2018
+urls= []
+hashtags= [{indices=[16, 35], text=ascendedmasterpaul}, {indices=[36, 49], text=thankyoupaul}]
+user_mentions= [{indices=[0, 15], screen_name=TwitterMoments, id_str=3260518932, name=Twitter Moments, id=3260518932}]
+symbols= []
+text= @TwitterMoments #ascendedmasterpaul #thankyoupaul
+
+Tweet #51 :
+Date Created:Mon Oct 15 22:35:31 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/1051964817735471104, url=https://t.co/3pXvWnkSj0}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= My heart is broken regarding the death of Paul Allen. :( I wish to thank him at this time for all that he gave to t… https://t.co/3pXvWnkSj0
+
+Tweet #52 :
+Date Created:Mon Oct 15 22:30:31 +0000 2018
+text= Thank you for this very touching tweet Frank, it is full of so much Light. I am in tears right now and totally shoc… https://t.co/ieEAKQ2vuQ
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/1051963559591079936, url=https://t.co/ieEAKQ2vuQ}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #53 :
+Date Created:Thu Oct 11 17:22:51 +0000 2018
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= ❤️❤️❤️   ❤️❤️❤️   ❤️❤️❤️
+
+Tweet #54 :
+Date Created:Thu Oct 11 17:16:38 +0000 2018
+urls= []
+hashtags= [{indices=[111, 122], text=SantaMarta}]
+user_mentions= [{indices=[3, 12], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= RT @Pontifex: Praying is not like using a magic wand. Prayer requires commitment, constancy and determination. #SantaMarta
+
+Tweet #55 :
+Date Created:Thu Sep 27 21:48:32 +0000 2018
+text= #cosmic fun! https://t.co/KdSLzI3RIN
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[13, 36], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1045316183157702657, url=https://t.co/KdSLzI3RIN}]
+hashtags= [{indices=[0, 7], text=cosmic}]
+user_mentions= []
+symbols= []
+
+Tweet #56 :
+Date Created:Thu Sep 27 21:47:11 +0000 2018
+text= cosmic oneness! https://t.co/C7B8KC7Pxb
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[16, 39], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1045270359744765952, url=https://t.co/C7B8KC7Pxb}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #57 :
+Date Created:Sun Sep 23 19:43:05 +0000 2018
+text= amazing! https://t.co/KSzC8SX4c9
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[9, 32], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1043348564288536576, url=https://t.co/KSzC8SX4c9}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #58 :
+Date Created:Sun Sep 23 19:40:21 +0000 2018
+text= wowww! https://t.co/jdowhHWYvr
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[7, 30], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1043109980331683840, url=https://t.co/jdowhHWYvr}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #59 :
+Date Created:Mon Sep 10 02:41:18 +0000 2018
+text= bird cam, wow! https://t.co/q0ctaDrdXW
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[15, 38], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1038419050341101569, url=https://t.co/q0ctaDrdXW}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #60 :
+Date Created:Sat Aug 25 18:29:46 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}, {indices=[9, 18], screen_name=ManyVids, id_str=1279220006, name=ManyVids, id=1279220006}]
+symbols= []
+text= @Tatti_D @ManyVids que bonita! aye aye aye!!!!😊😊😊
+
+Tweet #61 :
+Date Created:Mon Aug 20 18:17:18 +0000 2018
+urls= [{display_url=youtube.com/watch?v=rlX5fv…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=rlX5fv8ncC4, url=https://t.co/xMLAvpSFaz}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/xMLAvpSFaz
+
+Tweet #62 :
+Date Created:Mon Aug 20 05:31:45 +0000 2018
+text= #cute https://t.co/WsBDecmn1l
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[6, 29], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1031318878599766018, url=https://t.co/WsBDecmn1l}]
+hashtags= [{indices=[0, 5], text=cute}]
+user_mentions= []
+symbols= []
+
+Tweet #63 :
+Date Created:Mon Aug 20 05:30:28 +0000 2018
+text= dog is dog's best friend too! #mansbestfriend https://t.co/no7CErmCb7
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[46, 69], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1031396374716211200, url=https://t.co/no7CErmCb7}]
+hashtags= [{indices=[30, 45], text=mansbestfriend}]
+user_mentions= []
+symbols= []
+
+Tweet #64 :
+Date Created:Tue Jul 31 19:15:32 +0000 2018
+text= 😂😂😂❤️❤️❤️#lovelovelove https://t.co/kBOg31tqAE
+urls= [{display_url=twitter.com/AMAZlNGNATURE/…, indices=[23, 46], expanded_url=https://twitter.com/AMAZlNGNATURE/status/1023988624281362433, url=https://t.co/kBOg31tqAE}]
+hashtags= [{indices=[9, 22], text=lovelovelove}]
+user_mentions= []
+symbols= []
+
+Tweet #65 :
+Date Created:Mon Jul 30 17:56:22 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 14], screen_name=AMAZlNGNATURE, id_str=2828212668, name=Nature is Amazing ☘️, id=2828212668}]
+symbols= []
+text= @AMAZlNGNATURE amazing!!
+
+Tweet #66 :
+Date Created:Mon Jul 30 17:54:27 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 14], screen_name=AMAZlNGNATURE, id_str=2828212668, name=Nature is Amazing ☘️, id=2828212668}]
+symbols= []
+text= @AMAZlNGNATURE awesome find, thank you! brightened my day! 😂😂😂
+
+Tweet #67 :
+Date Created:Sat Jul 28 00:05:17 +0000 2018
+urls= [{display_url=youtube.com/watch?v=23LDRP…, indices=[51, 74], expanded_url=https://www.youtube.com/watch?v=23LDRPUJnJU, url=https://t.co/Be5DVDXGCT}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= ready for a change? CALL ON YOUR ANGELS THIS WEEK! https://t.co/Be5DVDXGCT 😇😇😇❤️❤️❤️
+
+Tweet #68 :
+Date Created:Fri Jul 20 01:23:33 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= @Pontifex amen! 😇😇😇
+
+Tweet #69 :
+Date Created:Wed Jul 18 19:56:32 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 12], screen_name=ItsFoodPorn, id_str=834316544, name=FoodPorn, id=834316544}, {indices=[31, 42], screen_name=JustMaelle, id_str=583018272, name=Maelle ♛, id=583018272}]
+symbols= []
+text= @ItsFoodPorn YES! Good idea!!! @JustMaelle 😋😋😋
+
+Tweet #70 :
+Date Created:Wed Jul 18 02:14:46 +0000 2018
+urls= [{display_url=youtube.com/watch?v=qrj8f1…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=qrj8f1rEZ38, url=https://t.co/wWmFtXyrAS}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/wWmFtXyrAS 😇😇😇
+
+Tweet #71 :
+Date Created:Wed Jul 18 01:18:42 +0000 2018
+urls= [{display_url=youtube.com/watch?v=yaMg4T…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=yaMg4Txr3vc, url=https://t.co/ymsLlq9uyF}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/ymsLlq9uyF 😇😇😇💜💜💜
+
+Tweet #72 :
+Date Created:Mon Jul 02 05:23:59 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[107, 130], expanded_url=https://twitter.com/i/web/status/1013654498525364224, url=https://t.co/Hkm86hJcht}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= heal yourself and the world with this powerful spiritual mantra from the Angel Realm. love love love! 😇😊💜… https://t.co/Hkm86hJcht
+
+Tweet #73 :
+Date Created:Sat Jun 30 14:29:27 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= @Pontifex amen brother!!! 😇😇😇
+
+Tweet #74 :
+Date Created:Fri Jun 29 07:38:56 +0000 2018
+urls= [{display_url=jpl.nasa.gov/spaceimages/de…, indices=[29, 52], expanded_url=https://www.jpl.nasa.gov/spaceimages/details.php?id=pia17566, url=https://t.co/HHsmPa3uiQ}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= "Hand of God" photo by NASA! https://t.co/HHsmPa3uiQ
+
+Tweet #75 :
+Date Created:Thu Jun 28 23:24:22 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/1012476834217226240, url=https://t.co/5DzwaiL54N}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Romans 12:2 King James Version (KJV)
+2 And be not conformed to this world: but be ye transformed by the renewing of… https://t.co/5DzwaiL54N
+
+Tweet #76 :
+Date Created:Thu Jun 28 23:23:28 +0000 2018
+urls= [{display_url=youtube.com/watch?v=gVSL39…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=gVSL39JvqD4, url=https://t.co/CTZmGvNOJb}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/CTZmGvNOJb
+🐺🐺🐺
+
+Tweet #77 :
+Date Created:Wed Jun 20 04:45:21 +0000 2018
+urls= [{display_url=youtube.com/watch?v=jhftMw…, indices=[73, 96], expanded_url=https://www.youtube.com/watch?v=jhftMwOpzaY, url=https://t.co/q8QcBit2sb}]
+hashtags= [{indices=[0, 19], text=SummerSolstice2018}]
+user_mentions= []
+symbols= []
+text= #SummerSolstice2018 Summer SOLSTICE Update - A new cycle begins June 21! https://t.co/q8QcBit2sb
+
+Tweet #78 :
+Date Created:Wed Jun 20 02:45:25 +0000 2018
+urls= [{display_url=youtube.com/watch?v=CedxAG…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=CedxAGIkWok, url=https://t.co/IsQCX7nhXe}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/IsQCX7nhXe🙏😇❤️
+
+Tweet #79 :
+Date Created:Fri Jun 08 19:39:23 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/1005172456909258752, url=https://t.co/YhsFTJEK6l}]
+hashtags= []
+user_mentions= [{indices=[0, 11], screen_name=Fancisca01, id_str=970710847764000770, name=Francisca Suarez, id=970710847764000770}]
+symbols= []
+text= @Fancisca01 Namaste Francisca! Can I ask you some third eye questions please? Swamiji's third eye meditation helped… https://t.co/YhsFTJEK6l
+
+Tweet #80 :
+Date Created:Wed Jun 06 05:28:45 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 10], screen_name=gspot1177, id_str=46038355, name=𝒫𝑜𝓇𝓃 𝒬𝓊𝑒𝑒𝓃♕, id=46038355}, {indices=[11, 22], screen_name=JustMaelle, id_str=583018272, name=Maelle ♛, id=583018272}]
+symbols= []
+text= @gspot1177 @JustMaelle wowww! 👍👍👍🐺🐺🐺
+
+Tweet #81 :
+Date Created:Wed Jun 06 05:25:08 +0000 2018
+urls= [{display_url=the-numinous.com/1010-numerolog…, indices=[65, 88], expanded_url=https://the-numinous.com/1010-numerology/, url=https://t.co/cCH8BBeoQs}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= I am seeing 10:10 often again - this is what I will do about it! https://t.co/cCH8BBeoQs 👍🙏😇
+
+Tweet #82 :
+Date Created:Sun Jun 03 03:54:14 +0000 2018
+urls= [{display_url=youtube.com/watch?v=9QfK8O…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=9QfK8ORFmMk, url=https://t.co/lSx8Nny96z}, {display_url=youtube.com/watch?v=rYrTmf…, indices=[25, 48], expanded_url=https://www.youtube.com/watch?v=rYrTmftNof8, url=https://t.co/Gneg9JVeHr}, {display_url=youtube.com/watch?v=fYpsr0…, indices=[50, 73], expanded_url=https://www.youtube.com/watch?v=fYpsr0wGcHM, url=https://t.co/ktZDxPia4K}]
+hashtags= [{indices=[75, 88], text=lovelovelove}, {indices=[89, 100], text=cosmiclove}, {indices=[101, 115], text=ageofaquarius}]
+user_mentions= []
+symbols= []
+text= https://t.co/lSx8Nny96z
+
+https://t.co/Gneg9JVeHr
+
+https://t.co/ktZDxPia4K
+
+#lovelovelove #cosmiclove #ageofaquarius
+
+❤️❤️❤️👍👍👍
+
+Tweet #83 :
+Date Created:Sat Jun 02 19:59:20 +0000 2018
+urls= [{display_url=youtube.com/watch?v=Abg5Cc…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=Abg5CcEKgIA, url=https://t.co/ZnzJ35LNff}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/ZnzJ35LNff 👍🙏❤️
+
+Tweet #84 :
+Date Created:Wed May 30 04:34:26 +0000 2018
+urls= [{display_url=youtube.com/watch?v=5z0s-T…, indices=[6, 29], expanded_url=https://www.youtube.com/watch?v=5z0s-TAys5g&index=5&list=PLfNr_M-mh6CiTELNzQ9IpHRfCICB2i83M, url=https://t.co/DjP5cOlRMh}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= I AM! https://t.co/DjP5cOlRMh 🙏😇👍❤️
+
+Tweet #85 :
+Date Created:Mon May 28 21:26:05 +0000 2018
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= ok no more meditation tweets today! the ones I tweeted can improve your quality of life! cheers! and blessings! 🙏🙏🙏❤️❤️❤️
+
+Tweet #86 :
+Date Created:Mon May 28 21:24:49 +0000 2018
+urls= [{display_url=youtube.com/watch?v=eHBg9b…, indices=[103, 126], expanded_url=https://www.youtube.com/watch?v=eHBg9bdRkQ8, url=https://t.co/bR4oLapppZ}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= very powerful meditation, teaches u to heal different parts of your body with attention and intention! https://t.co/bR4oLapppZ 🙏🙏🙏🧐🧐🧐❤️❤️❤️
+
+Tweet #87 :
+Date Created:Mon May 28 20:51:24 +0000 2018
+urls= [{display_url=youtube.com/watch?v=XSNpGy…, indices=[53, 76], expanded_url=https://www.youtube.com/watch?v=XSNpGyG2jSw, url=https://t.co/rGd5qcdW10}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= excellent I AM meditation. enjoy your day everybody! https://t.co/rGd5qcdW10 🙏😇❤️
+
+Tweet #88 :
+Date Created:Mon May 28 20:47:59 +0000 2018
+urls= [{display_url=youtube.com/watch?v=XSNpGy…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=XSNpGyG2jSw, url=https://t.co/rGd5qcdW10}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/rGd5qcdW10 🧐❤️🙏
+
+Tweet #89 :
+Date Created:Mon May 28 20:46:15 +0000 2018
+urls= [{display_url=youtube.com/watch?v=KSM6hV…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=KSM6hVkYhIs, url=https://t.co/cD1yGA7FBd}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/cD1yGA7FBd 🙏😇❤️
+
+Tweet #90 :
+Date Created:Mon May 28 20:43:42 +0000 2018
+urls= [{display_url=youtube.com/watch?v=3Eq1te…, indices=[28, 51], expanded_url=https://www.youtube.com/watch?v=3Eq1tetWUeM, url=https://t.co/EQqdlXiroy}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= excellent basic meditation! https://t.co/EQqdlXiroy 🙏😊❤️
+
+Tweet #91 :
+Date Created:Mon May 28 10:27:20 +0000 2018
+urls= [{display_url=youtube.com/watch?v=DfMmcG…, indices=[25, 48], expanded_url=https://www.youtube.com/watch?v=DfMmcGN8CzA, url=https://t.co/M5FgloCHG7}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= numbers numbers NUMBERS! https://t.co/M5FgloCHG7 🙏🧐❤️
+
+Tweet #92 :
+Date Created:Mon May 28 10:14:16 +0000 2018
+urls= [{display_url=youtube.com/watch?v=5gh4rM…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=5gh4rM_rS4s, url=https://t.co/rgxpJI2Hqo}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/rgxpJI2Hqo 🙏🙏🙏
+
+Tweet #93 :
+Date Created:Sat May 26 04:34:21 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 18], screen_name=EternalBlissed, id_str=717904237783425024, name=EternalBlissed, id=717904237783425024}]
+symbols= []
+text= RT @EternalBlissed: Check out these NEW pieces I will be featuring at Health Healing Happiness Expo and Conference in Las Vegas! https://t.…
+
+Tweet #94 :
+Date Created:Sat May 26 04:33:40 +0000 2018
+urls= [{display_url=youtube.com/watch?v=QzezoE…, indices=[13, 36], expanded_url=https://www.youtube.com/watch?v=QzezoEtvKP8, url=https://t.co/w1ficSUNeZ}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Be yourself! https://t.co/w1ficSUNeZ 🙏😇❤️
+
+Tweet #95 :
+Date Created:Sat May 26 00:49:58 +0000 2018
+urls= [{display_url=youtube.com/watch?v=zDQEWg…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=zDQEWgwQ2tk, url=https://t.co/jTtce736el}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/jTtce736el🙏😇❤️
+
+Tweet #96 :
+Date Created:Fri May 25 23:50:55 +0000 2018
+urls= [{display_url=youtube.com/watch?v=8WMjf5…, indices=[84, 107], expanded_url=https://www.youtube.com/watch?v=8WMjf54IsAA, url=https://t.co/c8HXt2LVfT}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= "If you do not find God within yourself, you do not find God at all."  Yogi Bhajan  https://t.co/c8HXt2LVfT 🙏😇❤️
+
+Tweet #97 :
+Date Created:Fri May 25 23:42:44 +0000 2018
+urls= [{display_url=youtube.com/watch?v=SvyWYf…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=SvyWYfMNtrI, url=https://t.co/2lYRjuHMWo}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/2lYRjuHMWo🙏😇
+
+Tweet #98 :
+Date Created:Fri May 25 23:35:58 +0000 2018
+urls= [{display_url=youtube.com/watch?v=gbdrVa…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=gbdrVaNUV74, url=https://t.co/jTUh26Hpym}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/jTUh26Hpym
+
+Tweet #99 :
+Date Created:Fri May 25 23:33:13 +0000 2018
+urls= [{display_url=youtube.com/watch?v=AP3hwp…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=AP3hwp9Dt4I, url=https://t.co/lbzxo9z6dX}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/lbzxo9z6dX
+
+Tweet #100 :
+Date Created:Fri May 25 23:05:31 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/1…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/1000150899614887936, url=https://t.co/fsDiwWpBt6}]
+hashtags= []
+user_mentions= [{indices=[0, 16], screen_name=ConsecratedMind, id_str=922643294223589376, name=Consecrated Mind, id=922643294223589376}]
+symbols= []
+text= @ConsecratedMind 🤣I think he is high on weed  most the time, but he impressed me recently with some of his videos..… https://t.co/fsDiwWpBt6
+
+Tweet #101 :
+Date Created:Thu May 24 01:09:53 +0000 2018
+urls= [{display_url=youtube.com/watch?v=9DbvSl…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=9DbvSl_C_kY, url=https://t.co/lnZTFMbbpM}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/lnZTFMbbpM stop procrastination by one minute a day! 🧐🧐🧐
+
+Tweet #102 :
+Date Created:Thu May 24 00:51:11 +0000 2018
+urls= [{display_url=youtube.com/watch?v=6hilAB…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=6hilABR7DOU, url=https://t.co/bHHUEIk6Iu}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/bHHUEIk6Iu natural sinus relief!
+
+Tweet #103 :
+Date Created:Wed May 23 23:56:05 +0000 2018
+text= LOL! https://t.co/YEWcszAwBH
+urls= [{display_url=twitter.com/dodo/status/99…, indices=[5, 28], expanded_url=https://twitter.com/dodo/status/999410393155072000, url=https://t.co/YEWcszAwBH}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #104 :
+Date Created:Wed May 23 23:55:15 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 5], screen_name=dodo, id_str=1604444052, name=The Dodo, id=1604444052}]
+symbols= []
+text= @dodo 😁😁😁
+
+Tweet #105 :
+Date Created:Wed May 23 23:53:28 +0000 2018
+urls= [{display_url=youtube.com/watch?v=Fv79cZ…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=Fv79cZ1VuRU, url=https://t.co/ZfZx8clHXM}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/ZfZx8clHXM visualize you already have what you want!
+
+Tweet #106 :
+Date Created:Wed May 23 23:51:19 +0000 2018
+urls= [{display_url=youtube.com/watch?v=ptMcRF…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=ptMcRF_EW7c, url=https://t.co/yFLQD2ymzC}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/yFLQD2ymzC seeing repeating numbers?
+
+Tweet #107 :
+Date Created:Tue May 22 02:51:51 +0000 2018
+text= RT @Sshivatma: If you can face your fears, you see they have no depth! https://t.co/7Qj17SZ5MO https://t.co/VhycYzXyh3
+urls= [{display_url=lifeisauspicious.com/2018/03/09/if-…, indices=[71, 94], expanded_url=http://lifeisauspicious.com/2018/03/09/if-you-can-face-your-fears-you-see-they-have-no-depth/, url=https://t.co/7Qj17SZ5MO}]
+hashtags= []
+media= [{display_url=pic.twitter.com/VhycYzXyh3, source_user_id=364289925, type=photo, media_url=http://pbs.twimg.com/media/DX2LFSZVAAAStbE.jpg, source_status_id=972086020299780097, url=https://t.co/VhycYzXyh3, indices=[95, 118], sizes={small={w=680, h=454, resize=fit}, large={w=1024, h=683, resize=fit}, thumb={w=150, h=150, resize=crop}, medium={w=1024, h=683, resize=fit}}, id_str=972086017535574016, expanded_url=https://twitter.com/Sshivatma/status/972086020299780097/photo/1, source_status_id_str=972086020299780097, media_url_https=https://pbs.twimg.com/media/DX2LFSZVAAAStbE.jpg, id=972086017535574016, source_user_id_str=364289925}]
+user_mentions= [{indices=[3, 13], screen_name=Sshivatma, id_str=364289925, name=sadashivatma, id=364289925}]
+symbols= []
+
+Tweet #108 :
+Date Created:Mon May 21 00:26:06 +0000 2018
+urls= [{display_url=youtube.com/watch?v=3vITTk…, indices=[51, 74], expanded_url=https://www.youtube.com/watch?v=3vITTk-6daY, url=https://t.co/WmkvOPjA4c}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Begin each day with this yoga sequence, easy yoga: https://t.co/WmkvOPjA4c
+
+Tweet #109 :
+Date Created:Sun May 20 21:11:20 +0000 2018
+urls= [{display_url=youtube.com/watch?v=aFFBTs…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=aFFBTsHjdKE, url=https://t.co/kBnYNVOXVX}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/kBnYNVOXVX 
+Partner Tantra Meditation (Connect deeply) 🙏❤️
+
+Tweet #110 :
+Date Created:Fri May 18 23:16:41 +0000 2018
+urls= [{display_url=biblegateway.com/passage/?searc…, indices=[34, 57], expanded_url=https://www.biblegateway.com/passage/?search=Luke+17%3A20-21&version=KJV, url=https://t.co/3MkmN7XPBo}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= the kingdom of God is within you!
+https://t.co/3MkmN7XPBo 🙏🙏🙏❤️❤️❤️
+
+Tweet #111 :
+Date Created:Fri May 18 00:24:33 +0000 2018
+urls= [{display_url=youtu.be/2CRIcytwtf4, indices=[28, 51], expanded_url=https://youtu.be/2CRIcytwtf4, url=https://t.co/C1biUpC0EM}]
+hashtags= []
+user_mentions= [{indices=[56, 64], screen_name=YouTube, id_str=10228272, name=YouTube, id=10228272}]
+symbols= []
+text= orbs returned to my house!  https://t.co/C1biUpC0EM via @YouTube
+
+Tweet #112 :
+Date Created:Wed May 16 06:23:54 +0000 2018
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= hello hello automated tweet testing 123...
+
+Tweet #113 :
+Date Created:Tue May 15 10:44:07 +0000 2018
+urls= [{display_url=youtube.com/watch?v=iyQxa9…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=iyQxa9MHJdA, url=https://t.co/ylMQPX2I6a}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/ylMQPX2I6a
+
+Tweet #114 :
+Date Created:Tue May 15 10:42:35 +0000 2018
+urls= [{display_url=youtube.com/watch?v=VnuR-M…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=VnuR-MPeG8sHold, url=https://t.co/jJGMjqbaLa}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/jJGMjqbaLa 
+Your Hand Like This, and See What Follows
+
+Tweet #115 :
+Date Created:Tue May 15 00:55:40 +0000 2018
+urls= [{display_url=youtube.com/watch?v=Tkd6q1…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=Tkd6q1d2Ook, url=https://t.co/15uyF6lNxT}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/15uyF6lNxT
+Got ringing in the ears? Could be due to cosmic transmissions...
+
+Tweet #116 :
+Date Created:Thu May 10 19:53:13 +0000 2018
+urls= [{display_url=biblegateway.com/passage/?searc…, indices=[46, 69], expanded_url=https://www.biblegateway.com/passage/?search=Romans+8&version=KJV, url=https://t.co/QQBH2LGgtC}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= ...to be spiritually minded is life and peace
+https://t.co/QQBH2LGgtC 
+🙏😇
+
+Tweet #117 :
+Date Created:Thu May 10 19:18:06 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 10], screen_name=DalaiLama, id_str=20609518, name=Dalai Lama, id=20609518}]
+symbols= []
+text= @DalaiLama beautiful!
+
+Tweet #118 :
+Date Created:Sun May 06 08:42:27 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 13], screen_name=DalaiLama, id_str=20609518, name=Dalai Lama, id=20609518}]
+symbols= []
+text= RT @DalaiLama: Scientists warn that constant fear and anger are bad for our health, while being compassionate and warm-hearted contributes…
+
+Tweet #119 :
+Date Created:Sun May 06 08:42:04 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 18], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= RT @SriNithyananda: Man is not bound by circumstances
+
+If you cognize conflicting cognitions, your whole life will be a mess. Your cognitio…
+
+Tweet #120 :
+Date Created:Sun May 06 08:41:40 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 18], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= RT @SriNithyananda: In this Q&amp;A session from the Shivoham program held in Cambodia, Paramahamsa Nithyananda reveals insights about the Shiv…
+
+Tweet #121 :
+Date Created:Thu Apr 19 10:47:46 +0000 2018
+urls= [{display_url=youtube.com/watch?v=JaOtE0…, indices=[71, 94], expanded_url=https://www.youtube.com/watch?v=JaOtE0YiUFU, url=https://t.co/ziy804qugZ}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= here is a third eye type of video! enjoy! be prepared for a wild ride!
+https://t.co/ziy804qugZ
+
+Tweet #122 :
+Date Created:Sun Apr 08 11:40:38 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= @SriNithyananda 🙏 namaste
+
+Tweet #123 :
+Date Created:Sun Apr 08 11:38:27 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 5], screen_name=dodo, id_str=1604444052, name=The Dodo, id=1604444052}]
+symbols= []
+text= @dodo mama said knock you out! :D
+
+Tweet #124 :
+Date Created:Sun Apr 08 11:37:13 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= @SriNithyananda yes!
+
+Tweet #125 :
+Date Created:Sun Apr 08 11:35:46 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= @Pontifex yes! amen!
+
+Tweet #126 :
+Date Created:Thu Mar 29 08:16:30 +0000 2018
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= My first automated tweet! woo hoo!
+
+Tweet #127 :
+Date Created:Thu Mar 08 22:05:05 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 14], screen_name=TheMahayogini, id_str=970662860912144384, name=Mahayogini Nithya Mahayogananda, id=970662860912144384}]
+symbols= []
+text= @TheMahayogini Wow, you look like a Goddess to me! Very beautiful! Namaste,
+
+Tweet #128 :
+Date Created:Thu Mar 01 05:02:40 +0000 2018
+urls= [{display_url=jessicamangum.com/channeling-mar…, indices=[21, 44], expanded_url=https://jessicamangum.com/channeling-mary-magdalene/, url=https://t.co/gepAOk88Y3}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Let go of all worry! https://t.co/gepAOk88Y3 🤔😃
+
+Tweet #129 :
+Date Created:Sun Feb 25 23:03:06 +0000 2018
+urls= [{display_url=youtube.com/watch?v=4FYjj9…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=4FYjj9aa75c, url=https://t.co/r4OhXy4aoW}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/r4OhXy4aoW Wayne Dyer - Focusing On What You Want
+
+Tweet #130 :
+Date Created:Sun Feb 25 23:00:25 +0000 2018
+urls= [{display_url=youtube.com/watch?v=JBnVpm…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=JBnVpmawVdIWayne, url=https://t.co/sivFQIz5R2}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/sivFQIz5R2 Dyer - Let Life Unfold Itself to You
+
+Tweet #131 :
+Date Created:Sun Feb 25 22:49:33 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[116, 139], expanded_url=https://twitter.com/i/web/status/967894361638780928, url=https://t.co/nGz61Zohss}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= ciaoooo! this stuff works, please try it! program your subconscious mind to work for you and not work against you!… https://t.co/nGz61Zohss
+
+Tweet #132 :
+Date Created:Sat Feb 24 09:42:36 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/967333933259022338, url=https://t.co/1lsRTSdyBZ}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Great I AM affirmations: Listen to this video as you fall asleep and program your subconscious with these great I A… https://t.co/1lsRTSdyBZ
+
+Tweet #133 :
+Date Created:Sat Feb 24 04:42:52 +0000 2018
+urls= [{display_url=youtube.com/watch?v=tEtuqM…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=tEtuqM_skyI, url=https://t.co/8VqPa0D4Bd}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/8VqPa0D4Bd
+Do this during the last 5 minutes of your day! Thank me later! 
+🙏🙏🙏🤑🤑🤑❤️❤️❤️
+
+Tweet #134 :
+Date Created:Sat Feb 24 04:22:57 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/967253489834323968, url=https://t.co/p28BhwGMdB}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Here is a much simpler one but should work well if you listen every night as you fall asleep, program your subconsc… https://t.co/p28BhwGMdB
+
+Tweet #135 :
+Date Created:Sat Feb 24 04:20:24 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[116, 139], expanded_url=https://twitter.com/i/web/status/967252847111766016, url=https://t.co/mDOnfmcgIF}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Hello my dear friends!! Don't work harder! Work smarter by having your subconscious mind work for you as you go to… https://t.co/mDOnfmcgIF
+
+Tweet #136 :
+Date Created:Tue Feb 20 15:52:18 +0000 2018
+text= coooool! https://t.co/bkr1a53IPw
+urls= [{display_url=twitter.com/SriNithyananda…, indices=[9, 32], expanded_url=https://twitter.com/SriNithyananda/status/965894568527912966, url=https://t.co/bkr1a53IPw}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #137 :
+Date Created:Mon Feb 19 08:55:09 +0000 2018
+urls= [{display_url=youtube.com/watch?v=yTCRdM…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=yTCRdM71j2E, url=https://t.co/u8HmiCxOZE}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/u8HmiCxOZE Dalai Lama - Why meditate?
+
+Tweet #138 :
+Date Created:Sat Feb 17 07:09:23 +0000 2018
+urls= [{display_url=youtube.com/watch?v=mya98Q…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=mya98QI5D5g, url=https://t.co/TNMMapxOL9}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/TNMMapxOL9 
+How to Stretch Time
+
+Tweet #139 :
+Date Created:Sat Feb 17 03:22:13 +0000 2018
+urls= [{display_url=youtube.com/watch?v=0Psqic…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=0Psqic1vquE, url=https://t.co/OC1JcHVpIH}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/OC1JcHVpIH
+Foods And Herbs For Decalcifying Your Pineal Gland / Open Metaphysical Abilities 🙏🙏🙏❤️❤️❤️
+
+Tweet #140 :
+Date Created:Fri Feb 16 22:59:45 +0000 2018
+urls= [{display_url=youtube.com/watch?v=kbDldV…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=kbDldVCA_84, url=https://t.co/qWLoitV8Mo}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/qWLoitV8Mo
+
+Tweet #141 :
+Date Created:Fri Feb 16 22:47:36 +0000 2018
+urls= [{display_url=youtube.com/watch?v=DZMZZC…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=DZMZZCJnWos, url=https://t.co/EiMdYhi3wl}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/EiMdYhi3wl
+
+Tweet #142 :
+Date Created:Fri Feb 16 22:25:40 +0000 2018
+urls= [{display_url=youtube.com/watch?v=i_lXVO…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=i_lXVO2snwI, url=https://t.co/uDr7HBHWfu}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/uDr7HBHWfu
+
+Tweet #143 :
+Date Created:Fri Feb 16 22:21:50 +0000 2018
+urls= [{display_url=youtube.com/watch?v=ngQdET…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=ngQdETxG8Ow, url=https://t.co/GMXRMbzv4T}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/GMXRMbzv4T
+
+Tweet #144 :
+Date Created:Fri Feb 16 19:13:50 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 18], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= RT @SriNithyananda: When you celebrate the existence of the self, god and world, all three will reveal their mysteries to you. Please under…
+
+Tweet #145 :
+Date Created:Fri Feb 16 11:37:11 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 13], screen_name=DalaiLama, id_str=20609518, name=Dalai Lama, id=20609518}]
+symbols= []
+text= RT @DalaiLama: Genuine friends, are attracted by a warm heart, not money, not power. A genuine friend considers you as just another human b…
+
+Tweet #146 :
+Date Created:Fri Feb 16 03:17:12 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=mexxicanbeauty, id_str=996560901699334144, name=, id=996560901699334144}]
+symbols= []
+text= @Mexxicanbeauty 🤔hmmmm deep! como estas?
+
+Tweet #147 :
+Date Created:Thu Feb 15 12:23:22 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[116, 139], expanded_url=https://twitter.com/i/web/status/964112901194698752, url=https://t.co/n9WfsogPgF}]
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= @SriNithyananda i participated in the initiation! my ajna chakra was burning during the Kundalini awakening! Thank… https://t.co/n9WfsogPgF
+
+Tweet #148 :
+Date Created:Thu Feb 15 12:18:03 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=mexxicanbeauty, id_str=996560901699334144, name=, id=996560901699334144}]
+symbols= []
+text= @Mexxicanbeauty WTF??? :D
+
+Tweet #149 :
+Date Created:Thu Feb 15 11:52:30 +0000 2018
+urls= [{display_url=youtube.com/watch?v=4fen1k…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=4fen1kvPuEk&feature=youtu.be, url=https://t.co/Nw8eFmorUK}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/Nw8eFmorUK
+
+Tweet #150 :
+Date Created:Mon Feb 12 09:46:29 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/962986256979304448, url=https://t.co/vLahygyD0t}]
+hashtags= []
+user_mentions= [{indices=[0, 16], screen_name=ConsecratedMind, id_str=922643294223589376, name=Consecrated Mind, id=922643294223589376}]
+symbols= []
+text= @ConsecratedMind There's a lot of spiritual energy flowing here on Earth these days. Have you seen any Orbs? My inf… https://t.co/vLahygyD0t
+
+Tweet #151 :
+Date Created:Mon Feb 12 09:41:00 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 16], screen_name=ConsecratedMind, id_str=922643294223589376, name=Consecrated Mind, id=922643294223589376}]
+symbols= []
+text= @ConsecratedMind Ok, I just subscribed to your youtube channel!
+
+Tweet #152 :
+Date Created:Sun Feb 11 21:31:42 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/962801342694678528, url=https://t.co/kCKqHD8yh9}]
+hashtags= [{indices=[26, 46], text=OutOfBodyExperience}]
+user_mentions= [{indices=[0, 16], screen_name=ConsecratedMind, id_str=922643294223589376, name=Consecrated Mind, id=922643294223589376}]
+symbols= []
+text= @ConsecratedMind I had an #OutOfBodyExperience  on Sept 27 2015! I would love to share the details with you and hea… https://t.co/kCKqHD8yh9
+
+Tweet #153 :
+Date Created:Sun Feb 11 21:22:06 +0000 2018
+urls= [{display_url=youtube.com/watch?v=_1Psrq…, indices=[56, 79], expanded_url=https://www.youtube.com/watch?v=_1PsrqDIp-E, url=https://t.co/Z4hBZpag6s}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Another video good for astral projection visualization! https://t.co/Z4hBZpag6s 🌜
+
+Tweet #154 :
+Date Created:Sun Feb 11 21:17:21 +0000 2018
+urls= [{display_url=youtube.com/watch?v=yo4GdT…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=yo4GdT5N6C0, url=https://t.co/cEYffxxAJj}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/cEYffxxAJj Beautiful astral projection visualization in this video!
+
+Tweet #155 :
+Date Created:Fri Feb 09 20:15:15 +0000 2018
+text= I expected the toppings to not stay on the pizza, amazing! 🤔 https://t.co/r97e9GcOXM
+urls= [{display_url=twitter.com/NASA/status/96…, indices=[61, 84], expanded_url=https://twitter.com/NASA/status/961989791104585730, url=https://t.co/r97e9GcOXM}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #156 :
+Date Created:Thu Feb 08 10:02:20 +0000 2018
+text= space is the place! https://t.co/048HhhEs7h
+urls= [{display_url=twitter.com/NASA/status/96…, indices=[20, 43], expanded_url=https://twitter.com/NASA/status/961415278658715653, url=https://t.co/048HhhEs7h}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #157 :
+Date Created:Wed Jan 31 21:20:33 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 9], screen_name=Pontifex, id_str=500704345, name=Pope Francis, id=500704345}]
+symbols= []
+text= @Pontifex amen and aum! 🙏🙏🙏😇😇😇
+
+Tweet #158 :
+Date Created:Wed Jan 31 15:53:57 +0000 2018
+urls= []
+hashtags= [{indices=[20, 37], text=LunarEclipse2018}]
+user_mentions= [{indices=[3, 8], screen_name=NASA, id_str=11348282, name=NASA, id=11348282}]
+symbols= []
+text= RT @NASA: LIVE NOW: #LunarEclipse2018! The Earth is directly between the Sun and Moon, making the lunar surface appear red. You can watch v…
+
+Tweet #159 :
+Date Created:Wed Jan 31 15:44:40 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 13], screen_name=DalaiLama, id_str=20609518, name=Dalai Lama, id=20609518}]
+symbols= []
+text= RT @DalaiLama: Many people think that patience is a sign of weakness. I think this is a mistake. It is anger that is a sign of weakness, wh…
+
+Tweet #160 :
+Date Created:Sun Jan 21 06:34:40 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= @SriNithyananda agree! Nithyanandam!
+
+Tweet #161 :
+Date Created:Sun Jan 21 05:45:49 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=SriNithyananda, id_str=535076489, name=Nithyananda, id=535076489}]
+symbols= []
+text= @SriNithyananda Nithyanandam!
+
+Tweet #162 :
+Date Created:Wed Jan 10 23:49:12 +0000 2018
+text= 😂👍🐺 https://t.co/OIFDtFfCDw
+urls= [{display_url=twitter.com/dilloaLucrezya…, indices=[4, 27], expanded_url=https://twitter.com/dilloaLucrezya/status/950837345393180672, url=https://t.co/OIFDtFfCDw}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #163 :
+Date Created:Wed Jan 10 23:48:57 +0000 2018
+text= 👍🐺 https://t.co/DRt03vS89n
+urls= [{display_url=twitter.com/dilloaLucrezya…, indices=[3, 26], expanded_url=https://twitter.com/dilloaLucrezya/status/950594097752010753, url=https://t.co/DRt03vS89n}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #164 :
+Date Created:Wed Jan 10 23:45:59 +0000 2018
+urls= [{display_url=twitter.com/i/web/status/9…, indices=[117, 140], expanded_url=https://twitter.com/i/web/status/951238721919209472, url=https://t.co/lEqB33babV}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= @ChampagneMexxi whoa! que bonita! OYE! tomorrow is jan 11, aka 1/11 or 111 which is very good luck for new beginnin… https://t.co/lEqB33babV
+
+Tweet #165 :
+Date Created:Sun Jan 07 21:14:10 +0000 2018
+urls= [{display_url=youtube.com/watch?v=2u_Esu…, indices=[69, 92], expanded_url=https://www.youtube.com/watch?v=2u_EsuYPPvg, url=https://t.co/Gz0ZujbhWD}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= It's all about the heart folks, so keep it loving and compassionate! https://t.co/Gz0ZujbhWD 
+😇😇😇👍❤️🐺
+
+Tweet #166 :
+Date Created:Sun Jan 07 20:57:31 +0000 2018
+urls= [{display_url=youtube.com/watch?v=BTqV53…, indices=[37, 60], expanded_url=https://www.youtube.com/watch?v=BTqV53i10gg, url=https://t.co/duPV5CIp23}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= It is Sunday, time to heal the soul! https://t.co/duPV5CIp23 😇😇😇❤️❤️❤️
+
+Tweet #167 :
+Date Created:Sun Jan 07 05:11:08 +0000 2018
+text= 😂 https://t.co/Vi45fH3Nq2
+urls= [{display_url=twitter.com/dilloaLucrezya…, indices=[2, 25], expanded_url=https://twitter.com/dilloaLucrezya/status/949684207206445057, url=https://t.co/Vi45fH3Nq2}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #168 :
+Date Created:Sat Jan 06 07:00:34 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 11], screen_name=JustMaelle, id_str=583018272, name=Maelle ♛, id=583018272}]
+symbols= []
+text= @JustMaelle hahaha HAHAHHAA! i hoped you would like that! You win though, no man can compete with you!! ☔️☔️☔️🤣🤣🤣
+
+Tweet #169 :
+Date Created:Fri Jan 05 21:35:18 +0000 2018
+text= 🤣 https://t.co/nKIOWhhlV0
+urls= [{display_url=twitter.com/dilloaLucrezya…, indices=[2, 25], expanded_url=https://twitter.com/dilloaLucrezya/status/949166070346272768, url=https://t.co/nKIOWhhlV0}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #170 :
+Date Created:Fri Jan 05 21:33:51 +0000 2018
+text= amazing! https://t.co/QkHaZwFVzG
+urls= [{display_url=twitter.com/dodo/status/94…, indices=[9, 32], expanded_url=https://twitter.com/dodo/status/949008535127339009, url=https://t.co/QkHaZwFVzG}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #171 :
+Date Created:Fri Jan 05 21:29:04 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=dilloaLucrezya, id_str=3434737858, name=dillo a Lucrezya, id=3434737858}, {indices=[16, 27], screen_name=JustMaelle, id_str=583018272, name=Maelle ♛, id=583018272}]
+symbols= []
+text= @dilloaLucrezya @JustMaelle who does this remind you of? hmmm? hahaha! ☔️☔️☔️🤣🤣🤣
+
+Tweet #172 :
+Date Created:Fri Jan 05 21:27:58 +0000 2018
+text= LOL! here is a guy who ALMOST squirts as much as @JustMaelle 🤣👍☔️😘🐺 https://t.co/P8XVBnwyIe
+urls= [{display_url=twitter.com/dilloaLucrezya…, indices=[68, 91], expanded_url=https://twitter.com/dilloaLucrezya/status/948814755472465920, url=https://t.co/P8XVBnwyIe}]
+hashtags= []
+user_mentions= [{indices=[49, 60], screen_name=JustMaelle, id_str=583018272, name=Maelle ♛, id=583018272}]
+symbols= []
+
+Tweet #173 :
+Date Created:Thu Jan 04 03:26:25 +0000 2018
+urls= [{display_url=youtube.com/watch?v=W76dcZ…, indices=[56, 79], expanded_url=https://www.youtube.com/watch?v=W76dcZ_2TIA, url=https://t.co/W2umuTUiJ3}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= TRY IT! You may get your heart's desire this year 2018!
+https://t.co/W2umuTUiJ3 👍👍👍❤️❤️❤️
+
+Tweet #174 :
+Date Created:Thu Jan 04 03:23:35 +0000 2018
+urls= [{display_url=youtube.com/watch?v=zi2c8P…, indices=[0, 23], expanded_url=https://www.youtube.com/watch?v=zi2c8PA9CXQ, url=https://t.co/UVSHtgBYYr}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= https://t.co/UVSHtgBYYr 👍👍👍🤑🤑🤑❤️❤️❤️
+
+Tweet #175 :
+Date Created:Thu Jan 04 03:20:08 +0000 2018
+urls= [{display_url=youtube.com/watch?v=bQWVe-…, indices=[37, 60], expanded_url=https://www.youtube.com/watch?v=bQWVe-IkF0s, url=https://t.co/wuOwcsLun1}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= Meditate properly to become wealthy! https://t.co/wuOwcsLun1 👍👍👍🤑🤑🤑❤️❤️❤️
+
+Tweet #176 :
+Date Created:Wed Jan 03 09:15:04 +0000 2018
+urls= [{display_url=youtube.com/watch?time_con…, indices=[16, 39], expanded_url=https://www.youtube.com/watch?time_continue=5&v=hk10s0HGfCc, url=https://t.co/L6TpBix5Hv}]
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=mexxicanbeauty, id_str=996560901699334144, name=, id=996560901699334144}]
+symbols= []
+text= @Mexxicanbeauty https://t.co/L6TpBix5Hv 👍👼❤️
+
+Tweet #177 :
+Date Created:Tue Jan 02 07:06:34 +0000 2018
+urls= [{display_url=youtube.com/watch?v=OUS-3_…, indices=[77, 100], expanded_url=https://www.youtube.com/watch?v=OUS-3_wO728&feature=youtu.be, url=https://t.co/2iaxBz3dPO}]
+hashtags= []
+user_mentions= []
+symbols= []
+text= @ChampagneMexxi try this new years meditation while the super moon by jan 4! https://t.co/2iaxBz3dPO ❤️😇👍
+
+Tweet #178 :
+Date Created:Mon Jan 01 19:58:51 +0000 2018
+urls= []
+hashtags= [{indices=[59, 69], text=smcontest}]
+user_mentions= [{indices=[3, 11], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}]
+symbols= []
+text= RT @Tatti_D: It's decided! I'm back on to finish this damn #smcontest!!! Lol. Thanks to everyone for their support! Last 4 hours to get my…
+
+Tweet #179 :
+Date Created:Mon Jan 01 19:58:27 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}]
+symbols= []
+text= @Tatti_D yay!
+
+Tweet #180 :
+Date Created:Mon Jan 01 19:15:24 +0000 2018
+text= wow! unbelievable! https://t.co/NMlS08QHxD
+urls= [{display_url=twitter.com/Tatti_D/status…, indices=[19, 42], expanded_url=https://twitter.com/Tatti_D/status/947667595163045896, url=https://t.co/NMlS08QHxD}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #181 :
+Date Created:Mon Jan 01 19:14:39 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}, {indices=[9, 23], screen_name=realstreamate, id_str=4922254453, name=Streamate, id=4922254453}, {indices=[24, 40], screen_name=StreamateModels, id_str=133458946, name=Streamate Official, id=133458946}]
+symbols= []
+text= @Tatti_D @realstreamate @StreamateModels are you serious??? wow after 7 years, they treat you like that??? i will boycott them!!!
+
+Tweet #182 :
+Date Created:Mon Jan 01 19:07:07 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=mexxicanbeauty, id_str=996560901699334144, name=, id=996560901699334144}]
+symbols= []
+text= @Mexxicanbeauty i like all that purple! happy new year child! :D
+
+Tweet #183 :
+Date Created:Mon Jan 01 19:06:45 +0000 2018
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=mexxicanbeauty, id_str=996560901699334144, name=, id=996560901699334144}]
+symbols= []
+text= @Mexxicanbeauty dont be a stranger to daddy this year! te amo cosmic bbyCks! &lt;3
+
+Tweet #184 :
+Date Created:Fri Dec 22 20:25:09 +0000 2017
+urls= [{display_url=youtube.com/watch?v=idqA6r…, indices=[16, 39], expanded_url=https://www.youtube.com/watch?v=idqA6rHgZLo&feature=youtu.be, url=https://t.co/e0JwBXa6yR}]
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=mexxicanbeauty, id_str=996560901699334144, name=, id=996560901699334144}]
+symbols= []
+text= @Mexxicanbeauty https://t.co/e0JwBXa6yR 😘🐺❤️
+
+Tweet #185 :
+Date Created:Wed Dec 20 15:19:52 +0000 2017
+text= It is balls-slapping blow job Wednesday everbody! 🤣 https://t.co/1gtQCRQk2q
+urls= [{display_url=twitter.com/TemptingTrinit…, indices=[52, 75], expanded_url=https://twitter.com/TemptingTrinity/status/925578115581177856, url=https://t.co/1gtQCRQk2q}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #186 :
+Date Created:Tue Dec 19 02:06:28 +0000 2017
+urls= []
+hashtags= []
+user_mentions= [{indices=[3, 19], screen_name=Dragon4camgirlz, id_str=3311750668, name=ℌ𝔬𝔯𝔫𝔶 𝔬𝔩 𝔇𝔯𝔞𝔤𝔬𝔫 龍  🔞, id=3311750668}, {indices=[21, 35], screen_name=Firecrackers_, id_str=422433217, name=🔥🚒FIRE🔥🚒, id=422433217}]
+symbols= []
+text= RT @Dragon4camgirlz: @Firecrackers_ @SelectacamsE @LadySamanta18 @Mariuszgmail @Scarlett_mudpup @werotic @perseus1967cb @rar_mod @LiveStarl…
+
+Tweet #187 :
+Date Created:Mon Dec 18 18:59:33 +0000 2017
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 15], screen_name=mexxicanbeauty, id_str=996560901699334144, name=, id=996560901699334144}]
+symbols= []
+text= @Mexxicanbeauty Whoa! Hola bbyC! LOOKIN GOOOOD! :D
+
+Tweet #188 :
+Date Created:Fri Dec 15 23:33:34 +0000 2017
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}, {indices=[9, 18], screen_name=ManyVids, id_str=1279220006, name=ManyVids, id=1279220006}]
+symbols= []
+text= @Tatti_D @ManyVids OMG, look at all that beauty!!!  👍👍👍😂😂😂❤️❤️❤️
+
+Tweet #189 :
+Date Created:Fri Dec 08 21:16:28 +0000 2017
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= @ChampagneMexxi greetings! hola? a donde vas?hmmm? 🤔❤️
+
+Tweet #190 :
+Date Created:Fri Dec 08 09:45:48 +0000 2017
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 8], screen_name=Tatti_D, id_str=1517816730, name=Tatti_D, id=1517816730}, {indices=[9, 18], screen_name=ManyVids, id_str=1279220006, name=ManyVids, id=1279220006}]
+symbols= []
+text= @Tatti_D @ManyVids good idea! i just got mine right now!! :D
+
+Tweet #191 :
+Date Created:Thu Dec 07 09:05:52 +0000 2017
+text= wow!! https://t.co/634LtN7loL
+urls= [{display_url=twitter.com/AlaskaAir/stat…, indices=[6, 29], expanded_url=https://twitter.com/AlaskaAir/status/938166117276590080, url=https://t.co/634LtN7loL}]
+hashtags= []
+user_mentions= []
+symbols= []
+
+Tweet #192 :
+Date Created:Sun Nov 26 22:01:06 +0000 2017
+text= https://t.co/WEmp23V6sc
+urls= []
+hashtags= []
+media= [{display_url=pic.twitter.com/WEmp23V6sc, indices=[0, 23], sizes={small={w=450, h=675, resize=fit}, large={w=450, h=675, resize=fit}, thumb={w=150, h=150, resize=crop}, medium={w=450, h=675, resize=fit}}, id_str=934904850722123777, expanded_url=https://twitter.com/ishmail2015/status/934904876793917440/photo/1, media_url_https=https://pbs.twimg.com/media/DPlzAiYU8AEpEDI.jpg, id=934904850722123777, type=photo, media_url=http://pbs.twimg.com/media/DPlzAiYU8AEpEDI.jpg, url=https://t.co/WEmp23V6sc}]
+user_mentions= []
+symbols= []
+
+Tweet #193 :
+Date Created:Fri Nov 24 09:42:20 +0000 2017
+urls= []
+hashtags= []
+user_mentions= []
+symbols= []
+text= @ChampagneMexxi you too baby cakes, hope you had a great one!
+
+Tweet #194 :
+Date Created:Thu Nov 16 08:36:56 +0000 2017
+text= RT @AlaskaAir: You've made it to Wednesday. Just keep swimming!  #HumpDay https://t.co/qpSqxohWyf
+urls= []
+hashtags= [{indices=[65, 73], text=HumpDay}]
+media= [{display_url=pic.twitter.com/qpSqxohWyf, source_user_id=13192972, type=photo, media_url=http://pbs.twimg.com/media/DOuFDuVVoAEER86.jpg, source_status_id=930984050638036993, url=https://t.co/qpSqxohWyf, indices=[74, 97], sizes={small={w=680, h=383, resize=fit}, large={w=1200, h=675, resize=fit}, thumb={w=150, h=150, resize=crop}, medium={w=1200, h=675, resize=fit}}, id_str=930984047005769729, expanded_url=https://twitter.com/AlaskaAir/status/930984050638036993/photo/1, source_status_id_str=930984050638036993, media_url_https=https://pbs.twimg.com/media/DOuFDuVVoAEER86.jpg, id=930984047005769729, source_user_id_str=13192972}]
+user_mentions= [{indices=[3, 13], screen_name=AlaskaAir, id_str=13192972, name=Alaska Airlines, id=13192972}]
+symbols= []
+
+Tweet #195 :
+Date Created:Sat Nov 11 06:39:54 +0000 2017
+urls= [{display_url=soundcloud.com/worldmeditatio…, indices=[72, 95], expanded_url=https://soundcloud.com/worldmeditationday/world-meditation-12-21-12?utm_source=soundcloud&utm_campaign=wtshare&utm_medium=Twitter&utm_content=https%3A//soundcloud.com/worldmeditationday/world-meditation-12-21-12, url=https://t.co/FHLECe6lVV}]
+hashtags= [{indices=[60, 71], text=soundcloud}]
+user_mentions= []
+symbols= []
+text= World Meditation 12.21.12 Onwards by worldmeditationday via #soundcloud https://t.co/FHLECe6lVV
+
+Tweet #196 :
+Date Created:Tue Oct 31 07:00:29 +0000 2017
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 11], screen_name=JustMaelle, id_str=583018272, name=Maelle ♛, id=583018272}, {indices=[12, 26], screen_name=realstreamate, id_str=4922254453, name=Streamate, id=4922254453}, {indices=[27, 43], screen_name=StreamateModels, id_str=133458946, name=Streamate Official, id=133458946}, {indices=[44, 60], screen_name=StreamateEurope, id_str=860485836839804928, name=Streamate EU, id=860485836839804928}]
+symbols= []
+text= @JustMaelle @realstreamate @StreamateModels @StreamateEurope YAYYY! 👀
+
+Tweet #197 :
+Date Created:Mon Oct 30 23:23:12 +0000 2017
+urls= []
+hashtags= []
+user_mentions= [{indices=[0, 10], screen_name=ValeNappi, id_str=2199317030, name=Valentina Nappi, id=2199317030}]
+symbols= []
+text= @ValeNappi he's looking to store his nuts inside! hahaha! 😊
