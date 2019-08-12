@@ -3,7 +3,6 @@ package drink11;
 import static drink11.DrinkType.BEER;
 import static drink11.DrinkType.WINE;
 
-import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 import org.testng.Assert;
@@ -21,12 +20,11 @@ public class TestMain_MltThread extends BufferFactory {
 
 	@Test(enabled = true, dataProvider = "testDataProvider")
 	public void main(DrinkType dt, String name) throws Exception {
-		//redirect stdout to new buffer - concurrent System.setOut in BeforeMethod will lose synch
-		//System.setOut(new PrintStream(getConsoleBuffer()));
-		
-		Glass<Drink> g = null;
+		//redirect stdout to new buffer from factory
+		System.setOut(new PrintStream(getConsoleBuffer()));
 
 		//create a drink and put in a glass
+		Glass<Drink> g = null;
 		switch(dt) {
 		case BEER:
 			g = new BeerMug(new Beer(name)); 
@@ -82,6 +80,57 @@ public class TestMain_MltThread extends BufferFactory {
 			{BEER, "2 - Sapporo Beer"},
 			{WINE, "3 - BV Chardonnay"},
 			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},			
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},			
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},
+			{BEER, "2 - Sapporo Beer"},
+			{WINE, "3 - BV Chardonnay"},
+			{WINE, "5 - BV Cabernet"},
+			{WINE, "6 - Vueve Cliquot"},
+			{BEER, "1 - Raineeer Beeer"},			
 			{WINE, "6 - Vueve Cliquot"},
 			{BEER, "1 - Raineeer Beeer"},
 			{BEER, "2 - Sapporo Beer"},

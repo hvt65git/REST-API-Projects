@@ -7,8 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 abstract class BufferFactory {
-	private static final PrintStream origStdOut = System.out;
 	private static final ThreadLocal<ByteArrayOutputStream> tl = new ThreadLocal<>();
+	private static final PrintStream origStdOut = System.out;
 	private ByteArrayOutputStream consoleBuffer = new ByteArrayOutputStream();
 
 	public static ByteArrayOutputStream getConsoleBuffer() {
@@ -18,7 +18,7 @@ abstract class BufferFactory {
 	@BeforeMethod
 	public void beforeEachTest() {
 		//create the console buffer and set it in the thread mgr
-		//do NOT do the System.setOut here for parallel = true DataProvider
+		//do NOT do the System.setOut here for parallel 
 		tl.set(consoleBuffer);
 		
 	}
@@ -26,6 +26,7 @@ abstract class BufferFactory {
 	@AfterMethod
 	public void afterEachTest() throws Exception {		
 		System.setOut(origStdOut);
+		System.out.println(consoleBuffer);
 		tl.remove();
 		consoleBuffer = new ByteArrayOutputStream();
 	}

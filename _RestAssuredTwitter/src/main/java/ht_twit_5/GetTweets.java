@@ -1,9 +1,7 @@
 package ht_twit_5;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

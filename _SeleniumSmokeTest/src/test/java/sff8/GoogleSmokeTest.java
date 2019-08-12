@@ -87,7 +87,7 @@ class SeleniumBase extends DriverFactory {
 class GoogleMainPage {
 	//declare constants
 	private static final String URL = "https://google.com";
-	private static final String XPATH = "//*[@name = 'q']";
+	private final String XPATH = "//*[@name = 'q']";
 	private static final long WAIT_TIME_OUT = 10; //seconds
 
 	@FindBy(xpath = XPATH)
