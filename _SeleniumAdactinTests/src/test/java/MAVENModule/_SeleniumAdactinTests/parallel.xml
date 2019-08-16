@@ -6,42 +6,42 @@
 	<test name="TC_101">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_101" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_101" />
 		</classes>
 	</test>
 
 	<test name="TC_102">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_102" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_102" />
 		</classes>
 	</test>
 
 	<test name="TC_103">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_103" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_103" />
 		</classes>
 	</test>
 
 	<test name="TC_104">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_104" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_104" />
 		</classes>
 	</test>
 
 	<test name="TC_105">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_105" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_105" />
 		</classes>
 	</test>
 	
 		<test name="TC_106">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_106" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_106" />
 		</classes>
 	</test>
 	
@@ -49,14 +49,14 @@
 		<test name="TC_107">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_107" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_107" />
 		</classes>
 	</test>
 	
 		<test name="TC_108">
 		<parameter name="driver-type" value="CHROME" />
 		<classes>
-			<class name="test.TC_108" />
+			<class name="MAVENModule._SeleniumAdactinTests.TC_108" />
 		</classes>
 	</test>
 	

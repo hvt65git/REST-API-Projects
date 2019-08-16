@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="14" total="22" passed="6">
+<testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Adactin Hotel App Default test suite" duration-ms="60533" started-at="2019-08-16T00:25:08Z" finished-at="2019-08-16T00:26:08Z">
+  <suite name="Adactin Hotel App test suite" duration-ms="59657" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:51Z">
     <groups>
     </groups>
-    <test name="Smoke tests" duration-ms="60533" started-at="2019-08-16T00:25:08Z" finished-at="2019-08-16T00:26:08Z">
+    <test name="TC_101" duration-ms="32912" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:25Z">
       <class name="MAVENModule._SeleniumAdactinTests.TC_101">
-        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_101@3c19aaa5]" name="createWebDriver" is-config="true" duration-ms="3497" started-at="2019-08-16T00:25:08Z" finished-at="2019-08-16T00:25:11Z">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_101@6e1ec318]" name="createWebDriver" is-config="true" duration-ms="9866" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:02Z">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,99 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="tc101_verify_valid_login()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_101@3c19aaa5]" name="tc101_verify_valid_login" duration-ms="8995" started-at="2019-08-16T00:25:11Z" finished-at="2019-08-16T00:25:20Z">
+        <test-method status="PASS" signature="tc101_verify_valid_login()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_101@6e1ec318]" name="tc101_verify_valid_login" duration-ms="21531" started-at="2019-08-16T02:54:02Z" finished-at="2019-08-16T02:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc101_verify_valid_login -->
-        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_101@3c19aaa5]" name="releaseWebDriver" is-config="true" duration-ms="1013" started-at="2019-08-16T00:26:07Z" finished-at="2019-08-16T00:26:08Z">
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_101@6e1ec318]" name="releaseWebDriver" is-config="true" duration-ms="1481" started-at="2019-08-16T02:54:23Z" finished-at="2019-08-16T02:54:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseWebDriver -->
       </class> <!-- MAVENModule._SeleniumAdactinTests.TC_101 -->
+    </test> <!-- TC_101 -->
+    <test name="TC_102" duration-ms="37237" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:29Z">
       <class name="MAVENModule._SeleniumAdactinTests.TC_102">
-        <test-method status="PASS" signature="tc102_verify_date_error_msgs()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_102@3349e9bb]" name="tc102_verify_date_error_msgs" duration-ms="4869" started-at="2019-08-16T00:25:20Z" finished-at="2019-08-16T00:25:25Z">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_102@6aeb35e6]" name="createWebDriver" is-config="true" duration-ms="10251" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="tc102_verify_date_error_msgs()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_102@6aeb35e6]" name="tc102_verify_date_error_msgs" duration-ms="23830" started-at="2019-08-16T02:54:02Z" finished-at="2019-08-16T02:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc102_verify_date_error_msgs -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_102@6aeb35e6]" name="releaseWebDriver" is-config="true" duration-ms="3151" started-at="2019-08-16T02:54:26Z" finished-at="2019-08-16T02:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
       </class> <!-- MAVENModule._SeleniumAdactinTests.TC_102 -->
+    </test> <!-- TC_102 -->
+    <test name="TC_105" duration-ms="39900" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:32Z">
+      <class name="MAVENModule._SeleniumAdactinTests.TC_105">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_105@5656be13]" name="createWebDriver" is-config="true" duration-ms="10234" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="tc105()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_105@5656be13]" name="tc105" duration-ms="28503" started-at="2019-08-16T02:54:02Z" finished-at="2019-08-16T02:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc105 -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_105@5656be13]" name="releaseWebDriver" is-config="true" duration-ms="1161" started-at="2019-08-16T02:54:30Z" finished-at="2019-08-16T02:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_105 -->
+    </test> <!-- TC_105 -->
+    <test name="TC_104" duration-ms="42201" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:34Z">
+      <class name="MAVENModule._SeleniumAdactinTests.TC_104">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_104@7cc0cdad]" name="createWebDriver" is-config="true" duration-ms="10567" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="test04()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_104@7cc0cdad]" name="test04" duration-ms="28848" started-at="2019-08-16T02:54:02Z" finished-at="2019-08-16T02:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04 -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_104@7cc0cdad]" name="releaseWebDriver" is-config="true" duration-ms="2784" started-at="2019-08-16T02:54:31Z" finished-at="2019-08-16T02:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_104 -->
+    </test> <!-- TC_104 -->
+    <test name="TC_103" duration-ms="56581" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:48Z">
       <class name="MAVENModule._SeleniumAdactinTests.TC_103">
-        <test-method status="FAIL" signature="tc103()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_103@409bf450]" name="tc103" duration-ms="19936" started-at="2019-08-16T00:25:25Z" finished-at="2019-08-16T00:25:45Z">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_103@799f10e1]" name="createWebDriver" is-config="true" duration-ms="10289" started-at="2019-08-16T02:53:52Z" finished-at="2019-08-16T02:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="FAIL" signature="tc103()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_103@799f10e1]" name="tc103" duration-ms="43699" started-at="2019-08-16T02:54:02Z" finished-at="2019-08-16T02:54:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -57,27 +133,85 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc103 -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_103@799f10e1]" name="releaseWebDriver" is-config="true" duration-ms="2429" started-at="2019-08-16T02:54:46Z" finished-at="2019-08-16T02:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
       </class> <!-- MAVENModule._SeleniumAdactinTests.TC_103 -->
+    </test> <!-- TC_103 -->
+    <test name="TC_106" duration-ms="24616" started-at="2019-08-16T02:54:25Z" finished-at="2019-08-16T02:54:49Z">
+      <class name="MAVENModule._SeleniumAdactinTests.TC_106">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_106@1bb5a082]" name="createWebDriver" is-config="true" duration-ms="5486" started-at="2019-08-16T02:54:25Z" finished-at="2019-08-16T02:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="tc106()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_106@1bb5a082]" name="tc106" duration-ms="17073" started-at="2019-08-16T02:54:30Z" finished-at="2019-08-16T02:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc106 -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_106@1bb5a082]" name="releaseWebDriver" is-config="true" duration-ms="2054" started-at="2019-08-16T02:54:47Z" finished-at="2019-08-16T02:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_106 -->
+    </test> <!-- TC_106 -->
+    <test name="TC_107" duration-ms="20584" started-at="2019-08-16T02:54:30Z" finished-at="2019-08-16T02:54:51Z">
+      <class name="MAVENModule._SeleniumAdactinTests.TC_107">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_107@5e0e82ae]" name="createWebDriver" is-config="true" duration-ms="7002" started-at="2019-08-16T02:54:30Z" finished-at="2019-08-16T02:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="test07()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_107@5e0e82ae]" name="test07" duration-ms="12556" started-at="2019-08-16T02:54:37Z" finished-at="2019-08-16T02:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07 -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_107@5e0e82ae]" name="releaseWebDriver" is-config="true" duration-ms="1021" started-at="2019-08-16T02:54:50Z" finished-at="2019-08-16T02:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_107 -->
+    </test> <!-- TC_107 -->
+    <test name="TC_108" duration-ms="19725" started-at="2019-08-16T02:54:32Z" finished-at="2019-08-16T02:54:51Z">
       <class name="MAVENModule._SeleniumAdactinTests.TC_108">
-        <test-method status="FAIL" signature="test08()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_108@55b699ef]" name="test08" duration-ms="4313" started-at="2019-08-16T00:26:03Z" finished-at="2019-08-16T00:26:07Z">
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_108@5b7a5baa]" name="createWebDriver" is-config="true" duration-ms="4430" started-at="2019-08-16T02:54:32Z" finished-at="2019-08-16T02:54:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="FAIL" signature="test08()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_108@5b7a5baa]" name="test08" duration-ms="14528" started-at="2019-08-16T02:54:36Z" finished-at="2019-08-16T02:54:51Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [250.0] but found [650.0]]]>
@@ -104,49 +238,24 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test08 -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_108@5b7a5baa]" name="releaseWebDriver" is-config="true" duration-ms="766" started-at="2019-08-16T02:54:51Z" finished-at="2019-08-16T02:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
       </class> <!-- MAVENModule._SeleniumAdactinTests.TC_108 -->
-      <class name="MAVENModule._SeleniumAdactinTests.TC_104">
-        <test-method status="PASS" signature="test04()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_104@38d8f54a]" name="test04" duration-ms="5470" started-at="2019-08-16T00:25:45Z" finished-at="2019-08-16T00:25:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test04 -->
-      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_104 -->
-      <class name="MAVENModule._SeleniumAdactinTests.TC_105">
-        <test-method status="PASS" signature="tc105()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_105@49e53c76]" name="tc105" duration-ms="4175" started-at="2019-08-16T00:25:51Z" finished-at="2019-08-16T00:25:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc105 -->
-      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_105 -->
-      <class name="MAVENModule._SeleniumAdactinTests.TC_106">
-        <test-method status="PASS" signature="tc106()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_106@351d00c0]" name="tc106" duration-ms="4231" started-at="2019-08-16T00:25:55Z" finished-at="2019-08-16T00:25:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc106 -->
-      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_106 -->
-      <class name="MAVENModule._SeleniumAdactinTests.TC_107">
-        <test-method status="PASS" signature="test07()[pri:0, instance:MAVENModule._SeleniumAdactinTests.TC_107@2a3b5b47]" name="test07" duration-ms="3979" started-at="2019-08-16T00:25:59Z" finished-at="2019-08-16T00:26:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test07 -->
-      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_107 -->
-    </test> <!-- Smoke tests -->
-  </suite> <!-- Adactin Hotel App Default test suite -->
+    </test> <!-- TC_108 -->
+  </suite> <!-- Adactin Hotel App test suite -->
 </testng-results>
