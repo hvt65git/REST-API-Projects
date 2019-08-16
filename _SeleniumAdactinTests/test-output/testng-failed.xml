@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Adactin Hotel App Default test suite]">
+  <test thread-count="5" name="Smoke tests(failed)">
+    <parameter name="driver-type" value="CHROME"/>
+    <classes>
+      <class name="MAVENModule._SeleniumAdactinTests.TC_108">
+        <methods>
+          <include name="test08"/>
+          <include name="releaseWebDriver"/>
+          <include name="createWebDriver"/>
+        </methods>
+      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_108 -->
+      <class name="MAVENModule._SeleniumAdactinTests.TC_103">
+        <methods>
+          <include name="releaseWebDriver"/>
+          <include name="tc103"/>
+          <include name="createWebDriver"/>
+        </methods>
+      </class> <!-- MAVENModule._SeleniumAdactinTests.TC_103 -->
+    </classes>
+  </test> <!-- Smoke tests(failed) -->
+</suite> <!-- Failed suite [Adactin Hotel App Default test suite] -->

@@ -19,9 +19,9 @@ public class GetTweets {
 	private static int paramCount = 10; 
 	private static int httpStatusOK = 200;
 
-	private static String paramScreenName = "realDonaldTrump"; 
+	private static String paramScreenName = "JustMaelle"; 
 	private static String resURL = "https://api.twitter.com/1.1/statuses/user_timeline.json";	
-
+ 
 	/*
 	 * done
 	 */
@@ -153,6 +153,9 @@ public class GetTweets {
 		for(int i=0; i<list.size(); i++) {
 			for(Map.Entry<String, Object> entry : list.get(i).entrySet()) {
 				switch(entry.getKey()) {
+				case "created_at":
+					System.out.println("\r\nCreated at: " +  entry.getValue());
+					break;
 				case "text":
 					System.out.println("Tweet #" + i + " " +  entry.getValue());
 					break;
@@ -166,8 +169,8 @@ public class GetTweets {
 	 */
 	public static void main(String[] arg) {
 		List<Map<String, Object>> list = getTweets(resURL, paramCount, paramScreenName);
-		printTwitterUserMetaData(list, paramScreenName);
-		printTwitterUserEntitiesMetaData(list, paramScreenName);
+		 //printTwitterUserMetaData(list, paramScreenName);
+		//(list, paramScreenName);
 		printTwitterTweets(list, paramScreenName);
 	}
 }

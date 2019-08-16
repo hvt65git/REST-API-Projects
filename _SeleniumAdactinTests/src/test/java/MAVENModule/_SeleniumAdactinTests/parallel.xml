@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adactin Hotel App test suite" verbose="1" parallel="tests"
+	thread-count="5">
+
+	<test name="TC_101">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_101" />
+		</classes>
+	</test>
+
+	<test name="TC_102">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_102" />
+		</classes>
+	</test>
+
+	<test name="TC_103">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_103" />
+		</classes>
+	</test>
+
+	<test name="TC_104">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_104" />
+		</classes>
+	</test>
+
+	<test name="TC_105">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_105" />
+		</classes>
+	</test>
+	
+		<test name="TC_106">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_106" />
+		</classes>
+	</test>
+	
+	
+		<test name="TC_107">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_107" />
+		</classes>
+	</test>
+	
+		<test name="TC_108">
+		<parameter name="driver-type" value="CHROME" />
+		<classes>
+			<class name="test.TC_108" />
+		</classes>
+	</test>
+	
+
+</suite>

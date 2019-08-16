@@ -16,9 +16,58 @@ import io.restassured.specification.RequestSpecification;
 public class RestAssuredTestingTutorial {
 	private static final String endPoint = "/Seattle";
 
+	
 	@Test(enabled = false)
-	public void GetWeatherDetailsResponseInFarenheit()
-	{
+	public void GetWeatherDetailsValidCityVerifyStatusCode() {
+		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
+		RequestSpecification httpRequest = RestAssured.given();
+		Response response = httpRequest.get(endPoint);
+		System.out.println("Response Body is =>  " + response.body().asString());
+		
+		int statusCode = response.getStatusCode();
+		Assert.assertEquals(statusCode /*actual value*/, 200 /*expected value*/, "Correct status code returned");
+	}
+
+	@Test(enabled = true)
+	public void GetWeatherDetailsInvalidCity() {
+		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
+		RequestSpecification httpRequest = RestAssured.given();
+		Response response = httpRequest.get("/dfdfsdf"); //the REST Get request is here
+		System.out.println("Response Body is =>  " + response.body().asString());
+		
+		//JsonPath j = response.jsonPath();
+		//System.out.println("j.toString() => " + j.toString());
+		//j.toString() => io.restassured.path.json.JsonPath@52d239ba
+		//
+		//Output - response.jsonPath():		
+		//Response Body is =>  {
+		//    "FaultId": "FAULT_INTERNAL",
+		//    "fault": "An internal error occurred while servicing the request"
+		//}
+		System.out.println("*** fault = " + response.jsonPath().get("fault"));
+		System.out.println("*** FaultId = " + response.jsonPath().get("FaultId"));
+		//OUTPUT:
+		//*** fault = An internal error occured while servicing the request
+		//*** FaultId = FAULT_INTERNAL
+
+		int statusCode = response.getStatusCode();
+		Assert.assertEquals(statusCode /*actual value*/, 200 /*expected value*/, "Correct status code returned");
+	}
+
+	@Test(enabled=false)
+	public void GetWeatherStatusLine() {
+		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
+		RequestSpecification httpRequest = RestAssured.given();
+		Response response = httpRequest.get("/Seattle");
+		System.out.println("Response Body is =>  " + response.body().asString());
+
+		// Get the status line from the Response and store it in a variable called statusLine
+		String statusLine = response.getStatusLine();
+		Assert.assertEquals(statusLine /*actual value*/, "HTTP/1.1 200 OK" /*expected value*/, "Correct status code returned");
+	}
+
+	@Test(enabled = false)
+	public void GetWeatherDetailsResponseInFarenheit() {
 		// Specify the base URL to the RESTful web service
 		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
 
@@ -66,59 +115,6 @@ public class RestAssuredTestingTutorial {
 
 
 	}
-
-	@Test(enabled = false)
-	public void GetWeatherDetailsValidCityVerifyStatusCode()
-	{
-		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
-		RequestSpecification httpRequest = RestAssured.given();
-		Response response = httpRequest.get(endPoint);
-		System.out.println("Response Body is =>  " + response.body().asString());
-		
-		int statusCode = response.getStatusCode();
-		Assert.assertEquals(statusCode /*actual value*/, 200 /*expected value*/, "Correct status code returned");
-	}
-
-	@Test(enabled = true)
-	public void GetWeatherDetailsInvalidCity()
-	{
-		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
-		RequestSpecification httpRequest = RestAssured.given();
-		Response response = httpRequest.get("/dfdfsdf"); //the REST Get request is here
-		System.out.println("Response Body is =>  " + response.body().asString());
-		
-		//JsonPath j = response.jsonPath();
-		//System.out.println("j.toString() => " + j.toString());
-		//j.toString() => io.restassured.path.json.JsonPath@52d239ba
-		//
-		//Output - response.jsonPath():		
-		//Response Body is =>  {
-		//    "FaultId": "FAULT_INTERNAL",
-		//    "fault": "An internal error occurred while servicing the request"
-		//}
-		System.out.println("*** fault = " + response.jsonPath().get("fault"));
-		System.out.println("*** FaultId = " + response.jsonPath().get("FaultId"));
-		//OUTPUT:
-		//*** fault = An internal error occured while servicing the request
-		//*** FaultId = FAULT_INTERNAL
-
-		int statusCode = response.getStatusCode();
-		Assert.assertEquals(statusCode /*actual value*/, 200 /*expected value*/, "Correct status code returned");
-	}
-
-	@Test(enabled=false)
-	public void GetWeatherStatusLine()
-	{
-		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
-		RequestSpecification httpRequest = RestAssured.given();
-		Response response = httpRequest.get("/Seattle");
-		System.out.println("Response Body is =>  " + response.body().asString());
-
-		// Get the status line from the Response and store it in a variable called statusLine
-		String statusLine = response.getStatusLine();
-		Assert.assertEquals(statusLine /*actual value*/, "HTTP/1.1 200 OK" /*expected value*/, "Correct status code returned");
-	}
-
 
 }
 //output - SUCCESS
